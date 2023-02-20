@@ -708,10 +708,6 @@
       <Project>{139D9041-7A49-ACF4-BC91-E720D2C36DBD}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{F94DC703-D161-B88F-73AD-7396452AB8E9}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{343DF917-49BD-C72A-7177-FD142F99953D}</Project>
       <Name>Unity.Burst.Editor</Name>
@@ -719,6 +715,10 @@
     <ProjectReference Include="Unity.Burst.csproj">
       <Project>{D58AA853-5CBA-0A3D-9852-E7DA4940AB70}</Project>
       <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{F94DC703-D161-B88F-73AD-7396452AB8E9}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.csproj">
       <Project>{D06375B4-878F-85B7-3A03-56E1C4E62D54}</Project>
