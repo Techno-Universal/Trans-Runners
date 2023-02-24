@@ -66,6 +66,8 @@ public class CharacterMovement : MonoBehaviour
 
         anim.SetFloat("HorizontalSpeed", animationVector.x);
         anim.SetFloat("VirticalSpeed", animationVector.z);
+
+        ProcessGravity();
     }
     public void ProcessGravity()
     {
