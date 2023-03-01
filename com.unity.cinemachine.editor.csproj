@@ -90,8 +90,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Editors\CinemachineMixingCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Editors\CinemachineHardLookAtEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Windows\CinemachineSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Impulse\CinemachineImpulseEnvelopePropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Experimental\CinemachineNewVirtualCameraEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Impulse\CinemachineImpulseEnvelopePropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Editors\CinemachinePathEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Utility\SerializedPropertyHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.9.5\Editor\Editors\CinemachineConfinerEditor.cs" />

@@ -877,6 +877,10 @@
       <Project>{35F7CDE6-8D27-8B4D-1909-945EAC038B26}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{B1BC5E6B-F21F-1A59-ACD7-5D8D83645FE4}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
       <Project>{139D9041-7A49-ACF4-BC91-E720D2C36DBD}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
@@ -1012,6 +1016,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{6297DBFC-F5AF-7852-167F-CE5B9275DC8C}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{35BE7DF7-DED7-AFDD-8458-BAEF7EEC15C8}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{70B80DCF-5A3E-090B-980E-455CAECF2889}</Project>
