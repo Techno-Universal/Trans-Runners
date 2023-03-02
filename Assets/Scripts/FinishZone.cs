@@ -15,4 +15,9 @@ public class FinishZone : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter(Collider Player1)
+    {
+        
+    }
+    
 }
