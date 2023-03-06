@@ -15,9 +15,16 @@ public class FinishZone : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider Player1)
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.tag == "Player1")
+        {
+            bool player1Finish = true;
+        }
+        if (other.tag == "Player2")
+        {
+            bool player2Finish = true;
+        }
     }
     
 }

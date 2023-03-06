@@ -517,8 +517,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Nodes\Input\Texture\SampleTexture3DNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Nodes\Input\Matrix\TransformationMatrixNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Graphs\TangentMaterialSlot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Nodes\Math\Interpolation\InverseLerpNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Util\KeywordDependentCollection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Nodes\Math\Interpolation\InverseLerpNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Nodes\Math\Round\StepNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Nodes\Utility\SplitTextureTransformNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.6\Editor\Data\Attributes\SGPropertyDrawerAttribute.cs" />

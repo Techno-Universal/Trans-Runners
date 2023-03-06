@@ -376,6 +376,7 @@
 "Assets/Scripts/CharacterMovement1.cs"
 "Assets/Scripts/CharacterMovement2.cs"
 "Assets/Scripts/FinishZone.cs"
+"Assets/Scripts/GameController.cs"
 "Assets/Scripts/ResetScene.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
