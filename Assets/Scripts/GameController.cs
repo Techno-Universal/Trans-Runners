@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
 
     public float player1Time;
     public float player2Time;
+
     // Start is called before the first frame update
     void Start()
     {
