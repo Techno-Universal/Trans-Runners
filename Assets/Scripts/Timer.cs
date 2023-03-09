@@ -42,4 +42,5 @@ public class Timer : MonoBehaviour
         currentTime = startTime;
         isTiming = true;
     }
+   
 }

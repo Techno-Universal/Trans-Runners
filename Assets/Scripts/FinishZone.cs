@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FinishZone : MonoBehaviour
 {
+
+    public CanvasGroup resultGroup;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,4 +30,5 @@ public class FinishZone : MonoBehaviour
         }
     }
     
+
 }

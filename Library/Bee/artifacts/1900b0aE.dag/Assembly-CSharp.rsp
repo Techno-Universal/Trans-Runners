@@ -379,6 +379,7 @@
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/InLevelUI.cs"
 "Assets/Scripts/LevelManager.cs"
+"Assets/Scripts/PlayerData.cs"
 "Assets/Scripts/ResetScene.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

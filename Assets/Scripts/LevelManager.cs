@@ -6,6 +6,10 @@ public class LevelManager : MonoBehaviour
 {
     #region Singleton
     public static LevelManager instance;
+    public enum GameStates { Running, Paused, Finish }
+    public GameStates currentState;
+
+    public Timer timer;
 
     private void Awake()
     {
