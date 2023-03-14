@@ -22,6 +22,17 @@ public class GameController : MonoBehaviour
     {
         
     }
+    public void TwoPlayers(bool value)
+    {
+        if (value == true)
+        {
+            twoPlayers = false;
+        }
+        else
+        {
+            twoPlayers = true;
+        }
+    }
 
     // Update is called once per frame
     void Update()
