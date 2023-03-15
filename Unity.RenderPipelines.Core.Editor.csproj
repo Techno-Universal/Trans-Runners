@@ -126,9 +126,9 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\Lighting\LightUnit\LightUnitSlider.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\ShaderStripping\ShaderExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\Debugging\UIFoldoutEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\Camera\CameraUI.PhysicalCamera.Skin.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\BuildTargetExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\LookDev\ComparisonGizmoController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\Camera\CameraUI.PhysicalCamera.Skin.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\LookDev\DropArea.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\EditorPrefBool.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.6\Editor\PostProcessing\LensFlareEditor.cs" />

@@ -112,8 +112,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\UniversalRenderPipelineRenderGraph.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\2D\Light2DAuthoring.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Overrides\WhiteBalance.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Passes\CopyColorPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Tiling\LightMinMaxZJob.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Passes\CopyColorPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\ShadowUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Debug\DebugHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Decal\Entities\DecalDrawSystem.cs" />

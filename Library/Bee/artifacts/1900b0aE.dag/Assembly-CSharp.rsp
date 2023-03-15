@@ -380,6 +380,7 @@
 "Assets/Scripts/InLevelUI.cs"
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/LoadNextScene.cs"
+"Assets/Scripts/PauseScreenOpener.cs"
 "Assets/Scripts/PlayerData.cs"
 "Assets/Scripts/Quit.cs"
 "Assets/Scripts/ResetScene.cs"
