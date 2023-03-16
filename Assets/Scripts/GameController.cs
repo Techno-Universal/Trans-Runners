@@ -12,8 +12,8 @@ public class GameController : MonoBehaviour
 
     public bool twoPlayers;
 
-    public float player1Time;
-    public float player2Time;
+    public float player1FinishTime;
+    public float player2FinishTime;
 
     public List<GameObject> players;
 
@@ -43,6 +43,14 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("Checking for players...");
 
+
+    }
+    public void P1Finish()
+    {
+
+    }
+    public void P2Finish()
+    {
 
     }
 }

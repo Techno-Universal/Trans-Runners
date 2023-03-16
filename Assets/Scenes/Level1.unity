@@ -4254,6 +4254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultGroup: {fileID: 0}
+  levelCompleteScreen: {fileID: 1036372782}
 --- !u!65 &200935296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4950,6 +4951,7 @@ GameObject:
   - component: {fileID: 238887892}
   - component: {fileID: 238887893}
   - component: {fileID: 238887894}
+  - component: {fileID: 238887895}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -4972,9 +4974,11 @@ MonoBehaviour:
   player1Finish: 0
   player2Finish: 0
   twoPlayers: 0
-  player1Time: 0
-  player2Time: 0
-  players: []
+  player1FinishTime: 0
+  player2FinishTime: 0
+  players:
+  - {fileID: 62461092}
+  - {fileID: 117139798}
 --- !u!114 &238887890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5132,6 +5136,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6e2299a859edc7747bacd0f51f3ac357, type: 2}
+--- !u!114 &238887895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238887888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c6a5e84251bba4c85c258d2df4659c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 0
+  currentTime: 0
+  displayTime: 
+  isTiming: 0
+  TimesUp:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &240824228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9813,7 +9836,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27936
+  m_Name: pb_Mesh34338
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -28739,7 +28762,7 @@ GameObject:
   - component: {fileID: 1036372785}
   - component: {fileID: 1036372784}
   m_Layer: 5
-  m_Name: Level complete screen
+  m_Name: Level Complete Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28784,7 +28807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -49935,6 +49958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultGroup: {fileID: 0}
+  levelCompleteScreen: {fileID: 0}
 --- !u!43 &1540105939
 Mesh:
   m_ObjectHideFlags: 0

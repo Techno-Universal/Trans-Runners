@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class FinishZone : MonoBehaviour
 {
+    GameData saveData = new GameData();
+
+    Timer tim;
+
+    GameController controller;
 
     public CanvasGroup resultGroup;
+
+    public GameObject levelCompleteScreen;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +29,25 @@ public class FinishZone : MonoBehaviour
     {
         if (other.tag == "Player1")
         {
-            bool player1Finish = true;
+            controller.player1Finish = true;
+            controller.P1Finish();
+            if (controller.player1Finish == true && controller.player2Finish == true)
+            {
+                tim.StopTimer();
+                levelCompleteScreen.gameObject.SetActive(true);
+            }
         }
         if (other.tag == "Player2")
         {
-            bool player2Finish = true;
+            controller.player2Finish = true;
+            controller.P2Finish();
+            if (controller.player1Finish == true && controller.player2Finish == true)
+            {
+                tim.StopTimer();
+                levelCompleteScreen.gameObject.SetActive(true);
+            }
         }
+       
     }
     
 

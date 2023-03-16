@@ -42,5 +42,9 @@ public class Timer : MonoBehaviour
         currentTime = startTime;
         isTiming = true;
     }
-   
+    public void StopTimer()
+    {
+        isTiming = false;
+    }
+
 }
