@@ -74,8 +74,8 @@ public class CharacterMovement1 : MonoBehaviour
 
         cc.Move(moveDirection * moveSpeed * Time.deltaTime);
 
-        anim.SetFloat("HorizontalSpeed", animationVector.x);
-        anim.SetFloat("VirticalSpeed", animationVector.z);
+        anim.SetFloat("HorizontalSpeed1", animationVector.x);
+        anim.SetFloat("VirticalSpeed1", animationVector.z);
 
         ProcessGravity();
     }
