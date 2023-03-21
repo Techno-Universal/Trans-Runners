@@ -8,7 +8,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioMixer audioMixer;
     public void SetVolume(float sliderValue)
     {
-        audioMixer.SetFloat("MasterVolume", Mathf.Log10(sliderValue) * 20);
+      audioMixer.SetFloat("Volume", Mathf.Log10(sliderValue) * 20);
+      
     }
     // Start is called before the first frame update
    
