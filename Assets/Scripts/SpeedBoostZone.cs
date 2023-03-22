@@ -8,7 +8,14 @@ public class SpeedBoostZone : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.tag == "Player1")
+        {
+           
+        }
+        if (other.tag == "Player2")
+        {
+           
+        }
     }
    
 }

@@ -9,8 +9,8 @@ public class CharacterMovement2 : MonoBehaviour
     [SerializeField] float moveSpeed, rotationSpeed, gravityForce, jumpForce;
 
     [Header("Controls")]
-    public string Horizontal1, Vertical1;
-    public KeyCode jump1;
+    public string Horizontal2, Vertical2;
+    public KeyCode Jump2;
 
 
 

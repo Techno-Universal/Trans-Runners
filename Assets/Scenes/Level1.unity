@@ -1181,11 +1181,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   rotationSpeed: 2
-  gravityForce: -9.8
+  gravityForce: -9.3
   jumpForce: 1
   Horizontal1: 
   Vertical1: 
-  jump1: 0
+  Jump1: 0
   slowness1: 0
   boost1: 0
   target: {fileID: 0}
@@ -1905,7 +1905,6 @@ GameObject:
   m_Component:
   - component: {fileID: 117139802}
   - component: {fileID: 117139801}
-  - component: {fileID: 117139800}
   - component: {fileID: 117139799}
   - component: {fileID: 117139803}
   m_Layer: 0
@@ -1938,29 +1937,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &117139800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117139798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f07855df3bd1514580ddb2850e61345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  rotationSpeed: 2
-  gravityForce: -9.8
-  jumpForce: 1
-  Horizontal1: 
-  Vertical1: 
-  jump1: 0
-  slowness1: 0
-  boost1: 0
-  target: {fileID: 0}
-  groundedPLayer: 0
 --- !u!143 &117139801
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2016,13 +1992,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16db1a334d16f4049873834324f73acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  rotationSpeed: 0
-  gravityForce: 0
-  jumpForce: 0
-  Horizontal1: 
-  Vertical1: 
-  jump1: 0
+  moveSpeed: 2
+  rotationSpeed: 2
+  gravityForce: -9.3
+  jumpForce: 1
+  Horizontal2: 
+  Vertical2: 
+  Jump2: 0
   slowness2: 0
   boost2: 0
   target: {fileID: 0}

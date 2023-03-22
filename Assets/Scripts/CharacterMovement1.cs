@@ -7,10 +7,10 @@ public class CharacterMovement1 : MonoBehaviour
 {
     [Tooltip("Movement Values")]
     [SerializeField] float moveSpeed, rotationSpeed, gravityForce, jumpForce;
-
+    
     [Header("Controls")]
     public string Horizontal1, Vertical1;
-    public KeyCode jump1;
+    public KeyCode Jump1;
 
 
 
@@ -88,5 +88,9 @@ public class CharacterMovement1 : MonoBehaviour
         }
         playerVelocity.y += gravityForce * Time.deltaTime;
         cc.Move(playerVelocity * Time.deltaTime);
+    }
+    public void SpeedBoost1()
+    {
+
     }
 }
