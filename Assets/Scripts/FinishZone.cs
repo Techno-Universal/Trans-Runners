@@ -14,6 +14,8 @@ public class FinishZone : MonoBehaviour
 
     public GameObject levelCompleteScreen;
 
+    public GameManager manager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +49,9 @@ public class FinishZone : MonoBehaviour
                 levelCompleteScreen.gameObject.SetActive(true);
             }
         }
-       
+        manager.AutoSave();
+
+
     }
     
 

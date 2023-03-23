@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviour
 
     public Timer timer;
 
+    
+
     private void Awake()
     {
         if (instance != null)

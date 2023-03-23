@@ -4231,6 +4231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultGroup: {fileID: 0}
   levelCompleteScreen: {fileID: 1036372782}
+  manager: {fileID: 0}
 --- !u!65 &200935296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50756,6 +50757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultGroup: {fileID: 0}
   levelCompleteScreen: {fileID: 0}
+  manager: {fileID: 0}
 --- !u!43 &1540105939
 Mesh:
   m_ObjectHideFlags: 0
