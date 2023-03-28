@@ -17,20 +17,30 @@ public class GameController : MonoBehaviour
 
     public List<GameObject> players;
 
+    GameManager gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Starting...");
+        GetComponent<GameManager>();
+        if (twoPlayers ==  false)
+        {
+            gameManager.OnePlayer();
+            Debug.Log("YES!!");
+        }
     }
     public void TwoPlayers(bool value)
     {
         if (value == true)
         {
-            twoPlayers = false;
+            Debug.Log("ON");
+            twoPlayers = true;
         }
         else
         {
-            twoPlayers = true;
+            Debug.Log("OFF");
+            twoPlayers = false;
         }
     }
 
@@ -53,4 +63,5 @@ public class GameController : MonoBehaviour
     {
 
     }
+  
 }

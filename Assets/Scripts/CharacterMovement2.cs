@@ -18,7 +18,7 @@ public class CharacterMovement2 : MonoBehaviour
     CharacterController cc;
     Animator anim;
     Vector3 moveDirection;
-    Camera cam;
+    public Camera cam;
 
     public bool slowness2;
 
@@ -34,7 +34,7 @@ public class CharacterMovement2 : MonoBehaviour
         cc = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
 
-        cam = Camera.main;
+        // cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -64,7 +64,7 @@ public class CharacterMovement2 : MonoBehaviour
             anim.SetBool("HasInput2", false);
         }
 
-        moveDirection.Set(h, 0, v);
+        // moveDirection.Set(h, 0, v);
         moveDirection.Normalize();
 
         Quaternion desiredDirection = Quaternion.LookRotation(moveDirection);
@@ -72,7 +72,7 @@ public class CharacterMovement2 : MonoBehaviour
 
         Vector3 animationVector = transform.InverseTransformDirection(cc.velocity);
 
-        cc.Move(moveDirection * moveSpeed * Time.deltaTime);
+        // cc.Move(moveDirection * moveSpeed * Time.deltaTime);
 
         anim.SetFloat("HorizontalSpeed2", animationVector.x);
         anim.SetFloat("VirticalSpeed2", animationVector.z);
@@ -88,5 +88,14 @@ public class CharacterMovement2 : MonoBehaviour
         }
         playerVelocity.y += gravityForce * Time.deltaTime;
         cc.Move(playerVelocity * Time.deltaTime);
+    }
+    public void SpeedBoost2()
+    {
+        moveSpeed = 4;
+        Invoke("ReturnSpeed2", 2f);
+    }
+    public void ReturnSpeed2()
+    {
+        moveSpeed = 2;
     }
 }

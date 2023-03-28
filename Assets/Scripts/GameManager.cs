@@ -64,4 +64,8 @@ public class GameManager : MonoBehaviour
     {
         
     }
+    public void OnePlayer()
+    {
+        Debug.Log("One Player");
+    }
 }

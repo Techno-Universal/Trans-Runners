@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -18,7 +19,7 @@ public class CharacterMovement1 : MonoBehaviour
     CharacterController cc;
     Animator anim;
     Vector3 moveDirection;
-    Camera cam;
+   public Camera cam;
 
     public bool slowness1;
 
@@ -34,7 +35,7 @@ public class CharacterMovement1 : MonoBehaviour
         cc = GetComponent<CharacterController>();
         anim= GetComponentInChildren<Animator>();
 
-        cam = Camera.main;
+       // cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -64,7 +65,7 @@ public class CharacterMovement1 : MonoBehaviour
             anim.SetBool("HasInput1", false);
         }
 
-        moveDirection.Set(h, 0, v);
+       // moveDirection.Set(h, 0, v);
         moveDirection.Normalize();
 
         Quaternion desiredDirection = Quaternion.LookRotation(moveDirection);
@@ -72,7 +73,7 @@ public class CharacterMovement1 : MonoBehaviour
 
         Vector3 animationVector = transform.InverseTransformDirection(cc.velocity);
 
-        cc.Move(moveDirection * moveSpeed * Time.deltaTime);
+       // cc.Move(moveDirection * moveSpeed * Time.deltaTime);
 
         anim.SetFloat("HorizontalSpeed1", animationVector.x);
         anim.SetFloat("VirticalSpeed1", animationVector.z);
@@ -91,6 +92,11 @@ public class CharacterMovement1 : MonoBehaviour
     }
     public void SpeedBoost1()
     {
-
+        moveSpeed = 4;
+        Invoke("ReturnSpeed1", 2f);
+    }
+    public void ReturnSpeed1()
+    {
+        moveSpeed = 2;
     }
 }
