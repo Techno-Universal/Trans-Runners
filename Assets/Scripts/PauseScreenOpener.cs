@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PauseScreenOpener : MonoBehaviour
 {
+    private bool escOn = true;
 
     public GameObject PauseScreen;
     // Start is called before the first frame update
@@ -15,9 +16,35 @@ public class PauseScreenOpener : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (escOn == true && Input.GetKeyDown(KeyCode.Escape) == true)
         {
-            PauseScreen.gameObject.SetActive(!PauseScreen.gameObject.activeSelf);
+            DoAction();
         }
+    }
+    public void ContinueGame()
+    {
+        Time.timeScale = 1.0f;
+    }
+    public void DoAction()
+    {
+        PauseScreen.gameObject.SetActive(!PauseScreen.gameObject.activeSelf);
+        if (Time.timeScale == 1.0f)
+        {
+            Time.timeScale = 0.0f;
+        }
+        else
+        {
+            Time.timeScale = 1.0f;
+        }    
+    }
+    public void ESCOff()
+    {
+        Debug.Log("ESC Off");
+        escOn = false;
+    }
+    public void ESCOn()
+    {
+        Debug.Log("ESC On");
+        escOn = true;
     }
 }

@@ -16,6 +16,8 @@ public class FinishZone : MonoBehaviour
 
     public GameManager manager;
 
+    public PauseScreenOpener pauseO;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class FinishZone : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        pauseO.ESCOff();
         if (other.tag == "Player1")
         {
             controller.player1Finish = true;

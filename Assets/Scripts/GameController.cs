@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -17,11 +18,14 @@ public class GameController : MonoBehaviour
 
     public List<GameObject> players;
 
+    public PauseScreenOpener pause1;
+
     GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        pause1.ESCOn();
         Debug.Log("Starting...");
         GetComponent<GameManager>();
         if (twoPlayers ==  false)
