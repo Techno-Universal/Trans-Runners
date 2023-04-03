@@ -8,7 +8,7 @@ public class FinishZone : MonoBehaviour
 
     Timer tim;
 
-    GameController controller;
+    public GameController controller;
 
     public CanvasGroup resultGroup;
 
@@ -31,25 +31,28 @@ public class FinishZone : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        pauseO.ESCOff();
         if (other.tag == "Player1")
         {
+            Debug.Log("Player1 Finish");
             controller.player1Finish = true;
             controller.P1Finish();
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
+                pauseO.ESCOff();
             }
         }
         if (other.tag == "Player2")
         {
+            Debug.Log("Player2 Finish");
             controller.player2Finish = true;
             controller.P2Finish();
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
+                pauseO.ESCOff();
             }
         }
         manager.AutoSave();

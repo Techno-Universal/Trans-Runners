@@ -91,11 +91,11 @@ public class CharacterMovement2 : MonoBehaviour
     }
     public void SpeedBoost2()
     {
-        moveSpeed = 8;
-        Invoke("ReturnSpeed2", 4f);
+        moveSpeed = 16;
+        Invoke("ReturnSpeed2", 8f);
     }
     public void ReturnSpeed2()
     {
-        moveSpeed = 4;
+        moveSpeed = 8;
     }
 }
