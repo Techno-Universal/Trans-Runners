@@ -27,7 +27,7 @@ public class CharacterMovement2 : MonoBehaviour
     public Transform target;
 
     Vector3 playerVelocity;
-    public bool groundedPLayer;
+    public bool groundedPLayer2;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +40,8 @@ public class CharacterMovement2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        groundedPLayer = cc.isGrounded;
-        if (groundedPLayer && playerVelocity.y < 0)
+        groundedPLayer2 = cc.isGrounded;
+        if (groundedPLayer2 && playerVelocity.y < 0)
         {
             if (anim.GetBool("Jump2")) anim.SetBool("Jump2", false);
             playerVelocity.y = 0;
@@ -77,11 +77,11 @@ public class CharacterMovement2 : MonoBehaviour
         anim.SetFloat("HorizontalSpeed2", animationVector.x);
         anim.SetFloat("VirticalSpeed2", animationVector.z);
 
-        ProcessGravity();
+        ProcessGravity2();
     }
-    public void ProcessGravity()
+    public void ProcessGravity2()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && groundedPLayer)
+        if (Input.GetKeyDown(KeyCode.Return) && groundedPLayer2)
         {
             anim.SetBool("Jump2", true);
             playerVelocity.y += Mathf.Sqrt(jumpForce * -3.0f * gravityForce);
@@ -92,10 +92,15 @@ public class CharacterMovement2 : MonoBehaviour
     public void SpeedBoost2()
     {
         moveSpeed = 16;
-        Invoke("ReturnSpeed2", 8f);
+        Invoke("ReturnSpeed2", 2f);
     }
     public void ReturnSpeed2()
     {
         moveSpeed = 8;
     }
+    public void Slow2()
+    {
+        moveSpeed = 2;
+    }
+   
 }

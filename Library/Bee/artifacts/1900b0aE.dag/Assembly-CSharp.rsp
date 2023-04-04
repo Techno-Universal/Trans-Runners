@@ -391,6 +391,7 @@
 "Assets/Scripts/PlayerScoreCard.cs"
 "Assets/Scripts/Quit.cs"
 "Assets/Scripts/ResetScene.cs"
+"Assets/Scripts/SlowZone.cs"
 "Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/SpeedBoostZone.cs"
 "Assets/Scripts/Timer.cs"

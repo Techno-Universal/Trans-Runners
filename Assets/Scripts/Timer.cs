@@ -12,8 +12,13 @@ public class Timer : MonoBehaviour
     public bool isTiming = false;
 
     public UnityEvent TimesUp;
-    
+
     // Update is called once per frame
+    private void Start()
+    {
+        displayTime = "00:00";
+    }
+
     void Update()
     {
         if (isTiming)

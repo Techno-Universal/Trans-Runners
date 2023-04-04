@@ -5,17 +5,19 @@ using TMPro;
 
 public class InLevelUI : MonoBehaviour
 {
-    public TMP_Text topText;
+    public TMP_Text mainTimer;
 
     public CanvasGroup resultGroup;
 
     public float fadeRate;
 
+    public Timer timer;
+
     public void UpdateUI()
     {
         if (LevelManager.instance.currentState == LevelManager.GameStates.Running)
         {
-            topText.text = LevelManager.instance.timer.displayTime;
+            mainTimer.text = timer.displayTime;
         }
         
     }
@@ -34,7 +36,7 @@ public class InLevelUI : MonoBehaviour
     public void AllPlayersFInished()
     {
         StartCoroutine(DisplayCanvas(fadeRate));
-        StopTimer();
+        timer.StopTimer();
     }
     IEnumerator DisplayCanvas(float rate)
     {
@@ -52,8 +54,5 @@ public class InLevelUI : MonoBehaviour
         resultGroup.alpha = 1f;
         yield return null;
     }
-    public void StopTimer()
-    {
-        
-    }
+    
 }

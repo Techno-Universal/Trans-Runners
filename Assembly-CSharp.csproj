@@ -82,6 +82,7 @@
     <Compile Include="Assets\SaveSystem\SortingExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement1.cs" />
+    <Compile Include="Assets\Scripts\SlowZone.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Scripts\InLevelUI.cs" />

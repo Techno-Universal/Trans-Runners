@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameData saveData;
+
+    public Timer timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +33,8 @@ public class GameManager : MonoBehaviour
         saveData.currentPlayers = new List <PlayerData>(0);
         saveData.currentPlayers.Add(new PlayerData());
         saveData.currentPlayers.Add(new PlayerData());
+
+        //timer.StartTimer();
     }
     public void ResetData()
     {
