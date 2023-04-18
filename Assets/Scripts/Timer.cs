@@ -13,9 +13,12 @@ public class Timer : MonoBehaviour
 
     public UnityEvent TimesUp;
 
+    public InLevelUI timeUI;
+
     // Update is called once per frame
     private void Start()
     {
+        StartTimer(startTime);
         displayTime = "00:00";
     }
 
@@ -23,6 +26,7 @@ public class Timer : MonoBehaviour
     {
         if (isTiming)
         {
+            Debug.Log("TimerRun");
             currentTime -= Time.deltaTime;
 
             //format the time
@@ -40,6 +44,7 @@ public class Timer : MonoBehaviour
                 displayTime = string.Format("{0}:{1}", minutes, seconds);
             }
         }
+        timeUI.UpdateUI();
     }
     public void StartTimer(float length)
     {
