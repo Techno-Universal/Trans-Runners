@@ -44,7 +44,9 @@ public class Timer : MonoBehaviour
                 displayTime = string.Format("{0}:{1}", minutes, seconds);
             }
         }
-        timeUI.UpdateUI();
+        timeUI
+
+            .UpdateUI();
     }
     public void StartTimer(float length)
     {

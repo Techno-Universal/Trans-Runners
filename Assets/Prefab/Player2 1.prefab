@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6305885934152868680}
   m_Layer: 0
   m_Name: Player2 1
-  m_TagString: Player1
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 5767343818932973794}
   - {fileID: 6305885934679022915}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!143 &6305885934152868682
 CharacterController:
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
-  rotationSpeed: 0.02
+  rotationSpeed: 0.04
   gravityForce: -9.3
   jumpForce: 1
   Horizontal2: 
@@ -108,7 +108,7 @@ MonoBehaviour:
   slowness2: 0
   boost2: 0
   target: {fileID: 0}
-  groundedPLayer: 0
+  groundedPLayer2: 0
 --- !u!1 &6305885934679022940
 GameObject:
   m_ObjectHideFlags: 0

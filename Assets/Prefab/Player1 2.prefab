@@ -34,7 +34,7 @@ Transform:
   - {fileID: 8745176192346730859}
   - {fileID: 9139952178860478184}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!143 &9139952177878589605
 CharacterController:
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
-  rotationSpeed: 0.02
+  rotationSpeed: 0.04
   gravityForce: -9.3
   jumpForce: 1
   Horizontal1: 
@@ -85,7 +85,7 @@ MonoBehaviour:
   slowness1: 0
   boost1: 0
   target: {fileID: 0}
-  groundedPLayer: 0
+  groundedPLayer1: 0
 --- !u!136 &9139952177878589610
 CapsuleCollider:
   m_ObjectHideFlags: 0

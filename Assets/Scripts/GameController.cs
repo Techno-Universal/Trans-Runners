@@ -5,6 +5,7 @@ using System.Threading;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -25,14 +26,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pause1.ESCOn();
-        Debug.Log("Starting...");
-        GetComponent<GameManager>();
-        if (twoPlayers ==  false)
-        {
-            gameManager.OnePlayer();
-            Debug.Log("YES!!");
-        }
+      
     }
     public void TwoPlayers(bool value)
     {
@@ -47,7 +41,18 @@ public class GameController : MonoBehaviour
             twoPlayers = false;
         }
     }
-
+    void OnEnable()
+    {
+        Debug.Log("On Enable...");
+        pause1.ESCOn();
+        Debug.Log("Starting...");
+        GetComponent<GameManager>();
+        if (twoPlayers == false)
+        {
+            gameManager.OnePlayer();
+            Debug.Log("YES!!");
+        }
+    }
     // Update is called once per frame
     void Update()
     {
