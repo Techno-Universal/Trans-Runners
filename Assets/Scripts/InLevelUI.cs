@@ -13,9 +13,11 @@ public class InLevelUI : MonoBehaviour
 
     public Timer timer;
 
+    public bool levelComplete = false;
+
     public void UpdateUI()
     {
-        if (LevelManager.instance.currentState == LevelManager.GameStates.Running)
+        if (levelComplete == false)
         {
             mainTimer.text = timer.displayTime;
         }

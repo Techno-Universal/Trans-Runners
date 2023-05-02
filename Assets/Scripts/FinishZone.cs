@@ -22,16 +22,27 @@ public class FinishZone : MonoBehaviour
 
     public GameObject player2finish;
 
+    public InLevelUI levelUI;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player1finish = GameObject.Find("Player1finish");
+
+        player2finish = GameObject.Find("Player2finish");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (player1finish == true)
+        {
+            Debug.Log("P1F");
+        }
+        if (player2finish == true)
+        {
+            Debug.Log("P2F");
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -44,6 +55,7 @@ public class FinishZone : MonoBehaviour
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
+                levelUI.levelComplete = true;
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
@@ -52,6 +64,7 @@ public class FinishZone : MonoBehaviour
             }
             if (controller.twoPlayers == false)
             {
+                levelUI.levelComplete = true;
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
@@ -68,6 +81,7 @@ public class FinishZone : MonoBehaviour
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");
+                levelUI.levelComplete = true;
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();

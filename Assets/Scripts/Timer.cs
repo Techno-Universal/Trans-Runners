@@ -27,7 +27,7 @@ public class Timer : MonoBehaviour
         if (isTiming)
         {
             Debug.Log("TimerRun");
-            currentTime -= Time.deltaTime;
+            currentTime += Time.deltaTime;
 
             //format the time
             string minutes = Mathf.Floor(currentTime / 60).ToString("00");
@@ -44,9 +44,7 @@ public class Timer : MonoBehaviour
                 displayTime = string.Format("{0}:{1}", minutes, seconds);
             }
         }
-        timeUI
-
-            .UpdateUI();
+        timeUI.UpdateUI();
     }
     public void StartTimer(float length)
     {

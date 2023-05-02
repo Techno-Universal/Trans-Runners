@@ -9,8 +9,8 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public bool player1Finish;
-    public bool player2Finish;
+    public bool player1Finish = false;
+    public bool player2Finish = false;
 
     public bool twoPlayers;
 
