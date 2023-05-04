@@ -11193,7 +11193,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27982
+  m_Name: pb_Mesh46206
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -74288,6 +74288,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 498092447062469272, guid: 52ce71099a122e148beca95930b877f7,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6305885934152868677, guid: 52ce71099a122e148beca95930b877f7,
         type: 3}
       propertyPath: m_Name

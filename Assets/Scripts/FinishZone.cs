@@ -27,9 +27,9 @@ public class FinishZone : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player1finish = GameObject.Find("Player1finish");
+        //player1finish = GameObject.Find("Player1finish");
 
-        player2finish = GameObject.Find("Player2finish");
+        //player2finish = GameObject.Find("Player2finish");
     }
 
     // Update is called once per frame
