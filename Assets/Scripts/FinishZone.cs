@@ -24,6 +24,10 @@ public class FinishZone : MonoBehaviour
 
     public InLevelUI levelUI;
 
+    public CharacterMovement1 c1;
+
+    public CharacterMovement2 c2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +55,7 @@ public class FinishZone : MonoBehaviour
             Debug.Log("Player1 Finish");
             player1finish.gameObject.SetActive(true);
             controller.player1Finish = true;
+            c1.Finish1();
             controller.P1Finish();
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
@@ -77,6 +82,7 @@ public class FinishZone : MonoBehaviour
             Debug.Log("Player2 Finish");
             player2finish.gameObject.SetActive(true);
             controller.player2Finish = true;
+            c2.Finish2();
             controller.P2Finish();
             if (controller.player1Finish == true && controller.player2Finish == true)
             {

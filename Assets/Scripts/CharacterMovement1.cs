@@ -103,5 +103,15 @@ public class CharacterMovement1 : MonoBehaviour
     {
         moveSpeed = 2;
     }
-   
+    public void Finish1()
+    {
+        Debug.Log("Stop1");
+        moveSpeed = 8;
+        Invoke("FinishSpeed1", 2f);
+    }
+    public void FinishSpeed1()
+    {
+        moveSpeed = 0;
+    }
+
 }
