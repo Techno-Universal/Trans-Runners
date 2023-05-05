@@ -55,6 +55,7 @@ public class Timer : MonoBehaviour
     public void StopTimer()
     {
         isTiming = false;
+        timeUI.DisableTimer();
     }
 
 }

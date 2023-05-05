@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,11 +10,19 @@ public class GameManager : MonoBehaviour
     public GameData saveData;
 
     public Timer timer;
+
+    public GameObject player2;
+    public GameObject player2Cam;
+    public GameObject player2VCam;
+
+    public Camera cam1;
+
+    public Rect rect;
     // Start is called before the first frame update
     void Start()
     {
-        #region Singleton
-        if (instance != null)
+       /*#region Singleton
+       if (instance != null)
         {
             Destroy(gameObject);
         }
@@ -22,7 +31,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        #endregion
+        #endregion */
 
         saveData = SaveSystem.instance.LoadGame();
 
@@ -33,6 +42,8 @@ public class GameManager : MonoBehaviour
         saveData.currentPlayers = new List <PlayerData>(0);
         saveData.currentPlayers.Add(new PlayerData());
         saveData.currentPlayers.Add(new PlayerData());
+
+        cam1 = GetComponent<Camera>();
 
         //timer.StartTimer();
     }
@@ -72,5 +83,10 @@ public class GameManager : MonoBehaviour
     public void OnePlayer()
     {
         Debug.Log("One Player");
+        Destroy(player2);
+        Destroy(player2Cam);
+        Destroy(player2VCam);
+        float margin = (0.0f);
+        cam1.rect = new Rect(margin, 0.0f, 1.0f - margin * 2.0f, 1.0f);
     }
 }

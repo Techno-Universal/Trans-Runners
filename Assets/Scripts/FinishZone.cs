@@ -39,11 +39,11 @@ public class FinishZone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player1finish == true)
+        if (controller.player1Finish == true)
         {
             Debug.Log("P1F");
         }
-        if (player2finish == true)
+        if (controller.player2Finish == true)
         {
             Debug.Log("P2F");
         }
@@ -60,16 +60,18 @@ public class FinishZone : MonoBehaviour
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
-                levelUI.levelComplete = true;
+                controller.StopMusic();
+                levelUI.AllPlayersFInished();
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
                 pauseO.ESCOff();
             }
-            if (controller.twoPlayers == false)
+            if (GameController.twoPlayers == false)
             {
-                levelUI.levelComplete = true;
+                levelUI.AllPlayersFInished();
+                controller.StopMusic();
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
@@ -87,7 +89,8 @@ public class FinishZone : MonoBehaviour
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");
-                levelUI.levelComplete = true;
+                controller.StopMusic();
+                levelUI.AllPlayersFInished();
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();

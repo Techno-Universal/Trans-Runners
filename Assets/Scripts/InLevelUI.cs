@@ -15,14 +15,15 @@ public class InLevelUI : MonoBehaviour
 
     public bool levelComplete = false;
 
+    public GameObject levelCompleteUI;
+
     public void UpdateUI()
     {
         if (levelComplete == false)
         {
             mainTimer.text = timer.displayTime;
         }
-        
-    }
+    }   
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +38,9 @@ public class InLevelUI : MonoBehaviour
     }
     public void AllPlayersFInished()
     {
+        Debug.Log("AllPLayersFinish");
         StartCoroutine(DisplayCanvas(fadeRate));
+        levelCompleteUI.SetActive(true);
         timer.StopTimer();
     }
     IEnumerator DisplayCanvas(float rate)
@@ -56,5 +59,8 @@ public class InLevelUI : MonoBehaviour
         resultGroup.alpha = 1f;
         yield return null;
     }
-    
+    public void DisableTimer()
+    {
+        mainTimer.gameObject.SetActive(false);
+    }
 }

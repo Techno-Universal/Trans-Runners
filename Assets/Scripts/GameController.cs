@@ -9,10 +9,10 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public bool player1Finish;
-    public bool player2Finish;
+    public bool player1Finish = false;
+    public bool player2Finish = false;
 
-    public bool twoPlayers;
+    public static bool twoPlayers;
 
     public float player1FinishTime;
     public float player2FinishTime;
@@ -23,22 +23,25 @@ public class GameController : MonoBehaviour
 
     public GameManager gameManager;
 
+    public AudioSource musicMan;
+
     // Start is called before the first frame update
     void Start()
     {
-      
+        player1Finish = false;
+        player2Finish = false;
     }
     public void TwoPlayers(bool value)
     {
         if (value == true)
         {
             Debug.Log("ON");
-            twoPlayers = true;
+            GameController.twoPlayers = true;
         }
         else
         {
             Debug.Log("OFF");
-            twoPlayers = false;
+            GameController.twoPlayers = false;
         }
     }
     void OnEnable()
@@ -47,13 +50,18 @@ public class GameController : MonoBehaviour
         pause1.ESCOn();
         Debug.Log("Starting...");
         GetComponent<GameManager>();
-        player1Finish = false;
-        player2Finish = false;
-        if (twoPlayers == false)
+        //player1Finish = false;
+        //player2Finish = false;
+        if (GameController.twoPlayers == false)
         {
             gameManager.OnePlayer();
             Debug.Log("YES!!");
         }
+        if (GameController.twoPlayers == true)
+        {
+            Debug.Log("TWO!!");
+        }
+        musicMan.Play();
     }
     // Update is called once per frame
     void Update()
@@ -74,5 +82,8 @@ public class GameController : MonoBehaviour
     {
 
     }
-  
+    public void StopMusic()
+    {
+        musicMan.Stop();
+    }
 }
