@@ -14,8 +14,8 @@ public class GameController : MonoBehaviour
 
     public static bool twoPlayers;
 
-    public float player1FinishTime;
-    public float player2FinishTime;
+    public string player1FinishTime;
+    public string player2FinishTime;
 
     public List<GameObject> players;
 

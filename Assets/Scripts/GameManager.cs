@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
     public GameObject player2Cam;
     public GameObject player2VCam;
 
+    public static string p1RecordTime;
+    public static string p2RecordTime;
+
     public Camera cam1;
 
     public Rect rect;

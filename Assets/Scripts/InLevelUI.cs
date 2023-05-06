@@ -7,6 +7,10 @@ public class InLevelUI : MonoBehaviour
 {
     public TMP_Text mainTimer;
 
+    public TMP_Text p1FinTime;
+
+    public TMP_Text p2FinTime;
+
     public CanvasGroup resultGroup;
 
     public float fadeRate;
@@ -16,6 +20,11 @@ public class InLevelUI : MonoBehaviour
     public bool levelComplete = false;
 
     public GameObject levelCompleteUI;
+
+    public GameController controller;
+
+    public GameObject newRecordSign1;
+    public GameObject newRecordSign2;
 
     public void UpdateUI()
     {
@@ -40,8 +49,11 @@ public class InLevelUI : MonoBehaviour
     {
         Debug.Log("AllPLayersFinish");
         StartCoroutine(DisplayCanvas(fadeRate));
+        p1FinTime.text = controller.player1FinishTime;
+        p2FinTime.text = controller.player2FinishTime;
         levelCompleteUI.SetActive(true);
         timer.StopTimer();
+
     }
     IEnumerator DisplayCanvas(float rate)
     {

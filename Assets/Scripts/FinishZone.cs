@@ -6,7 +6,7 @@ public class FinishZone : MonoBehaviour
 {
     GameData saveData = new GameData();
 
-    Timer tim;
+    public Timer tim;
 
     public GameController controller;
 
@@ -27,6 +27,9 @@ public class FinishZone : MonoBehaviour
     public CharacterMovement1 c1;
 
     public CharacterMovement2 c2;
+
+    public GameObject p2FTUI1;
+    public GameObject p2FTUI2;
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +60,7 @@ public class FinishZone : MonoBehaviour
             controller.player1Finish = true;
             c1.Finish1();
             controller.P1Finish();
+            controller.player1FinishTime = tim.displayTime;
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
@@ -76,6 +80,9 @@ public class FinishZone : MonoBehaviour
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
+                p2FTUI1.gameObject.SetActive(false);
+                p2FTUI2.gameObject.SetActive(false);
+                controller.player1FinishTime = tim.displayTime;
                 pauseO.ESCOff();
             }
         }
@@ -86,6 +93,7 @@ public class FinishZone : MonoBehaviour
             controller.player2Finish = true;
             c2.Finish2();
             controller.P2Finish();
+            controller.player2FinishTime = tim.displayTime;
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");
