@@ -6132,6 +6132,7 @@ GameObject:
   - component: {fileID: 2120171844}
   - component: {fileID: 2120171846}
   - component: {fileID: 2120171845}
+  - component: {fileID: 2120171847}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6155,6 +6156,8 @@ MonoBehaviour:
   player2Finish: 0
   player1FinishTime: 0
   player2FinishTime: 0
+  player1FinishTimeNumber: 0
+  player2FinishTimeNumber: 0
   players: []
   pause1: {fileID: 2120171846}
   gameManager: {fileID: 2120171845}
@@ -6309,12 +6312,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveData:
     level: 0
-    player1BestTimeL1: 
-    player2BestTimeL1: 
+    player1BestTimeL1: 0
+    player2BestTimeL1: 0
   timer: {fileID: 0}
   player2: {fileID: 0}
   player2Cam: {fileID: 0}
   player2VCam: {fileID: 0}
+  controller: {fileID: 0}
+  saveSystem: {fileID: 0}
   cam1: {fileID: 0}
   rect:
     serializedVersion: 2
@@ -6335,6 +6340,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseScreen: {fileID: 0}
+--- !u!114 &2120171847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120171838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47f489f32c345f4385fc0a5b089dd40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p1RTT: {fileID: 0}
+  p2RTT: {fileID: 0}
+  p11RTT: 
+  p22RTT: 
+  manager: {fileID: 2120171845}
 --- !u!1 &2126294270
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,6 +17,9 @@ public class GameController : MonoBehaviour
     public string player1FinishTime;
     public string player2FinishTime;
 
+    public float player1FinishTimeNumber;
+    public float player2FinishTimeNumber;
+
     public List<GameObject> players;
 
     public PauseScreenOpener pause1;

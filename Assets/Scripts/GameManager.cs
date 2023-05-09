@@ -15,8 +15,12 @@ public class GameManager : MonoBehaviour
     public GameObject player2Cam;
     public GameObject player2VCam;
 
-    public static string p1RecordTime;
-    public static string p2RecordTime;
+    public GameController controller;
+
+    public SaveSystem saveSystem;
+
+    public static float p1RecordTime;
+    public static float p2RecordTime;
 
     public Camera cam1;
 
@@ -48,6 +52,7 @@ public class GameManager : MonoBehaviour
 
         cam1 = GetComponent<Camera>();
 
+        saveSystem.LoadGame();
         //timer.StartTimer();
     }
     public void ResetData()
@@ -74,6 +79,14 @@ public class GameManager : MonoBehaviour
     }
     public void AutoSave()
     {
+        if (controller.player1FinishTimeNumber >= p1RecordTime)
+        {
+            p1RecordTime = controller.player1FinishTimeNumber;
+        }
+        if (controller.player2FinishTimeNumber >= p1RecordTime)
+        {
+            p2RecordTime = controller.player2FinishTimeNumber;
+        }
         FillTempList();
         FillSaveData();
     }

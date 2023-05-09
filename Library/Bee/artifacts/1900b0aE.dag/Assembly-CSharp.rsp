@@ -386,6 +386,7 @@
 "Assets/Scripts/InLevelUI.cs"
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/LoadNextScene.cs"
+"Assets/Scripts/MainMenuRecordTimes.cs"
 "Assets/Scripts/PauseScreenOpener.cs"
 "Assets/Scripts/PlayerNumber.cs"
 "Assets/Scripts/PlayerScoreCard.cs"

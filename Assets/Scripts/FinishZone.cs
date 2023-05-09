@@ -61,6 +61,7 @@ public class FinishZone : MonoBehaviour
             c1.Finish1();
             controller.P1Finish();
             controller.player1FinishTime = tim.displayTime;
+            controller.player1FinishTimeNumber = tim.currentTime;
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
@@ -94,6 +95,7 @@ public class FinishZone : MonoBehaviour
             c2.Finish2();
             controller.P2Finish();
             controller.player2FinishTime = tim.displayTime;
+            controller.player2FinishTimeNumber = tim.currentTime;
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");

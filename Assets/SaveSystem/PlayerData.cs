@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerData 
 {
     // Start is called before the first frame update
-    public int level;
+    public float level;
 
-    public int player1BestTimeL1;
-    public int player2BestTimeL1;
+    public float player1BestTimeL1;
+    public float player2BestTimeL1;
 }
