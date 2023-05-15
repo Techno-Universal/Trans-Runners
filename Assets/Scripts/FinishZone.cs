@@ -31,6 +31,8 @@ public class FinishZone : MonoBehaviour
     public GameObject p2FTUI1;
     public GameObject p2FTUI2;
 
+    public GameData gData;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +73,8 @@ public class FinishZone : MonoBehaviour
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
+                manager.AutoSave();
+                gData.SetTimes();
                 pauseO.ESCOff();
             }
             if (GameController.twoPlayers == false)
@@ -84,6 +88,8 @@ public class FinishZone : MonoBehaviour
                 p2FTUI1.gameObject.SetActive(false);
                 p2FTUI2.gameObject.SetActive(false);
                 controller.player1FinishTime = tim.displayTime;
+                manager.AutoSave();
+                gData.SetTimes();
                 pauseO.ESCOff();
             }
         }
@@ -105,10 +111,11 @@ public class FinishZone : MonoBehaviour
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
+                manager.AutoSave();
+                gData.SetTimes();
                 pauseO.ESCOff();
             }
         }
-        manager.AutoSave();
 
 
     }

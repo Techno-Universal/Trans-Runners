@@ -12,7 +12,7 @@ public class MainMenuRecordTimes : MonoBehaviour
 
     public string p22RTT;
 
-    public GameData data;
+    public GameManager data;
     // Start is called before the first frame update
     void Start()
     {

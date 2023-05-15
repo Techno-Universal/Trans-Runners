@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
 
     public Camera cam1;
 
+    public float altp1RecordTime;
+    public float altp2RecordTime;
+
     public Rect rect;
     // Start is called before the first frame update
     void Start()
@@ -82,13 +85,17 @@ public class GameManager : MonoBehaviour
         if (controller.player1FinishTimeNumber >= p1RecordTime)
         {
             p1RecordTime = controller.player1FinishTimeNumber;
+            FillTempList();
+            FillSaveData();
+            saveData.SetTimes();
         }
         if (controller.player2FinishTimeNumber >= p1RecordTime)
         {
             p2RecordTime = controller.player2FinishTimeNumber;
+            FillTempList();
+            FillSaveData();
+            saveData.SetTimes();
         }
-        FillTempList();
-        FillSaveData();
     }
 
     // Update is called once per frame

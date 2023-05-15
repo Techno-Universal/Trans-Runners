@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
 
     public AudioSource musicMan;
 
+    public GameData gData;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +51,7 @@ public class GameController : MonoBehaviour
     }
     void OnEnable()
     {
+        gData.LoadTimes();
         Debug.Log("On Enable...");
         pause1.ESCOn();
         Debug.Log("Starting...");
@@ -88,5 +91,9 @@ public class GameController : MonoBehaviour
     public void StopMusic()
     {
         musicMan.Stop();
+    }
+    public void ResetSaveData()
+    {
+        gData.ResetData();
     }
 }
