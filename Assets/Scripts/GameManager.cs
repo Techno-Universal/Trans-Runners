@@ -27,6 +27,9 @@ public class GameManager : MonoBehaviour
     public float altp1RecordTime;
     public float altp2RecordTime;
 
+    public GameObject nR1;
+    public GameObject nR2;
+
     public Rect rect;
     // Start is called before the first frame update
     void Start()
@@ -85,6 +88,7 @@ public class GameManager : MonoBehaviour
         if (controller.player1FinishTimeNumber >= p1RecordTime)
         {
             p1RecordTime = controller.player1FinishTimeNumber;
+            nR1.gameObject.SetActive(true);
             FillTempList();
             FillSaveData();
             saveData.SetTimes();
@@ -92,6 +96,7 @@ public class GameManager : MonoBehaviour
         if (controller.player2FinishTimeNumber >= p1RecordTime)
         {
             p2RecordTime = controller.player2FinishTimeNumber;
+            nR2.gameObject.SetActive(true);
             FillTempList();
             FillSaveData();
             saveData.SetTimes();

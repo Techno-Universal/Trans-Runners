@@ -4534,7 +4534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &189949044
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4736,6 +4736,11 @@ MonoBehaviour:
   c2: {fileID: 117139799}
   p2FTUI1: {fileID: 931142596}
   p2FTUI2: {fileID: 1649319480}
+  gData:
+    manager: {fileID: 0}
+    level: 0
+    player1BestTimeL1: 0
+    player2BestTimeL1: 0
 --- !u!65 &200935296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5271,12 +5276,19 @@ MonoBehaviour:
   player2Finish: 0
   player1FinishTime: 
   player2FinishTime: 
+  player1FinishTimeNumber: 0
+  player2FinishTimeNumber: 0
   players:
   - {fileID: 62461092}
   - {fileID: 117139798}
   pause1: {fileID: 238887896}
   gameManager: {fileID: 238887898}
   musicMan: {fileID: 1344046742}
+  gData:
+    manager: {fileID: 0}
+    level: 0
+    player1BestTimeL1: 0
+    player2BestTimeL1: 0
 --- !u!114 &238887890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5484,14 +5496,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveData:
+    manager: {fileID: 0}
     level: 0
-    player1BestTimeL1: 
-    player2BestTimeL1: 
+    player1BestTimeL1: 0
+    player2BestTimeL1: 0
   timer: {fileID: 238887890}
   player2: {fileID: 117139798}
   player2Cam: {fileID: 1659755116}
   player2VCam: {fileID: 2103156254}
+  controller: {fileID: 0}
+  saveSystem: {fileID: 0}
   cam1: {fileID: 1939821555}
+  altp1RecordTime: 0
+  altp2RecordTime: 0
+  nR1: {fileID: 189949043}
+  nR2: {fileID: 1462359146}
   rect:
     serializedVersion: 2
     x: 0
@@ -51257,7 +51276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1462359147
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60288,7 +60307,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659755116}
-  m_LocalRotation: {x: -1e-45, y: 0.7071069, z: 1e-45, w: 0.70710677}
+  m_LocalRotation: {x: -1e-45, y: 0.7071068, z: 1e-45, w: 0.7071068}
   m_LocalPosition: {x: -1.9799999, y: 1.45, z: 1.4700001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -72903,7 +72922,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103156254}
-  m_LocalRotation: {x: -1e-45, y: 0.7071069, z: 1e-45, w: 0.70710677}
+  m_LocalRotation: {x: -1e-45, y: 0.7071068, z: 1e-45, w: 0.7071068}
   m_LocalPosition: {x: -1.9799999, y: 1.45, z: 1.4700001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
