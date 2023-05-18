@@ -24,7 +24,7 @@ public class SaveSystem : MonoBehaviour
         filePath = Application.persistentDataPath + "/save.data";
 
     }
-    public void SaveGame (GameData saveData)
+    public void SaveGame(GameData saveData)
     {
         FileStream dataStream = new FileStream(filePath, FileMode.Create);
 
@@ -35,7 +35,7 @@ public class SaveSystem : MonoBehaviour
     }
     public GameData LoadGame()
     {
-        if(File.Exists(filePath))
+        if (File.Exists(filePath))
         {
             FileStream dataStream = new FileStream(filePath, FileMode.Open);
 

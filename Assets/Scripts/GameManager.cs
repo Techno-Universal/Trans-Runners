@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour
     public GameObject nR1;
     public GameObject nR2;
 
+    public PlayerData playerData;
+
     public Rect rect;
     // Start is called before the first frame update
     void Start()
@@ -68,9 +70,10 @@ public class GameManager : MonoBehaviour
 
     public void FillTempList()
     {
-        PlayerData data = new PlayerData();
+        playerData.level = 1;
 
-
+        playerData.player1BestTimeL1 = p1RecordTime;
+        playerData.player2BestTimeL1 = p2RecordTime;
     }
     public void FillSaveData()
     {
