@@ -15,7 +15,7 @@ D:/App data/Trans-Runners!!
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50510
+50417
 Successfully changed project path to: D:/App data/Trans-Runners!!
 D:/App data/Trans-Runners!!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/App data/Trans-Runners!!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11284] Host "[IP] 10.247.192.33 [Port] 0 [Flags] 2 [Guid] 3192013002 [EditorId] 3192013002 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1424] Host "[IP] 192.168.1.111 [Port] 0 [Flags] 2 [Guid] 2910449347 [EditorId] 2910449347 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11284] Host "[IP] 10.247.192.33 [Port] 0 [Flags] 2 [Guid] 3192013002 [EditorId] 3192013002 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1424] Host "[IP] 192.168.1.111 [Port] 0 [Flags] 2 [Guid] 2910449347 [EditorId] 2910449347 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2172.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path D:/App data/Unity Hub/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'D:/App data/Unity Hub/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -76,8 +76,8 @@ Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/P
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.020448 seconds.
-- Loaded All Assemblies, in  0.371 seconds
+Registered in 0.015585 seconds.
+- Loaded All Assemblies, in  7.668 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -85,37 +85,37 @@ Native extension for WindowsStandalone target not found
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 467 ms
+Android Extension - Scanning For ADB Devices 609 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
+- Finished resetting the current domain, in  1.290 seconds
 Domain Reload Profiling:
-	ReloadAssembly (202ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (6248ms)
+		BeginReloadAssembly (5707ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (80ms)
+			LoadAssemblies (5713ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-				TypeCache.Initialize (163ms)
-					TypeCache.ScanAssembly (161ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (1410ms)
+				TypeCache.Initialize (1409ms)
+					TypeCache.ScanAssembly (1408ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (794ms)
+			SetupLoadedEditorAssemblies (1222ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (593ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (1025ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -124,9 +124,13 @@ Domain Reload Profiling:
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.167 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 21.435 seconds
+Refreshing native plugins compatible for Editor in 12.92 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -134,44 +138,44 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
+- Finished resetting the current domain, in  3.817 seconds
 Domain Reload Profiling:
-	ReloadAssembly (278ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (700ms)
+		BeginReloadAssembly (427ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		LoadAllAssembliesAndSetupDomain (889ms)
-			LoadAssemblies (354ms)
+			CreateAndSetChildDomain (104ms)
+		LoadAllAssembliesAndSetupDomain (20734ms)
+			LoadAssemblies (19542ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (613ms)
-				TypeCache.Initialize (370ms)
-					TypeCache.ScanAssembly (362ms)
-				ResolveRequiredComponents (13ms)
+			SetupTypeCache (1411ms)
+				TypeCache.Initialize (1084ms)
+					TypeCache.ScanAssembly (1075ms)
+				ResolveRequiredComponents (30ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (673ms)
+			SetupLoadedEditorAssemblies (3496ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (412ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (2733ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 14.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5495 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (472.6 KB). Loaded Objects now: 5961.
-Memory consumption went from 0.84 GB to 0.84 GB.
-Total: 9.180000 ms (FindLiveObjects: 1.264600 ms CreateObjectMapping: 0.858200 ms MarkObjects: 6.546200 ms  DeleteObjects: 0.508600 ms)
+Unloading 6419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 421 unused Assets / (3.4 MB). Loaded Objects now: 6572.
+Memory consumption went from 0.98 GB to 0.98 GB.
+Total: 10.521200 ms (FindLiveObjects: 1.037200 ms CreateObjectMapping: 0.542900 ms MarkObjects: 5.870600 ms  DeleteObjects: 3.068900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,98 +190,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 553.462196 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(72295fa433ea0ca469bde505bacc6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(72295fa433ea0ca469bde505bacc6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc1787105870a01004370e29cfc1fc4') in 0.003005 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.589 seconds
-Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.444 seconds
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 42.118 seconds
+- Finished resetting the current domain, in 16.227 seconds
 Domain Reload Profiling:
-	ReloadAssembly (500ms)
-		BeginReloadAssembly (241ms)
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (429ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		LoadAllAssembliesAndSetupDomain (2088ms)
-			LoadAssemblies (846ms)
+			CreateAndSetChildDomain (199ms)
+		LoadAllAssembliesAndSetupDomain (2933ms)
+			LoadAssemblies (2431ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1363ms)
-				TypeCache.Initialize (1003ms)
-					TypeCache.ScanAssembly (983ms)
-				ResolveRequiredComponents (24ms)
+			SetupTypeCache (598ms)
+				TypeCache.Initialize (336ms)
+					TypeCache.ScanAssembly (323ms)
+				ResolveRequiredComponents (16ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (6225ms)
+			SetupLoadedEditorAssemblies (888ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (108ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (1133ms)
-				ProcessInitializeOnLoadMethodAttributes (4832ms)
-				AfterProcessingInitializeOnLoad (35ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (1ms)
-			AwakeInstancesAfterBackupRestoration (90ms)
-Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (431ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 7.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6582.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 8.791500 ms (FindLiveObjects: 1.078400 ms CreateObjectMapping: 0.692600 ms MarkObjects: 4.406200 ms  DeleteObjects: 2.611800 ms)
+Unloading 6229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 399 unused Assets / (3.4 MB). Loaded Objects now: 6589.
+Memory consumption went from 0.94 GB to 0.94 GB.
+Total: 10.455200 ms (FindLiveObjects: 0.727700 ms CreateObjectMapping: 0.460700 ms MarkObjects: 6.571800 ms  DeleteObjects: 2.692700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -296,655 +262,57 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.971 seconds
-Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.444 seconds
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 12.089 seconds
+- Finished resetting the current domain, in  2.033 seconds
 Domain Reload Profiling:
-	ReloadAssembly (333ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (342ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		LoadAllAssembliesAndSetupDomain (1637ms)
-			LoadAssemblies (1027ms)
+			CreateAndSetChildDomain (94ms)
+		LoadAllAssembliesAndSetupDomain (1100ms)
+			LoadAssemblies (438ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (715ms)
-				TypeCache.Initialize (376ms)
-					TypeCache.ScanAssembly (363ms)
+			SetupTypeCache (745ms)
+				TypeCache.Initialize (446ms)
+					TypeCache.ScanAssembly (435ms)
 				ResolveRequiredComponents (19ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (843ms)
+			SetupLoadedEditorAssemblies (886ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (401ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 7.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6600.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 8.786200 ms (FindLiveObjects: 0.608400 ms CreateObjectMapping: 0.431200 ms MarkObjects: 5.194400 ms  DeleteObjects: 2.550500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Attached: 1 50e3063894236d3b7fb2acb34db882ee855dba39
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.090 seconds
-Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.737 seconds
-Domain Reload Profiling:
-	ReloadAssembly (259ms)
-		BeginReloadAssembly (169ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		LoadAllAssembliesAndSetupDomain (830ms)
-			LoadAssemblies (384ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (516ms)
-				TypeCache.Initialize (307ms)
-					TypeCache.ScanAssembly (299ms)
-				ResolveRequiredComponents (16ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (957ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (410ms)
-				ProcessInitializeOnLoadMethodAttributes (379ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6618.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 10.906900 ms (FindLiveObjects: 0.913400 ms CreateObjectMapping: 0.662300 ms MarkObjects: 5.848600 ms  DeleteObjects: 3.480700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.033 seconds
-Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.807 seconds
-Domain Reload Profiling:
-	ReloadAssembly (239ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		LoadAllAssembliesAndSetupDomain (793ms)
-			LoadAssemblies (303ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (549ms)
-				TypeCache.Initialize (330ms)
-					TypeCache.ScanAssembly (322ms)
-				ResolveRequiredComponents (15ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (918ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (406ms)
-				ProcessInitializeOnLoadMethodAttributes (353ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6636.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 12.038500 ms (FindLiveObjects: 1.112200 ms CreateObjectMapping: 0.637200 ms MarkObjects: 6.741600 ms  DeleteObjects: 3.545300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.126 seconds
-Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.039 seconds
-Domain Reload Profiling:
-	ReloadAssembly (263ms)
-		BeginReloadAssembly (177ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		LoadAllAssembliesAndSetupDomain (863ms)
-			LoadAssemblies (318ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (612ms)
-				TypeCache.Initialize (364ms)
-					TypeCache.ScanAssembly (354ms)
-				ResolveRequiredComponents (16ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1080ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (431ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6654.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 8.439100 ms (FindLiveObjects: 0.810600 ms CreateObjectMapping: 0.370300 ms MarkObjects: 4.615600 ms  DeleteObjects: 2.640900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.115 seconds
-Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.854 seconds
-Domain Reload Profiling:
-	ReloadAssembly (252ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		LoadAllAssembliesAndSetupDomain (862ms)
-			LoadAssemblies (358ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (568ms)
-				TypeCache.Initialize (341ms)
-					TypeCache.ScanAssembly (332ms)
-				ResolveRequiredComponents (15ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1047ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (422ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6672.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 11.725300 ms (FindLiveObjects: 2.319300 ms CreateObjectMapping: 0.661000 ms MarkObjects: 5.387300 ms  DeleteObjects: 3.355400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.353 seconds
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (323ms)
-		BeginReloadAssembly (213ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		LoadAllAssembliesAndSetupDomain (1030ms)
-			LoadAssemblies (390ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (722ms)
-				TypeCache.Initialize (400ms)
-					TypeCache.ScanAssembly (389ms)
-				ResolveRequiredComponents (20ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2117ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (82ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (211ms)
-				ProcessInitializeOnLoadAttributes (807ms)
-				ProcessInitializeOnLoadMethodAttributes (998ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (97ms)
-Refreshing native plugins compatible for Editor in 72.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6238 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6691.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 30.035200 ms (FindLiveObjects: 3.417900 ms CreateObjectMapping: 1.295600 ms MarkObjects: 10.782000 ms  DeleteObjects: 14.535300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Detached: 1 50e3063894236d3b7fb2acb34db882ee855dba39
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.148 seconds
-Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
-Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
-  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in D:\App data\Trans-Runners!!\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.476 seconds
-Domain Reload Profiling:
-	ReloadAssembly (269ms)
-		BeginReloadAssembly (184ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		LoadAllAssembliesAndSetupDomain (878ms)
-			LoadAssemblies (374ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (580ms)
-				TypeCache.Initialize (326ms)
-					TypeCache.ScanAssembly (318ms)
-				ResolveRequiredComponents (17ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (743ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (370ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (347ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 9.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6238 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 511 unused Assets / (3.5 MB). Loaded Objects now: 6709.
-Memory consumption went from 0.95 GB to 0.94 GB.
-Total: 8.797200 ms (FindLiveObjects: 0.773700 ms CreateObjectMapping: 0.485900 ms MarkObjects: 4.196300 ms  DeleteObjects: 3.340000 ms)
+Unloading 6229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 399 unused Assets / (3.4 MB). Loaded Objects now: 6606.
+Memory consumption went from 0.94 GB to 0.94 GB.
+Total: 10.486900 ms (FindLiveObjects: 1.548700 ms CreateObjectMapping: 0.928800 ms MarkObjects: 5.226500 ms  DeleteObjects: 2.781400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -959,16 +327,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7101.563658 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
-  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ada091625559613b01180e94b49cfe') in 0.514190 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

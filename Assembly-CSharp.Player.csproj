@@ -65,8 +65,8 @@
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOVRInputSync.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Pooling\Pool.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\Assistants\OculusAssist.cs" />
-    <Compile Include="Assets\Photon\Simple\Components\SyncState\SyncOwner.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\ProjectileHelpers.cs" />
+    <Compile Include="Assets\Photon\Simple\Components\SyncState\SyncOwner.cs" />
     <Compile Include="Assets\Photon\Simple\Core\NetMaster\NetMasterLate.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\Attributes\SyncVarAttribute.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -130,8 +130,8 @@
     <Compile Include="Assets\Photon\PhotonUtilities\EditorTools\InspectorUtils.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Photon\Simple\Core\NetMaster\Interfaces\NetMasterInterfaces.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\Compression\NormCompress\NormCompress.cs" />
+    <Compile Include="Assets\Photon\Simple\Core\NetMaster\Interfaces\NetMasterInterfaces.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\ContactManager.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\AutoDestroyWrongNetLib.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\Vitals.cs" />
@@ -146,8 +146,8 @@
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\Interfaces\IOnVitalChange.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Mount\Mount.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\DataTypes\VitalData.cs" />
-    <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\UI\VitalUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+    <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\UI\VitalUI.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Callbacks\CallbackUtilities.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\Assistants\InventorySystemAssists.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Mount\MountThrow.cs" />
@@ -231,8 +231,8 @@
     <Compile Include="Assets\Photon\Simple\Example\Scripts\TakeOwnership.cs" />
     <Compile Include="Assets\Photon\Simple\Example\Scripts\OwnerGUI.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\Interfaces\IContactSystem.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Photon\Simple\Components\EnableOnNetObjReady.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Component\CopyComponent.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Assistants\PickupAssists.cs" />
@@ -330,8 +330,8 @@
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\NetworkHits.cs" />
     <Compile Include="Assets\Scripts\UIFunctions.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Enums\Enums.cs" />
-    <Compile Include="Assets\Photon\Simple\Example\Scripts\TestPackObject.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOculusAutomation.cs" />
+    <Compile Include="Assets\Photon\Simple\Example\Scripts\TestPackObject.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\ContactGroupValues.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\Attributes\SyncRangedAttribute.cs" />
@@ -607,29 +607,29 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>D:\App data\Unity Hub\2022.2.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="SharpPcap">
+      <HintPath>Assets\ToolsAndTests\TrafficRecording\libs\SharpPcap.dll</HintPath>
+    </Reference>
+    <Reference Include="ByteConverter">
+      <HintPath>Assets\Photon\PhotonUtilities\Compression\plugins\ByteConverter.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
+    <Reference Include="PacketDotNet">
+      <HintPath>Assets\ToolsAndTests\TrafficRecording\libs\PacketDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="FloatCrusher">
       <HintPath>Assets\Photon\PhotonUtilities\TransformCrusher\plugins\FloatCrusher.dll</HintPath>
     </Reference>
-    <Reference Include="PacketDotNet">
-      <HintPath>Assets\ToolsAndTests\TrafficRecording\libs\PacketDotNet.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="HalFloat">
       <HintPath>Assets\Photon\PhotonUtilities\TransformCrusher\plugins\HalFloat.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpPcap">
-      <HintPath>Assets\ToolsAndTests\TrafficRecording\libs\SharpPcap.dll</HintPath>
-    </Reference>
-    <Reference Include="ByteConverter">
-      <HintPath>Assets\Photon\PhotonUtilities\Compression\plugins\ByteConverter.dll</HintPath>
     </Reference>
     <Reference Include="QuatCompress">
       <HintPath>Assets\Photon\PhotonUtilities\TransformCrusher\plugins\QuatCompress.dll</HintPath>
@@ -1042,13 +1042,13 @@
       <Project>{D420EDD2-351E-838A-4CFF-3F203B9B58F3}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.Player.csproj">
+      <Project>{BCCFE985-34D4-83B4-B427-B67F2C18ADF1}</Project>
+      <Name>PhotonRealtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
       <Project>{0EC10CB8-F9AF-300D-DA3E-08318955EC7B}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonChat.Player.csproj">
-      <Project>{4862D060-82C2-60CC-C972-726FC2CD00AA}</Project>
-      <Name>PhotonChat.Player</Name>
     </ProjectReference>
     <ProjectReference Include="HalfFloatASMDEF.Player.csproj">
       <Project>{98F611F6-75E2-78CE-B19D-E167CA2B340D}</Project>
@@ -1058,9 +1058,9 @@
       <Project>{9E1CF76C-10A2-E243-552B-F6C7534303FD}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.Player.csproj">
-      <Project>{BCCFE985-34D4-83B4-B427-B67F2C18ADF1}</Project>
-      <Name>PhotonRealtime.Player</Name>
+    <ProjectReference Include="PhotonChat.Player.csproj">
+      <Project>{4862D060-82C2-60CC-C972-726FC2CD00AA}</Project>
+      <Name>PhotonChat.Player</Name>
     </ProjectReference>
     <ProjectReference Include="BitpackersASMDEF.Player.csproj">
       <Project>{9A13D31F-F0F4-52C1-9B7E-0BCB709C3788}</Project>

@@ -95,6 +95,7 @@ public class GameManager : MonoBehaviour
             FillTempList();
             FillSaveData();
             saveData.SetTimes();
+            SaveSystem.instance.SaveGame(saveData);
         }
         if (controller.player2FinishTimeNumber >= p1RecordTime)
         {
@@ -103,6 +104,7 @@ public class GameManager : MonoBehaviour
             FillTempList();
             FillSaveData();
             saveData.SetTimes();
+            SaveSystem.instance.SaveGame(saveData);
         }
     }
 
