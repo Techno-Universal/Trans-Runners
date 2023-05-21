@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PauseScreenOpener : MonoBehaviour
 {
-    private bool escOn = true;
+    public bool escOn = true;
 
     public GameObject PauseScreen;
     // Start is called before the first frame update
@@ -27,6 +28,7 @@ public class PauseScreenOpener : MonoBehaviour
     }
     public void DoAction()
     {
+       
         PauseScreen.gameObject.SetActive(!PauseScreen.gameObject.activeSelf);
         if (Time.timeScale == 1.0f)
         {
@@ -35,7 +37,7 @@ public class PauseScreenOpener : MonoBehaviour
         else
         {
             Time.timeScale = 1.0f;
-        }    
+        }
     }
     public void ESCOff()
     {

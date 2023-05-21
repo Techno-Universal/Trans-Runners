@@ -31,6 +31,8 @@ public class FinishZone : MonoBehaviour
     public GameObject p2FTUI1;
     public GameObject p2FTUI2;
 
+    public GameObject pScreen;
+
     public GameData gData;
 
     // Start is called before the first frame update
@@ -67,18 +69,20 @@ public class FinishZone : MonoBehaviour
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
+                pauseO.escOn = false;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
-                manager.AutoSave();
                 gData.SetTimes();
-                pauseO.ESCOff();
+                manager.AutoSave();
+                Destroy(pScreen.gameObject);
             }
             if (GameController.twoPlayers == false)
             {
+                pauseO.escOn = false;
                 levelUI.AllPlayersFInished();
                 controller.StopMusic();
                 player1finish.gameObject.SetActive(false);
@@ -88,9 +92,9 @@ public class FinishZone : MonoBehaviour
                 p2FTUI1.gameObject.SetActive(false);
                 p2FTUI2.gameObject.SetActive(false);
                 controller.player1FinishTime = tim.displayTime;
-                manager.AutoSave();
                 gData.SetTimes();
-                pauseO.ESCOff();
+                manager.AutoSave();
+                Destroy(pScreen.gameObject);
             }
         }
         if (other.tag == "Player2")
@@ -105,15 +109,16 @@ public class FinishZone : MonoBehaviour
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");
+                pauseO.escOn = false;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
                 player1finish.gameObject.SetActive(false);
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
-                manager.AutoSave();
                 gData.SetTimes();
-                pauseO.ESCOff();
+                manager.AutoSave();
+                Destroy(pScreen.gameObject);
             }
         }
 
