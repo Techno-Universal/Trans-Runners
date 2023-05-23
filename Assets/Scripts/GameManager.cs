@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour
     public GameObject nR1;
     public GameObject nR2;
 
+    public GameData data;
+
     public PlayerData playerData;
 
     public Rect rect;
@@ -60,8 +62,15 @@ public class GameManager : MonoBehaviour
 
         cam1 = GetComponent<Camera>();
 
-        saveSystem.LoadGame();
+        //saveSystem.LoadGame();
+        //data.LoadTimes();
         //timer.StartTimer();
+    }
+    private void Awake()
+    {
+
+        saveSystem.LoadGame();
+        data.LoadTimes();
     }
     public void ResetData()
     {
@@ -88,6 +97,7 @@ public class GameManager : MonoBehaviour
     }
     public void AutoSave()
     {
+        Debug.Log("Saving...");
         if (controller.player1FinishTimeNumber >= p1RecordTime)
         {
             p1RecordTime = controller.player1FinishTimeNumber;

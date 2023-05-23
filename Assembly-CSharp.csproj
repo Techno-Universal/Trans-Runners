@@ -306,6 +306,7 @@
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\FloatCrushDrawer.cs" />
     <Compile Include="Assets\Photon\Simple\Components\AutoOwnerGameObjEnable.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\Interfaces\IOnTeleport.cs" />
+    <Compile Include="Assets\Scripts\OnlineLobby.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\OnStateChangeToggle.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\Interfaces\IProjectile.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\Enums\Realm.cs" />

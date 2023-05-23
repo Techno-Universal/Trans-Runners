@@ -20,8 +20,6 @@ public class GameController : MonoBehaviour
     public float player1FinishTimeNumber;
     public float player2FinishTimeNumber;
 
-    public List<GameObject> players;
-
     public PauseScreenOpener pause1;
 
     public GameManager gameManager;
@@ -30,12 +28,27 @@ public class GameController : MonoBehaviour
 
     public GameData gData;
 
+    public List<GameObject> players;
+
     // Start is called before the first frame update
     void Start()
     {
         player1Finish = false;
         player2Finish = false;
     }
+   /* private void FixedUpdate()
+    {
+
+        if (GameController.twoPlayers == false)
+        {
+            gameManager.OnePlayer();
+            Debug.Log("YES!!");
+        }
+        if (GameController.twoPlayers == true)
+        {
+            Debug.Log("TWO!!");
+        }
+    }*/
     public void TwoPlayers(bool value)
     {
         if (value == true)
@@ -51,13 +64,6 @@ public class GameController : MonoBehaviour
     }
     void OnEnable()
     {
-        gData.LoadTimes();
-        Debug.Log("On Enable...");
-        pause1.ESCOn();
-        Debug.Log("Starting...");
-        GetComponent<GameManager>();
-        //player1Finish = false;
-        //player2Finish = false;
         if (GameController.twoPlayers == false)
         {
             gameManager.OnePlayer();
@@ -67,6 +73,11 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("TWO!!");
         }
+        gData.LoadTimes();
+        Debug.Log("On Enable...");
+        pause1.ESCOn();
+        Debug.Log("Starting...");
+        GetComponent<GameManager>();
         musicMan.Play();
     }
     // Update is called once per frame

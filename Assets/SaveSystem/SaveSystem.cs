@@ -21,7 +21,7 @@ public class SaveSystem : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        filePath = Application.persistentDataPath + "/save.data";
+        filePath = Application.persistentDataPath + "/" + fileName + ".data";
 
     }
     public void SaveGame(GameData saveData)
@@ -37,6 +37,7 @@ public class SaveSystem : MonoBehaviour
     {
         if (File.Exists(filePath))
         {
+            Debug.Log("Loading Save File...");
             FileStream dataStream = new FileStream(filePath, FileMode.Open);
 
             BinaryFormatter converter = new BinaryFormatter();
