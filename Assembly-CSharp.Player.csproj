@@ -133,6 +133,7 @@
     <Compile Include="Assets\Photon\PhotonUtilities\Compression\NormCompress\NormCompress.cs" />
     <Compile Include="Assets\Photon\Simple\Core\NetMaster\Interfaces\NetMasterInterfaces.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\ContactManager.cs" />
+    <Compile Include="Assets\Scripts\CreateAndJoinRooms.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\AutoDestroyWrongNetLib.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\Vitals.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncAnimator\Structs\AnimPassThru.cs" />
