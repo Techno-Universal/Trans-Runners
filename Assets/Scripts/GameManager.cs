@@ -98,8 +98,9 @@ public class GameManager : MonoBehaviour
     public void AutoSave()
     {
         Debug.Log("Saving...");
-        if (controller.player1FinishTimeNumber >= p1RecordTime)
+        if (controller.player1FinishTimeNumber <= p1RecordTime)
         {
+            Debug.Log("New Record P1!");
             p1RecordTime = controller.player1FinishTimeNumber;
             nR1.gameObject.SetActive(true);
             FillTempList();
@@ -107,8 +108,9 @@ public class GameManager : MonoBehaviour
             saveData.SetTimes();
             SaveSystem.instance.SaveGame(saveData);
         }
-        if (controller.player2FinishTimeNumber >= p1RecordTime)
+        if (controller.player2FinishTimeNumber <= p1RecordTime)
         {
+            Debug.Log("New Record P2!");
             p2RecordTime = controller.player2FinishTimeNumber;
             nR2.gameObject.SetActive(true);
             FillTempList();
