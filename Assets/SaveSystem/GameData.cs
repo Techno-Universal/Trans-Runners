@@ -41,6 +41,7 @@ public class GameData
     }
     public void LoadTimes()
     {
+        PlayerData data = new PlayerData();
         Debug.Log("Times loaded...");
         manager.altp1RecordTime = player1BestTimeL1;
         manager.altp2RecordTime = player2BestTimeL1;

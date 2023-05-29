@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       /*#region Singleton
+       #region Singleton
        if (instance != null)
         {
             Destroy(gameObject);
@@ -48,12 +48,13 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        #endregion */
+        #endregion
 
         saveData = SaveSystem.instance.LoadGame();
 
-        //if (saveData == null) saveData = new List<PlayerData>(0);
+        if (saveData == null) saveData = new GameData();
 
+        data.LoadTimes();
         FillTempList();
 
         saveData.currentPlayers = new List <PlayerData>(0);
