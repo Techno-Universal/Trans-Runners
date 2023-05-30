@@ -76,7 +76,7 @@ public class FinishZone : MonoBehaviour
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
-                gData.SetTimes();
+                GameManager.instance.SetTimes();
                 manager.AutoSave();
                 Destroy(pScreen.gameObject);
             }
@@ -92,7 +92,7 @@ public class FinishZone : MonoBehaviour
                 p2FTUI1.gameObject.SetActive(false);
                 p2FTUI2.gameObject.SetActive(false);
                 controller.player1FinishTime = tim.displayTime;
-                gData.SetTimes();
+                GameManager.instance.SetTimes();
                 manager.AutoSave();
                 Destroy(pScreen.gameObject);
             }
@@ -116,7 +116,7 @@ public class FinishZone : MonoBehaviour
                 player2finish.gameObject.SetActive(false);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
-                gData.SetTimes();
+                GameManager.instance.SetTimes();
                 manager.AutoSave();
                 Destroy(pScreen.gameObject);
             }

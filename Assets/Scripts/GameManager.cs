@@ -32,14 +32,16 @@ public class GameManager : MonoBehaviour
 
     public GameData data;
 
-    public PlayerData playerData;
+    //public PlayerData playerData;
+    public List<PlayerData> playerTimes = new List<PlayerData>();
 
+    public List<PlayerData> currentPlayers = new List<PlayerData>();
     public Rect rect;
     // Start is called before the first frame update
     void Start()
     {
-       #region Singleton
-       if (instance != null)
+        #region Singleton
+        if (instance != null)
         {
             Destroy(gameObject);
         }
@@ -54,12 +56,12 @@ public class GameManager : MonoBehaviour
 
         if (saveData == null) saveData = new GameData();
 
-        data.LoadTimes();
+        LoadTimes();
         FillTempList();
 
-        saveData.currentPlayers = new List <PlayerData>(0);
-        saveData.currentPlayers.Add(new PlayerData());
-        saveData.currentPlayers.Add(new PlayerData());
+        currentPlayers = new List<PlayerData>(0);
+        currentPlayers.Add(new PlayerData());
+        currentPlayers.Add(new PlayerData());
 
         cam1 = GetComponent<Camera>();
 
@@ -70,8 +72,8 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
 
-        saveSystem.LoadGame();
-        data.LoadTimes();
+        //saveSystem.LoadGame();
+        //LoadTimes();
     }
     public void ResetData()
     {
@@ -80,10 +82,10 @@ public class GameManager : MonoBehaviour
 
     public void FillTempList()
     {
-        playerData.level = 1;
+        saveData.level = 1;
 
-        playerData.player1BestTimeL1 = p1RecordTime;
-        playerData.player2BestTimeL1 = p2RecordTime;
+        saveData.player1BestTimeL1 = p1RecordTime;
+        saveData.player2BestTimeL1 = p2RecordTime;
     }
     public void FillSaveData()
     {
@@ -99,14 +101,14 @@ public class GameManager : MonoBehaviour
     public void AutoSave()
     {
         Debug.Log("Saving...");
-        if (controller.player1FinishTimeNumber <= p1RecordTime)
+        if (controller.player1FinishTimeNumber <= p1RecordTime || p1RecordTime <=0)
         {
             Debug.Log("New Record P1!");
             p1RecordTime = controller.player1FinishTimeNumber;
             nR1.gameObject.SetActive(true);
             FillTempList();
             FillSaveData();
-            saveData.SetTimes();
+            SetTimes();
             SaveSystem.instance.SaveGame(saveData);
         }
         if (controller.player2FinishTimeNumber <= p1RecordTime)
@@ -116,7 +118,7 @@ public class GameManager : MonoBehaviour
             nR2.gameObject.SetActive(true);
             FillTempList();
             FillSaveData();
-            saveData.SetTimes();
+            SetTimes();
             SaveSystem.instance.SaveGame(saveData);
         }
     }
@@ -134,5 +136,28 @@ public class GameManager : MonoBehaviour
         Destroy(player2VCam);
         float margin = (0.0f);
         cam1.rect = new Rect(margin, 0.0f, 1.0f - margin * 2.0f, 1.0f);
+    }
+   // public void ResetData()
+    //{
+      //  Debug.Log("Save Data Reset!");
+        //player1BestTimeL1 = 0;
+       // player2BestTimeL1 = 0;
+        //level = 0;
+    //}
+    public void SetTimes()
+    {
+        Debug.Log("Times Set...");
+        data.player1BestTimeL1 = p1RecordTime;
+        data.player2BestTimeL1 = p2RecordTime;
+        //data.player2BestTimeL1 = 0;
+        altp1RecordTime = p1RecordTime;
+        altp2RecordTime = p2RecordTime;
+    }
+    public void LoadTimes()
+    {
+        PlayerData data = new PlayerData();
+        Debug.Log("Times loaded...");
+        altp1RecordTime = data.player1BestTimeL1;
+        altp2RecordTime = data.player2BestTimeL1;
     }
 }

@@ -73,7 +73,7 @@ public class GameController : MonoBehaviour
         {
             Debug.Log("TWO!!");
         }
-        gData.LoadTimes();
+        GameManager.instance.LoadTimes();
         Debug.Log("On Enable...");
         pause1.ESCOn();
         Debug.Log("Starting...");
@@ -105,6 +105,6 @@ public class GameController : MonoBehaviour
     }
     public void ResetSaveData()
     {
-        gData.ResetData();
+        GameManager.instance.ResetData();
     }
 }
