@@ -21,6 +21,10 @@ public class Timer : MonoBehaviour
         StartTimer(startTime);
         displayTime = "00:00";
     }
+    private void OnEnable()
+    {
+        timeUI = GameObject.Find("InLevelUI").GetComponent<InLevelUI>();
+    }
 
     void Update()
     {

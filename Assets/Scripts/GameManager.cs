@@ -69,11 +69,10 @@ public class GameManager : MonoBehaviour
         //data.LoadTimes();
         //timer.StartTimer();
     }
-    private void Awake()
+    private void OnEnable()
     {
+        timer = GameObject.Find("Timer").GetComponent<Timer>();
 
-        //saveSystem.LoadGame();
-        //LoadTimes();
     }
     public void ResetData()
     {

@@ -1004,6 +1004,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{EDF1BD83-39F4-25F7-0FD8-0143759992A7}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
+      <Project>{EB0F631F-FE53-D303-53C0-231F880497A8}</Project>
+      <Name>Unity.AI.Navigation.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="OnwershipTestsASMDEF.Player.csproj">
+      <Project>{60D7BE8D-128D-3347-D91C-26261AF620FD}</Project>
+      <Name>OnwershipTestsASMDEF.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
+      <Project>{D420EDD2-351E-838A-4CFF-3F203B9B58F3}</Project>
+      <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.Player.csproj">
+      <Project>{4862D060-82C2-60CC-C972-726FC2CD00AA}</Project>
+      <Name>PhotonChat.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Player.csproj">
+      <Project>{DBCCA48E-A2E3-3053-2FF3-73C74FB79152}</Project>
+      <Name>PhotonUnityNetworking.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{CBF2B6C2-07CE-D824-5001-FFE0C3BDBA17}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmoCompressUtilsASMDEF.Player.csproj">
+      <Project>{1F4C12E8-5524-3108-D31C-01BAFA8D4AB6}</Project>
+      <Name>EmoCompressUtilsASMDEF.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.Player.csproj">
+      <Project>{00DDFBA0-398A-FCB3-7252-B914A9649C37}</Project>
+      <Name>PhotonUnityNetworking.Demos.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Player.csproj">
+      <Project>{657AE26A-F101-A7A9-BC23-242796B05B7F}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{19876298-A70B-AD01-C8C8-3169ED81754A}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
       <Project>{B3141681-E0B0-85B7-0D44-58FEF4A504FE}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
@@ -1012,10 +1056,6 @@
       <Project>{DA8B06BB-930F-A08F-2EFE-5F1A0A777DE6}</Project>
       <Name>InterestManagement.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{EDF1BD83-39F4-25F7-0FD8-0143759992A7}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
       <Project>{87C3698E-5FD4-AE27-F471-8F35FFC6A8F4}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
@@ -1023,10 +1063,6 @@
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{DFA715AD-87CD-4109-E5F4-97799C50247B}</Project>
       <Name>Unity.Burst.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="OnwershipTestsASMDEF.Player.csproj">
-      <Project>{60D7BE8D-128D-3347-D91C-26261AF620FD}</Project>
-      <Name>OnwershipTestsASMDEF.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Player.csproj">
       <Project>{11BD4EC8-7771-20A4-5038-4A9509FA8525}</Project>
@@ -1039,10 +1075,6 @@
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{9063B959-3DD0-F775-9FAC-C5D6BD27BBFB}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{D420EDD2-351E-838A-4CFF-3F203B9B58F3}</Project>
-      <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.Player.csproj">
       <Project>{BCCFE985-34D4-83B4-B427-B67F2C18ADF1}</Project>
@@ -1060,41 +1092,13 @@
       <Project>{9E1CF76C-10A2-E243-552B-F6C7534303FD}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonChat.Player.csproj">
-      <Project>{4862D060-82C2-60CC-C972-726FC2CD00AA}</Project>
-      <Name>PhotonChat.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="BitpackersASMDEF.Player.csproj">
       <Project>{9A13D31F-F0F4-52C1-9B7E-0BCB709C3788}</Project>
       <Name>BitpackersASMDEF.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Player.csproj">
-      <Project>{DBCCA48E-A2E3-3053-2FF3-73C74FB79152}</Project>
-      <Name>PhotonUnityNetworking.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{CBF2B6C2-07CE-D824-5001-FFE0C3BDBA17}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="EmoCompressUtilsASMDEF.Player.csproj">
-      <Project>{1F4C12E8-5524-3108-D31C-01BAFA8D4AB6}</Project>
-      <Name>EmoCompressUtilsASMDEF.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{8BD3A401-857E-5B95-5379-D56067463D49}</Project>
       <Name>Unity.Mathematics.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.Player.csproj">
-      <Project>{00DDFBA0-398A-FCB3-7252-B914A9649C37}</Project>
-      <Name>PhotonUnityNetworking.Demos.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Player.csproj">
-      <Project>{657AE26A-F101-A7A9-BC23-242796B05B7F}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{19876298-A70B-AD01-C8C8-3169ED81754A}</Project>
-      <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
       <Project>{532454DE-B2C3-1279-9B1E-9188DFEEFB64}</Project>
