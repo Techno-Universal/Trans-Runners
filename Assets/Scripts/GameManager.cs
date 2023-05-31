@@ -72,6 +72,12 @@ public class GameManager : MonoBehaviour
     private void OnEnable()
     {
         timer = GameObject.Find("Timer").GetComponent<Timer>();
+        player2 = GameObject.Find("Player2");
+        player2Cam = GameObject.Find("Player2 Camera");
+        player2VCam = GameObject.Find("P2 Vcam");
+        nR1 = GameObject.Find("NR1");
+        nR2 = GameObject.Find("NR2");
+        cam1 = GameObject.Find("Player1 Camera").GetComponent<Camera>();
 
     }
     public void ResetData()
