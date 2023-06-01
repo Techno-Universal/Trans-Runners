@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
@@ -69,16 +70,9 @@ public class GameManager : MonoBehaviour
         //data.LoadTimes();
         //timer.StartTimer();
     }
-    private void OnEnable()
+    private void Awake()
     {
-        timer = GameObject.Find("Timer").GetComponent<Timer>();
-        player2 = GameObject.Find("Player2");
-        player2Cam = GameObject.Find("Player2 Camera");
-        player2VCam = GameObject.Find("P2 Vcam");
-        nR1 = GameObject.Find("NR1");
-        nR2 = GameObject.Find("NR2");
-        cam1 = GameObject.Find("Player1 Camera").GetComponent<Camera>();
-
+        AssignObjects();
     }
     public void ResetData()
     {
@@ -106,7 +100,7 @@ public class GameManager : MonoBehaviour
     public void AutoSave()
     {
         Debug.Log("Saving...");
-        if (controller.player1FinishTimeNumber <= p1RecordTime || p1RecordTime <=0)
+        if (controller.player1FinishTimeNumber <= p1RecordTime || p1RecordTime <= 0)
         {
             Debug.Log("New Record P1!");
             p1RecordTime = controller.player1FinishTimeNumber;
@@ -131,7 +125,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void OnePlayer()
     {
@@ -142,12 +136,12 @@ public class GameManager : MonoBehaviour
         float margin = (0.0f);
         cam1.rect = new Rect(margin, 0.0f, 1.0f - margin * 2.0f, 1.0f);
     }
-   // public void ResetData()
+    // public void ResetData()
     //{
-      //  Debug.Log("Save Data Reset!");
-        //player1BestTimeL1 = 0;
-       // player2BestTimeL1 = 0;
-        //level = 0;
+    //  Debug.Log("Save Data Reset!");
+    //player1BestTimeL1 = 0;
+    // player2BestTimeL1 = 0;
+    //level = 0;
     //}
     public void SetTimes()
     {
@@ -165,4 +159,29 @@ public class GameManager : MonoBehaviour
         altp1RecordTime = data.player1BestTimeL1;
         altp2RecordTime = data.player2BestTimeL1;
     }
+    public void AssignObjects()
+    {
+        if (player2 != null)
+        {
+            Debug.Log("Objects Found!!!");
+        }
+        else
+        {
+            Debug.Log("Loading objects...");
+
+            timer = GameObject.Find("/Timer").GetComponent<Timer>();
+            player2 = GameObject.Find("/Player2");
+            player2Cam = GameObject.Find("/Player2 Camera");
+            player2VCam = GameObject.Find("/P2 Vcam");
+            nR1 = GameObject.Find("/UI canvas /Level Complete Screeen /NR1");
+            nR2 = GameObject.Find("/UI canvas /Level Complete Screeen /NR2");
+            cam1 = GameObject.Find("/Player1 Camera").GetComponent<Camera>();
+
+            Debug.Log(player2.gameObject.name);
+
+            AssignObjects();
+        }
+           
+    }
 }
+

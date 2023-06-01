@@ -62,8 +62,10 @@ public class GameController : MonoBehaviour
             GameController.twoPlayers = false;
         }
     }
-    void OnEnable()
+    void Awake()
     {
+        musicMan = GameObject.Find("/Controllers /Music").GetComponent<AudioSource>();
+
         if (GameController.twoPlayers == false)
         {
             gameManager.OnePlayer();
