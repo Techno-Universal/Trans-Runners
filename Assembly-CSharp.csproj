@@ -261,6 +261,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Assistants\StateAssists.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\NetworkHit.cs" />
+    <Compile Include="Assets\Scripts\DestroyObjectOnSceneClose.cs" />
     <Compile Include="Assets\Photon\Simple\Example\Scripts\TickMover.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />

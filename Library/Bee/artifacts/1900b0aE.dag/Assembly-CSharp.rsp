@@ -652,6 +652,7 @@
 "Assets/Scripts/CharacterMovement1.cs"
 "Assets/Scripts/CharacterMovement2.cs"
 "Assets/Scripts/CreateAndJoinRooms.cs"
+"Assets/Scripts/DestroyObjectOnSceneClose.cs"
 "Assets/Scripts/FinishZone.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/GameManager.cs"

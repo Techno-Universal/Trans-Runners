@@ -57,6 +57,7 @@ public class FinishZone : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Enter...");
         if (other.tag == "Player1")
         {
             Debug.Log("Player1 Finish");

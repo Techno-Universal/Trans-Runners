@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
         #region Singleton
         if (instance != null)
         {
+            Debug.Log("Removed Controller...");
             Destroy(gameObject);
         }
         else
@@ -161,7 +162,7 @@ public class GameManager : MonoBehaviour
     }
     public void AssignObjects()
     {
-        if (player2 != null)
+        /*if (player2 != null)
         {
             Debug.Log("Objects Found!!!");
         }
@@ -180,7 +181,7 @@ public class GameManager : MonoBehaviour
             Debug.Log(player2.gameObject.name);
 
             AssignObjects();
-        }
+        }*/
            
     }
 }
