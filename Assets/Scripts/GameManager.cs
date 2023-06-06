@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
+using System.Collections.Generic;   
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -10,26 +10,27 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public GameData saveData;
 
-    public Timer timer;
+    public static Timer timer;
+    #region
+    public static GameObject player2;
+    public static GameObject player2Cam;
+    public static GameObject player2VCam;
+    #endregion
 
-    public GameObject player2;
-    public GameObject player2Cam;
-    public GameObject player2VCam;
+    public static GameController controller;
 
-    public GameController controller;
-
-    public SaveSystem saveSystem;
+    public static SaveSystem saveSystem;
 
     public static float p1RecordTime;
     public static float p2RecordTime;
 
-    public Camera cam1;
+    public static Camera cam1;
 
     public float altp1RecordTime;
     public float altp2RecordTime;
 
-    public GameObject nR1;
-    public GameObject nR2;
+    public static GameObject nR1;
+    public static GameObject nR2;
 
     public GameData data;
 
@@ -162,7 +163,7 @@ public class GameManager : MonoBehaviour
     }
     public void AssignObjects()
     {
-        /*if (player2 != null)
+        if (player2 != null)
         {
             Debug.Log("Objects Found!!!");
         }
@@ -181,7 +182,7 @@ public class GameManager : MonoBehaviour
             Debug.Log(player2.gameObject.name);
 
             AssignObjects();
-        }*/
+        }
            
     }
 }

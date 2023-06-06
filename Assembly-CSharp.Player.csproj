@@ -63,6 +63,7 @@
     <Compile Include="Assets\Photon\Simple\Components\SyncAnimator\SyncAnimator.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\NameTypeDrawer.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOVRInputSync.cs" />
+    <Compile Include="Assets\Scripts\Assignment scripts\AVcam2.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Pooling\Pool.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\Assistants\OculusAssist.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\ProjectileHelpers.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOVRGrabber.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\Animator\AnimatorControllerTools.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\Interfaces\IVitalsSystem.cs" />
+    <Compile Include="Assets\Scripts\Assignment scripts\Acam2.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Structs\FrameBase.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\CodeGen\Helpers\TypeHelpers.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -109,6 +111,7 @@
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\CustomMaskEditors\MaskLogic.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncAnimator\Classes\ParameterDefaults.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\TransformCrusher.cs" />
+    <Compile Include="Assets\Scripts\Assignment scripts\Anr1.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\Assistants\WeaponAssists.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\ValueTypeAttribute.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\InventoryContactReactors.cs" />
@@ -309,6 +312,7 @@
     <Compile Include="Assets\Photon\Simple\Components\AutoOwnerGameObjEnable.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\Interfaces\IOnTeleport.cs" />
     <Compile Include="Assets\Scripts\OnlineLobby.cs" />
+    <Compile Include="Assets\Scripts\Assignment scripts\Acam1.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\OnStateChangeToggle.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\Interfaces\IProjectile.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\Enums\Realm.cs" />
@@ -354,6 +358,7 @@
     <Compile Include="Assets\Photon\Simple\Components\SyncState\StateReactors.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\Interfaces\PackFieldInterfaces.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Scripts\Assignment scripts\Anr2.cs" />
     <Compile Include="Assets\Photon\Simple\Example\Scripts\SuperBasicController.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Constants\ApplyOrderConstants.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />

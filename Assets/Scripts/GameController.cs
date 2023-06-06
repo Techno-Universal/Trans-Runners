@@ -9,6 +9,10 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+
+    #region
+    public static GameManager gameManager;
+    #endregion
     public bool player1Finish = false;
     public bool player2Finish = false;
 
@@ -22,9 +26,7 @@ public class GameController : MonoBehaviour
 
     public PauseScreenOpener pause1;
 
-    public GameManager gameManager;
-
-    public AudioSource musicMan;
+    public static AudioSource musicMan;
 
     public GameData gData;
 
@@ -35,6 +37,8 @@ public class GameController : MonoBehaviour
     {
         player1Finish = false;
         player2Finish = false;
+
+        GameManager.controller = this;
     }
    /* private void FixedUpdate()
     {

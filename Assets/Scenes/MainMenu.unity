@@ -780,7 +780,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2120171839}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: ResetSaveData
         m_Mode: 1
@@ -2037,7 +2037,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2120171839}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: TwoPlayers
         m_Mode: 0
@@ -2845,6 +2845,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2120171849}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: StartTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1408903364}
         m_TargetAssemblyTypeName: LoadNextScene, Assembly-CSharp
@@ -9008,7 +9020,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2120171841}
   - component: {fileID: 2120171840}
-  - component: {fileID: 2120171839}
   - component: {fileID: 2120171842}
   - component: {fileID: 2120171846}
   - component: {fileID: 2120171845}
@@ -9021,32 +9032,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2120171839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120171838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c93d2e10df809d4ba6451d305625bed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1Finish: 0
-  player2Finish: 0
-  player1FinishTime: 0
-  player2FinishTime: 0
-  player1FinishTimeNumber: 0
-  player2FinishTimeNumber: 0
-  pause1: {fileID: 2120171846}
-  gameManager: {fileID: 2120171845}
-  musicMan: {fileID: 0}
-  gData:
-    level: 0
-    player1BestTimeL1: 0
-    player2BestTimeL1: 0
-  players: []
 --- !u!114 &2120171840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9102,17 +9087,8 @@ MonoBehaviour:
     level: 0
     player1BestTimeL1: 0
     player2BestTimeL1: 0
-  timer: {fileID: 2120171849}
-  player2: {fileID: 0}
-  player2Cam: {fileID: 0}
-  player2VCam: {fileID: 0}
-  controller: {fileID: 2120171839}
-  saveSystem: {fileID: 2120171848}
-  cam1: {fileID: 0}
   altp1RecordTime: 0
   altp2RecordTime: 0
-  nR1: {fileID: 0}
-  nR2: {fileID: 0}
   data:
     level: 0
     player1BestTimeL1: 0
@@ -9169,7 +9145,6 @@ MonoBehaviour:
   TimesUp:
     m_PersistentCalls:
       m_Calls: []
-  timeUI: {fileID: 0}
 --- !u!1 &2126294270
 GameObject:
   m_ObjectHideFlags: 0

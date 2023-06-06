@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
-    public float startTime;
+    public float startTime = 0;
     public float currentTime;
 
     public string displayTime;
@@ -13,22 +13,26 @@ public class Timer : MonoBehaviour
 
     public UnityEvent TimesUp;
 
-    public InLevelUI timeUI;
+    public static InLevelUI timeUI;
 
     // Update is called once per frame
     private void Start()
     {
-        StartTimer(startTime);
+        InLevelUI.timer = this;
         displayTime = "00:00";
     }
     private void OnEnable()
     {
-        timeUI = GameObject.Find("InLevelUI").GetComponent<InLevelUI>();
+        //isTiming = false;
+        //currentTime = 0;
+        //StartTimer(startTime);
+        //timeUI = GameObject.Find("InLevelUI").GetComponent<InLevelUI>();
+        //isTiming = true;
     }
 
     void Update()
     {
-        if (isTiming)
+        if (isTiming == true)
         {
             Debug.Log("TimerRun");
             currentTime += Time.deltaTime;

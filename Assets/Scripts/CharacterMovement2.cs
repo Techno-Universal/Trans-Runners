@@ -34,7 +34,7 @@ public class CharacterMovement2 : MonoBehaviour
         cc = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
 
-        // cam = Camera.main;
+        GameManager.player2 = gameObject;
     }
 
     // Update is called once per frame
