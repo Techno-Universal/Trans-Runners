@@ -6,7 +6,7 @@ public class Acam2 : MonoBehaviour
 {
     void Start()
     {
-        GameManager.player2Cam = gameObject;
+        //GameManager.player2Cam = gameObject;
     }
 }
     

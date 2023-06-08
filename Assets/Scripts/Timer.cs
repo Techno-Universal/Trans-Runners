@@ -18,7 +18,6 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     private void Start()
     {
-        InLevelUI.timer = this;
         displayTime = "00:00";
     }
     private void OnEnable()
@@ -28,6 +27,10 @@ public class Timer : MonoBehaviour
         //StartTimer(startTime);
         //timeUI = GameObject.Find("InLevelUI").GetComponent<InLevelUI>();
         //isTiming = true;
+
+        FinishZone.tim = this;
+
+        InLevelUI.timer = this;
     }
 
     void Update()
@@ -64,6 +67,11 @@ public class Timer : MonoBehaviour
     {
         isTiming = false;
         timeUI.DisableTimer();
+    }
+    public void ResetTimer()
+    {
+        currentTime = 0;
+        displayTime = "00:00";
     }
 
 }

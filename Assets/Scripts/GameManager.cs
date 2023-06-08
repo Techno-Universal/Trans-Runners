@@ -11,11 +11,8 @@ public class GameManager : MonoBehaviour
     public GameData saveData;
 
     public static Timer timer;
-    #region
-    public static GameObject player2;
-    public static GameObject player2Cam;
-    public static GameObject player2VCam;
-    #endregion
+
+    public static bool twoPlayers;
 
     public static GameController controller;
 
@@ -24,13 +21,8 @@ public class GameManager : MonoBehaviour
     public static float p1RecordTime;
     public static float p2RecordTime;
 
-    public static Camera cam1;
-
     public float altp1RecordTime;
     public float altp2RecordTime;
-
-    public static GameObject nR1;
-    public static GameObject nR2;
 
     public GameData data;
 
@@ -66,15 +58,28 @@ public class GameManager : MonoBehaviour
         currentPlayers.Add(new PlayerData());
         currentPlayers.Add(new PlayerData());
 
-        cam1 = GetComponent<Camera>();
-
         //saveSystem.LoadGame();
         //data.LoadTimes();
         //timer.StartTimer();
     }
     private void Awake()
     {
-        AssignObjects();
+        FinishZone.manager = this;
+    }
+
+    public void TwoPlayers(bool value1)
+    {
+        if (value1 == true)
+        {
+            Debug.Log("ON");
+            GameManager.twoPlayers = true;
+        }
+        else
+        {
+            Debug.Log("OFF");
+            GameManager.twoPlayers = false;
+        }
+        
     }
     public void ResetData()
     {
@@ -99,24 +104,27 @@ public class GameManager : MonoBehaviour
     {
 
     }
-    public void AutoSave()
+    public void AutoSave1()
     {
         Debug.Log("Saving...");
         if (controller.player1FinishTimeNumber <= p1RecordTime || p1RecordTime <= 0)
         {
             Debug.Log("New Record P1!");
             p1RecordTime = controller.player1FinishTimeNumber;
-            nR1.gameObject.SetActive(true);
+            controller.nR1.gameObject.SetActive(true);
             FillTempList();
             FillSaveData();
             SetTimes();
             SaveSystem.instance.SaveGame(saveData);
         }
+    }
+    public void AutoSave2()
+    {
         if (controller.player2FinishTimeNumber <= p1RecordTime)
         {
             Debug.Log("New Record P2!");
             p2RecordTime = controller.player2FinishTimeNumber;
-            nR2.gameObject.SetActive(true);
+            controller.nR2.gameObject.SetActive(true);
             FillTempList();
             FillSaveData();
             SetTimes();
@@ -129,15 +137,7 @@ public class GameManager : MonoBehaviour
     {
 
     }
-    public void OnePlayer()
-    {
-        Debug.Log("One Player");
-        Destroy(player2);
-        Destroy(player2Cam);
-        Destroy(player2VCam);
-        float margin = (0.0f);
-        cam1.rect = new Rect(margin, 0.0f, 1.0f - margin * 2.0f, 1.0f);
-    }
+    
     // public void ResetData()
     //{
     //  Debug.Log("Save Data Reset!");
@@ -160,30 +160,6 @@ public class GameManager : MonoBehaviour
         Debug.Log("Times loaded...");
         altp1RecordTime = data.player1BestTimeL1;
         altp2RecordTime = data.player2BestTimeL1;
-    }
-    public void AssignObjects()
-    {
-        if (player2 != null)
-        {
-            Debug.Log("Objects Found!!!");
-        }
-        else
-        {
-            Debug.Log("Loading objects...");
-
-            timer = GameObject.Find("/Timer").GetComponent<Timer>();
-            player2 = GameObject.Find("/Player2");
-            player2Cam = GameObject.Find("/Player2 Camera");
-            player2VCam = GameObject.Find("/P2 Vcam");
-            nR1 = GameObject.Find("/UI canvas /Level Complete Screeen /NR1");
-            nR2 = GameObject.Find("/UI canvas /Level Complete Screeen /NR2");
-            cam1 = GameObject.Find("/Player1 Camera").GetComponent<Camera>();
-
-            Debug.Log(player2.gameObject.name);
-
-            AssignObjects();
-        }
-           
     }
 }
 

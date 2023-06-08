@@ -15,8 +15,9 @@ public class PauseScreenOpener : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        Debug.Log("EscTest");
         if (escOn == true && Input.GetKeyDown(KeyCode.Escape) == true)
         {
             DoAction();
@@ -28,15 +29,17 @@ public class PauseScreenOpener : MonoBehaviour
     }
     public void DoAction()
     {
-       
-        PauseScreen.gameObject.SetActive(!PauseScreen.gameObject.activeSelf);
+        Debug.Log("EscDown");
+        //PauseScreen.gameObject.SetActive(!PauseScreen.gameObject.activeSelf);
         if (Time.timeScale == 1.0f)
         {
             Time.timeScale = 0.0f;
+            PauseScreen.gameObject.SetActive(true);
         }
         else
         {
             Time.timeScale = 1.0f;
+            PauseScreen.gameObject.SetActive(false);
         }
     }
     public void ESCOff()

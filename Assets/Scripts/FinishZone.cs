@@ -6,7 +6,7 @@ public class FinishZone : MonoBehaviour
 {
     GameData saveData = new GameData();
 
-    public Timer tim;
+    public static Timer tim;
 
     public GameController controller;
 
@@ -14,7 +14,7 @@ public class FinishZone : MonoBehaviour
 
     public GameObject levelCompleteScreen;
 
-    public GameManager manager;
+    public static GameManager manager;
 
     public PauseScreenOpener pauseO;
 
@@ -60,65 +60,74 @@ public class FinishZone : MonoBehaviour
         Debug.Log("Enter...");
         if (other.tag == "Player1")
         {
-            Debug.Log("Player1 Finish");
-            player1finish.gameObject.SetActive(true);
-            controller.player1Finish = true;
-            c1.Finish1();
-            controller.P1Finish();
-            controller.player1FinishTime = tim.displayTime;
-            controller.player1FinishTimeNumber = tim.currentTime;
+            if (controller.player1Finish == false)
+            {
+                Debug.Log("Player1 Finish");
+                player1finish.gameObject.SetActive(true);
+                controller.player1Finish = true;
+                c1.Finish1();
+                controller.P1Finish();
+                controller.player1FinishTime = tim.displayTime;
+                controller.player1FinishTimeNumber = tim.currentTime;
+            }
+
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
                 pauseO.escOn = false;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
-                player1finish.gameObject.SetActive(false);
-                player2finish.gameObject.SetActive(false);
+                Destroy(player1finish);
+                Destroy(player2finish);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
                 GameManager.instance.SetTimes();
-                manager.AutoSave();
+                manager.AutoSave1();
+                manager.AutoSave2();
                 Destroy(pScreen.gameObject);
             }
-            if (GameController.twoPlayers == false)
+            if (GameManager.twoPlayers == false)
             {
                 pauseO.escOn = false;
                 levelUI.AllPlayersFInished();
                 controller.StopMusic();
-                player1finish.gameObject.SetActive(false);
-                player2finish.gameObject.SetActive(false);
+                Destroy(player1finish);
+                Destroy(player2finish);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
                 p2FTUI1.gameObject.SetActive(false);
                 p2FTUI2.gameObject.SetActive(false);
                 controller.player1FinishTime = tim.displayTime;
                 GameManager.instance.SetTimes();
-                manager.AutoSave();
+                manager.AutoSave1();
                 Destroy(pScreen.gameObject);
             }
         }
         if (other.tag == "Player2")
         {
-            Debug.Log("Player2 Finish");
-            player2finish.gameObject.SetActive(true);
-            controller.player2Finish = true;
-            c2.Finish2();
-            controller.P2Finish();
-            controller.player2FinishTime = tim.displayTime;
-            controller.player2FinishTimeNumber = tim.currentTime;
+            if (controller.player2Finish == false)
+            {
+              Debug.Log("Player2 Finish");
+              player2finish.gameObject.SetActive(true);
+              controller.player2Finish = true;
+              c2.Finish2();
+              controller.P2Finish();
+              controller.player2FinishTime = tim.displayTime;
+              controller.player2FinishTimeNumber = tim.currentTime;
+            }
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");
                 pauseO.escOn = false;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
-                player1finish.gameObject.SetActive(false);
-                player2finish.gameObject.SetActive(false);
+                Destroy(player1finish);
+                Destroy(player2finish);
                 tim.StopTimer();
                 levelCompleteScreen.gameObject.SetActive(true);
                 GameManager.instance.SetTimes();
-                manager.AutoSave();
+                manager.AutoSave1();
+                manager.AutoSave2();
                 Destroy(pScreen.gameObject);
             }
         }

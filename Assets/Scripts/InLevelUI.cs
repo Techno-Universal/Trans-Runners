@@ -23,9 +23,6 @@ public class InLevelUI : MonoBehaviour
 
     public GameController controller;
 
-    public GameObject newRecordSign1;
-    public GameObject newRecordSign2;
-
     public void UpdateUI()
     {
         if (levelComplete == false)
@@ -42,14 +39,14 @@ public class InLevelUI : MonoBehaviour
     public void AllPlayersFInished()
     {
         Debug.Log("AllPLayersFinish");
-        StartCoroutine(DisplayCanvas(fadeRate));
+        //StartCoroutine(DisplayCanvas(fadeRate));
         p1FinTime.text = controller.player1FinishTime;
         p2FinTime.text = controller.player2FinishTime;
         levelCompleteUI.SetActive(true);
         timer.StopTimer();
 
     }
-    IEnumerator DisplayCanvas(float rate)
+    /*IEnumerator DisplayCanvas(float rate)
     {
         if (LevelManager.instance.currentState == LevelManager.GameStates.Finish)
         {
@@ -64,7 +61,7 @@ public class InLevelUI : MonoBehaviour
 
         resultGroup.alpha = 1f;
         yield return null;
-    }
+    }*/
     public void DisableTimer()
     {
         mainTimer.gameObject.SetActive(false);

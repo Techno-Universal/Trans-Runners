@@ -6,6 +6,6 @@ public class AVcam2 : MonoBehaviour
 {
     void Start()
     {
-        GameManager.player2VCam = gameObject;
+        //GameManager.player2VCam = gameObject;
     }
 }

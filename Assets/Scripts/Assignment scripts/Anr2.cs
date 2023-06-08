@@ -6,6 +6,6 @@ public class Anr2 : MonoBehaviour
 {
    void Start()
     {
-        GameManager.nR2 = gameObject;
+        //GameManager.nR2 = gameObject;
     }
 }
