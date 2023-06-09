@@ -53,4 +53,10 @@ public class SaveSystem : MonoBehaviour
             return null;
         }
     }
+    public void RemoveData()
+    {
+        Debug.Log("Data removed!!");
+        File.Delete(Path.Combine(Application.persistentDataPath, "/save1.data"));
+        filePath = Application.persistentDataPath + "/" + fileName + ".data";
+    }
 }

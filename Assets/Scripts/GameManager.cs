@@ -70,7 +70,18 @@ public class GameManager : MonoBehaviour
         
         MainMenuRecordTimes.data = this;
 
+        ResetSaveData.manager = this;
+
         SetMainMenuTimeNumbers();
+
+        mainMenuRecordTimes.p1Number = altp1RecordTime;
+        mainMenuRecordTimes.p2Number = altp2RecordTime;
+
+        if (instance != null)
+        {
+            Debug.Log("Removed Controller...");
+            Destroy(gameObject);
+        }
     }
 
     public void TwoPlayers(bool value1)
@@ -89,7 +100,8 @@ public class GameManager : MonoBehaviour
     }
     public void ResetData()
     {
-        //GameData.level = 0;
+        Debug.Log("Data Reset!!");
+        SaveSystem.instance.RemoveData();
     }
 
     public void FillTempList()

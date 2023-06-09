@@ -35,6 +35,8 @@ public class MainMenuRecordTimes : MonoBehaviour
     }
     public void SetMainMenuTImes()
     {
+        GameManager.mainMenuRecordTimes = this;
+
         p1Number = data.altp1RecordTime;
         p2Number = data.altp2RecordTime;
 

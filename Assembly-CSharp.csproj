@@ -290,6 +290,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\EditorTools\VersaMaskAttribute.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\InspectorWidgets.cs" />
+    <Compile Include="Assets\Scripts\ResetSaveData.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\QuatCrusher.cs" />
     <Compile Include="Assets\InvokeRepeating.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Example\BasicController.cs" />

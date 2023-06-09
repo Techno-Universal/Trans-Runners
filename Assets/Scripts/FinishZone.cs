@@ -64,17 +64,23 @@ public class FinishZone : MonoBehaviour
             {
                 Debug.Log("Player1 Finish");
                 player1finish.gameObject.SetActive(true);
+                controller.player1FinishTime = tim.displayTime;
+                controller.player1FinishTimeNumber = tim.currentTime;
                 controller.player1Finish = true;
                 c1.Finish1();
                 controller.P1Finish();
+            }
+            if (controller.player2Finish == true)
+            {
                 controller.player1FinishTime = tim.displayTime;
                 controller.player1FinishTimeNumber = tim.currentTime;
             }
-
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH1");
                 pauseO.escOn = false;
+                controller.player1FinishTime = tim.displayTime;
+                controller.player1FinishTimeNumber = tim.currentTime;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
                 Destroy(player1finish);
@@ -89,6 +95,8 @@ public class FinishZone : MonoBehaviour
             if (GameManager.twoPlayers == false)
             {
                 pauseO.escOn = false;
+                controller.player1FinishTime = tim.displayTime;
+                controller.player1FinishTimeNumber = tim.currentTime;
                 levelUI.AllPlayersFInished();
                 controller.StopMusic();
                 Destroy(player1finish);
@@ -109,16 +117,23 @@ public class FinishZone : MonoBehaviour
             {
               Debug.Log("Player2 Finish");
               player2finish.gameObject.SetActive(true);
+              controller.player2FinishTime = tim.displayTime;
+              controller.player2FinishTimeNumber = tim.currentTime;
               controller.player2Finish = true;
               c2.Finish2();
               controller.P2Finish();
-              controller.player2FinishTime = tim.displayTime;
-              controller.player2FinishTimeNumber = tim.currentTime;
+            }
+            if (controller.player1Finish == true)
+            {
+                controller.player2FinishTime = tim.displayTime;
+                controller.player2FinishTimeNumber = tim.currentTime;
             }
             if (controller.player1Finish == true && controller.player2Finish == true)
             {
                 Debug.Log("FINISH2");
                 pauseO.escOn = false;
+                controller.player2FinishTime = tim.displayTime;
+                controller.player2FinishTimeNumber = tim.currentTime;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
                 Destroy(player1finish);

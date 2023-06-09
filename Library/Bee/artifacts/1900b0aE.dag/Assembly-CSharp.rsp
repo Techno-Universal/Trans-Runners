@@ -671,6 +671,7 @@
 "Assets/Scripts/PlayerNumber.cs"
 "Assets/Scripts/PlayerScoreCard.cs"
 "Assets/Scripts/Quit.cs"
+"Assets/Scripts/ResetSaveData.cs"
 "Assets/Scripts/ResetScene.cs"
 "Assets/Scripts/SlowZone.cs"
 "Assets/Scripts/SoundManager.cs"
