@@ -13,24 +13,25 @@ public class Timer : MonoBehaviour
 
     public UnityEvent TimesUp;
 
-    public static InLevelUI timeUI;
+    public InLevelUI timeUI;
 
     // Update is called once per frame
     private void Start()
     {
-        displayTime = "00:00";
+        //isTiming = true;
+        //GameManager.timer = this;
+        //displayTime = "00:00";
     }
     private void OnEnable()
     {
+        GameManager.timer = this;
+        displayTime = "00:00";
+
         //isTiming = false;
         //currentTime = 0;
         //StartTimer(startTime);
         //timeUI = GameObject.Find("InLevelUI").GetComponent<InLevelUI>();
         //isTiming = true;
-
-        FinishZone.tim = this;
-
-        InLevelUI.timer = this;
     }
 
     void Update()
@@ -47,8 +48,8 @@ public class Timer : MonoBehaviour
             if(currentTime <= 0)
             {
                 displayTime = "00:00";
-                isTiming = false;
-                TimesUp.Invoke();
+                //isTiming = false;
+                //TimesUp.Invoke();
             }
             else
             {
@@ -70,6 +71,7 @@ public class Timer : MonoBehaviour
     }
     public void ResetTimer()
     {
+        Debug.Log("Timer Reset!!");
         currentTime = 0;
         displayTime = "00:00";
     }

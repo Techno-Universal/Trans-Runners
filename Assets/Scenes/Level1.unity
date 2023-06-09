@@ -4736,6 +4736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fff4fc73b7f0124489071024bdbb6543, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tim: {fileID: 238887898}
   controller: {fileID: 238887889}
   resultGroup: {fileID: 0}
   levelCompleteScreen: {fileID: 1036372782}
@@ -5262,7 +5263,7 @@ GameObject:
   - component: {fileID: 238887894}
   - component: {fileID: 238887896}
   - component: {fileID: 238887897}
-  - component: {fileID: 238887899}
+  - component: {fileID: 238887898}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -5300,6 +5301,7 @@ MonoBehaviour:
     player2BestTimeL1: 0
   nR1: {fileID: 189949043}
   nR2: {fileID: 1462359146}
+  timer: {fileID: 238887898}
   players:
   - {fileID: 62461092}
   - {fileID: 117139798}
@@ -5454,6 +5456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escOn: 1
   PauseScreen: {fileID: 1851816825}
+  timer: {fileID: 0}
 --- !u!114 &238887897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5471,10 +5474,11 @@ MonoBehaviour:
   p2FinTime: {fileID: 1649319482}
   resultGroup: {fileID: 0}
   fadeRate: 0
+  timer: {fileID: 238887898}
   levelComplete: 0
   levelCompleteUI: {fileID: 1036372782}
   controller: {fileID: 238887889}
---- !u!114 &238887899
+--- !u!114 &238887898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5483,10 +5487,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 238887888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af7c01b68eeb1c04680346232694208d, type: 3}
+  m_Script: {fileID: 11500000, guid: 08c6a5e84251bba4c85c258d2df4659c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 238887888}
+  startTime: 0
+  currentTime: 0
+  displayTime: 
+  isTiming: 0
+  TimesUp:
+    m_PersistentCalls:
+      m_Calls: []
+  timeUI: {fileID: 238887897}
 --- !u!1 &240824228
 GameObject:
   m_ObjectHideFlags: 0
@@ -8872,51 +8883,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353607273}
   m_CullTransparentMesh: 1
---- !u!1 &367307149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 367307150}
-  - component: {fileID: 367307151}
-  m_Layer: 0
-  m_Name: Save
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &367307150
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367307149}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 656886510}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &367307151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367307149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fca2eebe8fbf5984e89ea4a9afe85b9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fileName: save1
 --- !u!43 &410718645
 Mesh:
   m_ObjectHideFlags: 0
@@ -9281,7 +9247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6965793df44d88542928d1331924dc08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delete: {fileID: 238887899}
+  delete: {fileID: 0}
 --- !u!33 &422959593
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -14338,7 +14304,6 @@ GameObject:
   - component: {fileID: 563391120}
   - component: {fileID: 563391119}
   - component: {fileID: 563391118}
-  - component: {fileID: 563391122}
   m_Layer: 5
   m_Name: UI canvas
   m_TagString: Untagged
@@ -14436,20 +14401,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &563391122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563391117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc00a33b2cb4ba4419bb87df84f87933, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escOn: 1
-  PauseScreen: {fileID: 1851816825}
 --- !u!1 &567632529
 GameObject:
   m_ObjectHideFlags: 0
@@ -17967,7 +17918,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1344046741}
-  - {fileID: 367307150}
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22282,7 +22232,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 238887899}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DestroyObjectOnSceneClose, Assembly-CSharp
         m_MethodName: DestroyController
         m_Mode: 1
@@ -35979,7 +35929,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 238887899}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DestroyObjectOnSceneClose, Assembly-CSharp
         m_MethodName: DestroyController
         m_Mode: 1
@@ -59345,7 +59295,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh120802
+  m_Name: pb_Mesh69086
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

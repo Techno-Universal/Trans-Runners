@@ -37,6 +37,8 @@ public class GameController : MonoBehaviour
     public GameObject nR1;
     public GameObject nR2;
 
+    public Timer timer;
+
     public List<GameObject> players;
 
     // Start is called before the first frame update
@@ -86,6 +88,7 @@ public class GameController : MonoBehaviour
     }*/
     void Awake()
     {
+        timer.StartTimer(0f);
         /*musicMan = GameObject.Find("/Controllers /Music").GetComponent<AudioSource>();
 
         if (GameManager.twoPlayers == false)

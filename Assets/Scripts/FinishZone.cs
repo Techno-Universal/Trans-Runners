@@ -6,7 +6,7 @@ public class FinishZone : MonoBehaviour
 {
     GameData saveData = new GameData();
 
-    public static Timer tim;
+    public Timer tim;
 
     public GameController controller;
 

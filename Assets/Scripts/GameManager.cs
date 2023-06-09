@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
 
     public GameData data;
 
+    public static MainMenuRecordTimes mainMenuRecordTimes;
+
     //public PlayerData playerData;
     public List<PlayerData> playerTimes = new List<PlayerData>();
 
@@ -62,9 +64,13 @@ public class GameManager : MonoBehaviour
         //data.LoadTimes();
         //timer.StartTimer();
     }
-    private void Awake()
+    private void OnEnable()
     {
         FinishZone.manager = this;
+        
+        MainMenuRecordTimes.data = this;
+
+        SetMainMenuTimeNumbers();
     }
 
     public void TwoPlayers(bool value1)
@@ -160,6 +166,11 @@ public class GameManager : MonoBehaviour
         Debug.Log("Times loaded...");
         altp1RecordTime = data.player1BestTimeL1;
         altp2RecordTime = data.player2BestTimeL1;
+    }
+    public void SetMainMenuTimeNumbers()
+    {
+        mainMenuRecordTimes.p1Number = altp1RecordTime;
+        mainMenuRecordTimes.p2Number = altp2RecordTime;
     }
 }
 

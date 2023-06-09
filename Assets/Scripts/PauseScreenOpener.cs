@@ -8,6 +8,8 @@ public class PauseScreenOpener : MonoBehaviour
     public bool escOn = true;
 
     public GameObject PauseScreen;
+
+    public Timer timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,8 @@ public class PauseScreenOpener : MonoBehaviour
     public void ContinueGame()
     {
         Time.timeScale = 1.0f;
+        PauseScreen.gameObject.SetActive(false);
+        timer.isTiming = true;
     }
     public void DoAction()
     {
@@ -35,11 +39,13 @@ public class PauseScreenOpener : MonoBehaviour
         {
             Time.timeScale = 0.0f;
             PauseScreen.gameObject.SetActive(true);
+            timer.isTiming = false;
         }
-        else
+        else if (Time.timeScale == 0.0f)
         {
             Time.timeScale = 1.0f;
             PauseScreen.gameObject.SetActive(false);
+            timer.isTiming = true;
         }
     }
     public void ESCOff()

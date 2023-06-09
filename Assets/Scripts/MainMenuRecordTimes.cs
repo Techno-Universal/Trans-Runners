@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuRecordTimes : MonoBehaviour
 {
+    public float p1Number;
 
-    public GameObject p1RTT;
-    public GameObject p2RTT;
+    public float p2Number;
 
     public string p11RTT;
 
@@ -18,13 +18,16 @@ public class MainMenuRecordTimes : MonoBehaviour
 
     public TMP_Text p22RTTText;
 
-    public GameManager data;
+    public static GameManager data;
     // Start is called before the first frame update
     void Start()
     {
        SetMainMenuTImes();
     }
-
+    private void OnEnable()
+    {
+       GameManager.mainMenuRecordTimes = this;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -32,14 +35,17 @@ public class MainMenuRecordTimes : MonoBehaviour
     }
     public void SetMainMenuTImes()
     {
+        p1Number = data.altp1RecordTime;
+        p2Number = data.altp2RecordTime;
+
         Debug.Log("Set record times in main menu...");
-        string minutes1 = Mathf.Floor(data.altp1RecordTime / 60).ToString("00");
-        string seconds1 = (data.altp1RecordTime % 60).ToString("00");
+        string minutes1 = Mathf.Floor(p1Number / 60).ToString("00");
+        string seconds1 = (p1Number % 60).ToString("00");
 
         p11RTT = string.Format("{0}:{1}", minutes1, seconds1);
 
-        string minutes2 = Mathf.Floor(data.altp2RecordTime / 60).ToString("00");
-        string seconds2 = (data.altp2RecordTime % 60).ToString("00");
+        string minutes2 = Mathf.Floor(p2Number / 60).ToString("00");
+        string seconds2 = (p2Number % 60).ToString("00");
 
         p22RTT = string.Format("{0}:{1}", minutes2, seconds2);
 

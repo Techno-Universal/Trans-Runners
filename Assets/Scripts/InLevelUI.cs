@@ -15,7 +15,7 @@ public class InLevelUI : MonoBehaviour
 
     public float fadeRate;
 
-    public static Timer timer;
+    public Timer timer;
 
     public bool levelComplete = false;
 
@@ -33,7 +33,7 @@ public class InLevelUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       Timer.timeUI = this;
+       
     }
 
     public void AllPlayersFInished()
