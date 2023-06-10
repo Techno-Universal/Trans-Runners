@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
     }
     public void AutoSave2()
     {
-        if (controller.player2FinishTimeNumber <= p1RecordTime)
+        if (controller.player2FinishTimeNumber <= p2RecordTime || p2RecordTime <= 0)
         {
             Debug.Log("New Record P2!");
             p2RecordTime = controller.player2FinishTimeNumber;

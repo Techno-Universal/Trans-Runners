@@ -13,8 +13,8 @@ public class GameController : MonoBehaviour
     #region
     public static GameManager gameManager;
     #endregion
-    public bool player1Finish = false;
-    public bool player2Finish = false;
+    public bool player1Finish;
+    public bool player2Finish;
 
     public string player1FinishTime;
     public string player2FinishTime;
@@ -44,6 +44,25 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+    }
+   /* private void FixedUpdate()
+    {
+
+        if (GameController.twoPlayers == false)
+        {
+            gameManager.OnePlayer();
+            Debug.Log("YES!!");
+        }
+        if (GameController.twoPlayers == true)
+        {
+            Debug.Log("TWO!!");
+        }
+    }*/
+    void Awake()
+    {
+        timer.StartTimer(0f);
+
         player1Finish = false;
         player2Finish = false;
 
@@ -71,24 +90,6 @@ public class GameController : MonoBehaviour
         Debug.Log("Starting...");
         GetComponent<GameManager>();
         musicMan.Play();
-
-    }
-   /* private void FixedUpdate()
-    {
-
-        if (GameController.twoPlayers == false)
-        {
-            gameManager.OnePlayer();
-            Debug.Log("YES!!");
-        }
-        if (GameController.twoPlayers == true)
-        {
-            Debug.Log("TWO!!");
-        }
-    }*/
-    void Awake()
-    {
-        timer.StartTimer(0f);
         /*musicMan = GameObject.Find("/Controllers /Music").GetComponent<AudioSource>();
 
         if (GameManager.twoPlayers == false)

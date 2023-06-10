@@ -125,6 +125,7 @@ public class FinishZone : MonoBehaviour
             }
             if (controller.player1Finish == true)
             {
+                Debug.Log("FINISH22");
                 controller.player2FinishTime = tim.displayTime;
                 controller.player2FinishTimeNumber = tim.currentTime;
             }
