@@ -102,6 +102,9 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Data Reset!!");
         SaveSystem.instance.RemoveData();
+        p1RecordTime = 0;
+        p2RecordTime = 0;
+        mainMenuRecordTimes.SetMainMenuTimes();
     }
 
     public void FillTempList()
