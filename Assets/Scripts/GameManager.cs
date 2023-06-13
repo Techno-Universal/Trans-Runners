@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     public float altp1RecordTime;
     public float altp2RecordTime;
 
-    public GameData data;
+  //  public GameData data;
 
     public static MainMenuRecordTimes mainMenuRecordTimes;
 
@@ -169,18 +169,20 @@ public class GameManager : MonoBehaviour
     public void SetTimes()
     {
         Debug.Log("Times Set...");
-        data.player1BestTimeL1 = p1RecordTime;
-        data.player2BestTimeL1 = p2RecordTime;
+        saveData.player1BestTimeL1 = p1RecordTime;
+        saveData.player2BestTimeL1 = p2RecordTime;
         //data.player2BestTimeL1 = 0;
         altp1RecordTime = p1RecordTime;
         altp2RecordTime = p2RecordTime;
     }
     public void LoadTimes()
     {
-        PlayerData data = new PlayerData();
-        Debug.Log("Times loaded...");
-        altp1RecordTime = data.player1BestTimeL1;
-        altp2RecordTime = data.player2BestTimeL1;
+       // PlayerData data = new PlayerData();
+       // Debug.Log("Times loaded...");
+        altp1RecordTime = saveData.player1BestTimeL1;
+        altp2RecordTime = saveData.player2BestTimeL1;
+        p1RecordTime = saveData.player1BestTimeL1;
+        p2RecordTime = saveData.player2BestTimeL1;
     }
     public void SetMainMenuTimeNumbers()
     {

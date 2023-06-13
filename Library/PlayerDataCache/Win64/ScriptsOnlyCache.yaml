@@ -87,8 +87,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.Utilities:
     - Photon.Pun.UtilityScripts.MoveByKeys
     PhotonUnityNetworking.dll:
@@ -382,9 +380,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenuRecordTimes
-    methodName: SetMainMenuTImes
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1129,17 +1124,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13346}
     - Class: 114
-      Script: {instanceID: 13442}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 13612}
+      Script: {instanceID: 13444}
     - Class: 114
-      Script: {instanceID: 13624}
+      Script: {instanceID: 13614}
     - Class: 114
-      Script: {instanceID: 13838}
+      Script: {instanceID: 13626}
     - Class: 114
-      Script: {instanceID: 31912}
+      Script: {instanceID: 13840}
     - Class: 114
-      Script: {instanceID: 43984}
+      Script: {instanceID: 31216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3781,7 +3776,7 @@ ScriptsOnlyBuild:
     className: ObjectSpin
   - hash:
       serializedVersion: 2
-      Hash: f4ff3b11d1a19e96ae69339e3816c789
+      Hash: 40bcb9894add102b915aebd9dda14f4f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -4489,6 +4484,12 @@ ScriptsOnlyBuild:
     className: SyncVitals
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResetSaveData
+  - hash:
+      serializedVersion: 2
       Hash: 5229e132142fc9e0a49b7db3a1856d2f
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Procedural
@@ -4577,15 +4578,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ResetSaveData
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/Lobby.unity
-  playerPath: C:/Users/johnc/OneDrive/Desktop/Trans-Runners!! 1.1/Trans-Runners!!.exe
+  playerPath: C:/Users/johnc/OneDrive/Desktop/Trans-Runners!!/Trans-Runners!!.exe

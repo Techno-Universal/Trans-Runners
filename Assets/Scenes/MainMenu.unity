@@ -3700,7 +3700,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2120171840}
+      - m_Target: {fileID: 853245646}
         m_TargetAssemblyTypeName: Quit, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -9019,7 +9019,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2120171841}
-  - component: {fileID: 2120171840}
   - component: {fileID: 2120171845}
   - component: {fileID: 2120171848}
   m_Layer: 0
@@ -9029,18 +9028,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2120171840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120171838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069ba2daa03893e4f83e465a1d4f1621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2120171841
 Transform:
   m_ObjectHideFlags: 0
@@ -9074,10 +9061,6 @@ MonoBehaviour:
     player2BestTimeL1: 0
   altp1RecordTime: 0
   altp2RecordTime: 0
-  data:
-    level: 0
-    player1BestTimeL1: 0
-    player2BestTimeL1: 0
   rect:
     serializedVersion: 2
     x: 0

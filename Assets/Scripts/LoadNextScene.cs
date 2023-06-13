@@ -10,10 +10,12 @@ public class LoadNextScene : MonoBehaviour
     
     public void LoadLevel1()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("Level1");
     }
     public void LoadMainMenu()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("MainMenu");
     }
 }
