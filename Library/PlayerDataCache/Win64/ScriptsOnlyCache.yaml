@@ -380,6 +380,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenuRecordTimes
+    methodName: SetMainMenuTimes
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1134,7 +1137,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13840}
     - Class: 114
-      Script: {instanceID: 31216}
+      Script: {instanceID: 31214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

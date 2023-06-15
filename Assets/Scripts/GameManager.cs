@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        MainMenuRecordTimes.data = this;
         #region Singleton
         if (instance != null)
         {
@@ -66,13 +67,13 @@ public class GameManager : MonoBehaviour
     }
     private void OnEnable()
     {
+        Debug.Log("Manager Run");
+
         FinishZone.manager = this;
         
         MainMenuRecordTimes.data = this;
 
         ResetSaveData.manager = this;
-
-        SetMainMenuTimeNumbers();
 
         mainMenuRecordTimes.p1Number = altp1RecordTime;
         mainMenuRecordTimes.p2Number = altp2RecordTime;
@@ -102,6 +103,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Data Reset!!");
         SaveSystem.instance.RemoveData();
+        saveData = new GameData();
         p1RecordTime = 0;
         p2RecordTime = 0;
         mainMenuRecordTimes.SetMainMenuTimes();
@@ -111,8 +113,8 @@ public class GameManager : MonoBehaviour
     {
         saveData.level = 1;
 
-        saveData.player1BestTimeL1 = p1RecordTime;
-        saveData.player2BestTimeL1 = p2RecordTime;
+        //saveData.player1BestTimeL1 = p1RecordTime;
+        //saveData.player2BestTimeL1 = p2RecordTime;
     }
     public void FillSaveData()
     {
@@ -183,6 +185,8 @@ public class GameManager : MonoBehaviour
         altp2RecordTime = saveData.player2BestTimeL1;
         p1RecordTime = saveData.player1BestTimeL1;
         p2RecordTime = saveData.player2BestTimeL1;
+        mainMenuRecordTimes.p1Number = altp1RecordTime;
+        mainMenuRecordTimes.p2Number = altp2RecordTime;
     }
     public void SetMainMenuTimeNumbers()
     {

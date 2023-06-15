@@ -22,12 +22,13 @@ public class MainMenuRecordTimes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        GameManager.mainMenuRecordTimes = this;
     }
     private void OnEnable()
     {
        GameManager.mainMenuRecordTimes = this;
-       SetMainMenuTimes();
+       //SetMainMenuTimes();
+       //GameManager.instance.SetMainMenuTimeNumbers();
     }
     // Update is called once per frame
     void Update()
@@ -40,6 +41,8 @@ public class MainMenuRecordTimes : MonoBehaviour
 
         p1Number = GameManager.p1RecordTime;
         p2Number = GameManager.p2RecordTime;
+
+        //GameManager.instance.SetMainMenuTimeNumbers();
 
         Debug.Log("Set record times in main menu...");
         string minutes1 = Mathf.Floor(p1Number / 60).ToString("00");

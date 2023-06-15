@@ -81,6 +81,8 @@ public class FinishZone : MonoBehaviour
                 pauseO.escOn = false;
                 controller.player1FinishTime = tim.displayTime;
                 controller.player1FinishTimeNumber = tim.currentTime;
+                GameManager.p1RecordTime = controller.player1FinishTimeNumber;
+                GameManager.p2RecordTime = controller.player2FinishTimeNumber;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
                 Destroy(player1finish);
@@ -97,6 +99,7 @@ public class FinishZone : MonoBehaviour
                 pauseO.escOn = false;
                 controller.player1FinishTime = tim.displayTime;
                 controller.player1FinishTimeNumber = tim.currentTime;
+                GameManager.p1RecordTime = controller.player1FinishTimeNumber;
                 levelUI.AllPlayersFInished();
                 controller.StopMusic();
                 Destroy(player1finish);
@@ -135,6 +138,8 @@ public class FinishZone : MonoBehaviour
                 pauseO.escOn = false;
                 controller.player2FinishTime = tim.displayTime;
                 controller.player2FinishTimeNumber = tim.currentTime;
+                GameManager.p1RecordTime = controller.player1FinishTimeNumber;
+                GameManager.p2RecordTime = controller.player2FinishTimeNumber;
                 controller.StopMusic();
                 levelUI.AllPlayersFInished();
                 Destroy(player1finish);
