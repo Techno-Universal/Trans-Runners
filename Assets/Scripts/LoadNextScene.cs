@@ -18,4 +18,10 @@ public class LoadNextScene : MonoBehaviour
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("MainMenu");
     }
+    public void LoadOnlineLobby()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("Lobby");
+    }
+        
 }

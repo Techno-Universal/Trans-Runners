@@ -23,6 +23,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        PhotonNetwork.ConnectUsingSettings();
         playersReady = new bool[PhotonNetwork.CurrentRoom.MaxPlayers];
         PhotonNetwork.LocalPlayer.NickName = "Player " + PhotonNetwork.LocalPlayer.ActorNumber;
         roomName.text = "Room Name: " + PhotonNetwork.CurrentRoom.Name;

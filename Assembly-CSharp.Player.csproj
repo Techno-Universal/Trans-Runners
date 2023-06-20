@@ -89,6 +89,7 @@
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\Interfaces\IVitalsSystem.cs" />
     <Compile Include="Assets\Scripts\Assignment scripts\Acam2.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Structs\FrameBase.cs" />
+    <Compile Include="Assets\Scripts\CreateAndJoinRoom.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\CodeGen\Helpers\TypeHelpers.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\Interfaces\IContactTrigger.cs" />
@@ -302,6 +303,7 @@
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\ContactGroupSettings.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\Interfaces\IContactGroupMask.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\SyncContactScan.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\StateChangeInfo.cs" />
