@@ -28,6 +28,12 @@ public class GameController : MonoBehaviour
     public float player1FinishTimeNumber;
     public float player2FinishTimeNumber;
 
+    public float player1FinishTimeNumberOnline;
+    public float player2FinishTimeNumberOnline;
+
+    public string player1FinishTimeOnline;
+    public string player2FinishTimeOnline;
+
     public PauseScreenOpener pause1;
 
     public AudioSource musicMan;

@@ -4,9 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using Photon.Pun;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviourPunCallbacks
 {
+    public GameObject[] players;
+    public GameObject[] playerPrefabs;
+    public Transform[] playerSpawns;
+
     public static GameManager instance;
     public GameData saveData;
 
@@ -192,6 +197,17 @@ public class GameManager : MonoBehaviour
     {
         mainMenuRecordTimes.p1Number = altp1RecordTime;
         mainMenuRecordTimes.p2Number = altp2RecordTime;
+    }
+    void SpanwPlayerAtStart()
+    {
+        //SpawnPlayer
+        int a = PhotonNetwork.LocalPlayer.ActorNumber - 1;
+        GameObject player = PhotonNetwork.Instantiate(playerPrefabs[a].name, playerSpawns[a].position, Quaternion.identity).gameObject;
+        if (player == null) Debug.Log("No player reference");
+        Invoke("CallAddPlayerToList", 1);
+
+        //assign camera in scene
+        // player.GetComponentInChildren<Camera>().tag = "MainCamera";
     }
 }
 

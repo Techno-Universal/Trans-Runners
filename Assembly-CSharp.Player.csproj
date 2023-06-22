@@ -86,6 +86,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOVRGrabber.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\Animator\AnimatorControllerTools.cs" />
+    <Compile Include="Assets\Scripts\FinishZoneOnline.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\Interfaces\IVitalsSystem.cs" />
     <Compile Include="Assets\Scripts\Assignment scripts\Acam2.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Structs\FrameBase.cs" />
@@ -136,8 +137,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\Compression\NormCompress\NormCompress.cs" />
     <Compile Include="Assets\Photon\Simple\Core\NetMaster\Interfaces\NetMasterInterfaces.cs" />
-    <Compile Include="Assets\Photon\Simple\Components\ContactSystems\ContactManager.cs" />
     <Compile Include="Assets\Scripts\CreateAndJoinRooms.cs" />
+    <Compile Include="Assets\Photon\Simple\Components\ContactSystems\ContactManager.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\AutoDestroyWrongNetLib.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\Vitals.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncAnimator\Structs\AnimPassThru.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Assets\Photon\Simple\Utilities\Callbacks\CallbackUtilities.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\Assistants\InventorySystemAssists.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Mount\MountThrow.cs" />
+    <Compile Include="Assets\Scripts\PlayerOnlineMovement.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Collider\CollideType.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\TransformCrusherDrawer.cs" />
     <Compile Include="Assets\Photon\Simple\Core\GenericHitscan\GenericHitscan.cs" />
@@ -278,6 +280,7 @@
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\Structs\ContactEvent.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\RigidbodyCrusher.cs" />
     <Compile Include="Assets\Photon\Simple\Core\SyncObjectTFrame.cs" />
+    <Compile Include="Assets\Scripts\OnlineTimer.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncAnimator\Enums\ParameterEnums.cs" />
@@ -303,7 +306,6 @@
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\ContactGroupSettings.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\Interfaces\IContactGroupMask.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\SyncContactScan.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\StateChangeInfo.cs" />
@@ -345,6 +347,7 @@
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\ContactGroupValues.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\Attributes\SyncRangedAttribute.cs" />
+    <Compile Include="Assets\Scripts\CameraAssignment.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\HeaderEditor.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Extensions\NetObjColliderExt.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\ContactReactorBase.cs" />
