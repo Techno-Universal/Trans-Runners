@@ -15,7 +15,7 @@ D:/App data/Trans-Runners!!
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54664
+54953
 Successfully changed project path to: D:/App data/Trans-Runners!!
 D:/App data/Trans-Runners!!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/App data/Trans-Runners!!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40256] Host "[IP] 10.247.192.33 [Port] 0 [Flags] 2 [Guid] 3151644520 [EditorId] 3151644520 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [42056] Host "[IP] 10.247.192.33 [Port] 0 [Flags] 2 [Guid] 2000430407 [EditorId] 2000430407 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [40256] Host "[IP] 10.247.192.33 [Port] 0 [Flags] 2 [Guid] 3151644520 [EditorId] 3151644520 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [42056] Host "[IP] 10.247.192.33 [Port] 0 [Flags] 2 [Guid] 2000430407 [EditorId] 2000430407 [Version] 1048832 [Id] WindowsEditor(7,JAC-Techno-Uni) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 22.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2993.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path D:/App data/Unity Hub/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'D:/App data/Unity Hub/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -76,8 +76,8 @@ Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/P
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/App data/Unity Hub/2022.2.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.011835 seconds.
-- Loaded All Assemblies, in  0.361 seconds
+Registered in 1.179061 seconds.
+- Loaded All Assemblies, in  9.486 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -85,37 +85,124 @@ Native extension for WindowsStandalone target not found
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 414 ms
+Unable to list connected devices. 
+adb.exe: failed to check server version: protocol fault (couldn't read status): connection reset
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+D:\App data\Unity Hub\2022.2.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe devices -l
+
+Environment Variables:
+USERDOMAIN = JAC-TECHNO-UNI
+asl.log = Destination=file
+ProgramFiles = C:\Program Files
+TMP = C:\Users\johnc\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE = AMD64
+AMPLITUDE_API_KEY = 28f3cae0b33b8b3702120c9ed1a935aa
+PROCESSOR_REVISION = 5000
+OneDriveConsumer = C:\Users\johnc\OneDrive
+OS = Windows_NT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29372_CRSYMRKIHXWKWNZU
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+ProgramW6432 = C:\Program Files
+USERPROFILE = C:\Users\johnc
+CommonProgramFiles = C:\Program Files\Common Files
+DriverData = C:\Windows\System32\Drivers\DriverData
+ComSpec = C:\WINDOWS\system32\cmd.exe
+LAUNCH_DARKLY_CLIENT_TOKEN = 60a7e30fafc7e60e33446283
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+SystemRoot = C:\WINDOWS
+HEAP_CLIENT_TOKEN = 1717415662
+NUMBER_OF_PROCESSORS = 16
+WOOTRIC_CLIENT_TOKEN = NPS-aa8be4c3
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+DEBUG_ENV_VAR = UnityHub
+HOMEDRIVE = C:
+TEMP = C:\Users\johnc\AppData\Local\Temp
+Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;D:\App data\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\App data\Git LFS;C:\Program Files\Git LFS;C:\Users\johnc\AppData\Local\Microsoft\WindowsApps;C:\Users\johnc\AppData\Local\GitHubDesktop\bin;C:\Users\johnc\.dotnet\tools
+USERNAME = johnc
+COMPUTERNAME = JAC-TECHNO-UNI
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+SystemDrive = C:
+ALLUSERSPROFILE = C:\ProgramData
+SENTRY_ACCESS_TOKEN = 3df78d9e53f8456aa90fbae044ce1a6261421ab1d0014674bc2e933477289017
+HEAP_CLIENT_TOKEN_STAGING = 3786794399
+windir = C:\WINDOWS
+AMPLITUDE_API_KEY_STAGING = 83ee04fccc67e4fcc7dd527c4c6f1e21
+EFC_9492 = 1
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+APPDATA = C:\Users\johnc\AppData\Roaming
+OneDrive = C:\Users\johnc\OneDrive
+PROCESSOR_LEVEL = 25
+CommonProgramW6432 = C:\Program Files\Common Files
+ProgramFiles(x86) = C:\Program Files (x86)
+NVIDIAWHITELISTED = 0x01
+SESSIONNAME = Console
+GIT_LFS_PATH = C:\Program Files\Git LFS
+LOGONSERVER = \\JAC-TECHNO-UNI
+LOCALAPPDATA = C:\Users\johnc\AppData\Local
+HOMEPATH = \Users\johnc
+LAUNCH_DARKLY_CLIENT_TOKEN_STAGING = 60a7e30fafc7e60e33446282
+SHIM_MCCOMPAT = 0x810000001
+USERDOMAIN_ROAMINGPROFILE = JAC-TECHNO-UNI
+ProgramData = C:\ProgramData
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+
+
+stderr[
+adb.exe: failed to check server version: protocol fault (couldn't read status): connection reset
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <84df4a4b958149188d1133032ffc50e9>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <84df4a4b958149188d1133032ffc50e9>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <84df4a4b958149188d1133032ffc50e9>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <84df4a4b958149188d1133032ffc50e9>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <84df4a4b958149188d1133032ffc50e9>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x000ed] in <84df4a4b958149188d1133032ffc50e9>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+Android Extension - Scanning For ADB Devices 443 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.729 seconds
+- Finished resetting the current domain, in  1.166 seconds
 Domain Reload Profiling:
-	ReloadAssembly (231ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (7724ms)
+		BeginReloadAssembly (5918ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (103ms)
+			LoadAssemblies (5927ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
-				TypeCache.Initialize (124ms)
-					TypeCache.ScanAssembly (122ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (1749ms)
+				TypeCache.Initialize (1747ms)
+					TypeCache.ScanAssembly (1745ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (679ms)
+			SetupLoadedEditorAssemblies (1105ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (515ms)
+				InitializePlatformSupportModulesInManaged (919ms)
 				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -129,8 +216,8 @@ Symbol file LoadedFromMemory doesn't match image D:\App data\Trans-Runners!!\Lib
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.032 seconds
-Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
+- Loaded All Assemblies, in 13.988 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -138,44 +225,44 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.818 seconds
+- Finished resetting the current domain, in  2.247 seconds
 Domain Reload Profiling:
-	ReloadAssembly (224ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (207ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		LoadAllAssembliesAndSetupDomain (808ms)
-			LoadAssemblies (359ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (13781ms)
+			LoadAssemblies (12985ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (514ms)
-				TypeCache.Initialize (324ms)
-					TypeCache.ScanAssembly (319ms)
+			SetupTypeCache (847ms)
+				TypeCache.Initialize (654ms)
+					TypeCache.ScanAssembly (647ms)
 				ResolveRequiredComponents (13ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (601ms)
+			SetupLoadedEditorAssemblies (2059ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (375ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (1630ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (499.4 KB). Loaded Objects now: 6621.
-Memory consumption went from 0.93 GB to 0.93 GB.
-Total: 4.267900 ms (FindLiveObjects: 0.602400 ms CreateObjectMapping: 0.252400 ms MarkObjects: 3.120700 ms  DeleteObjects: 0.291000 ms)
+Unloading 6474 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 421 unused Assets / (3.4 MB). Loaded Objects now: 6627.
+Memory consumption went from 0.99 GB to 0.99 GB.
+Total: 6.281600 ms (FindLiveObjects: 0.629200 ms CreateObjectMapping: 0.221500 ms MarkObjects: 3.607800 ms  DeleteObjects: 1.821700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,9 +278,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9621.496921 seconds.
-  path: Assets/Scripts/OnlineLevelManager.cs
-  artifactKey: Guid(abdab522e3b2b2040b32094ff625004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OnlineLevelManager.cs using Guid(abdab522e3b2b2040b32094ff625004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7330bcb898b1d2c2d44a3cfc4a37e5') in 0.002377 seconds 
+  Time since last request: 12678.417990 seconds.
+  path: Assets/Scripts/CreateAndJoinRooms.cs
+  artifactKey: Guid(c0c45c333ccdf034698489e0528156d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CreateAndJoinRooms.cs using Guid(c0c45c333ccdf034698489e0528156d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02692c583cbf410aabcd60fda162291c') in 0.002334 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
