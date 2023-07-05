@@ -82,6 +82,7 @@
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\HauntedStatic.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\WorldBounds\WorldBoundsSelectAttribute.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+    <Compile Include="Assets\Scripts\OnlinePool.cs" />
     <Compile Include="Assets\Photon\Simple\Core\TickManager\TickManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOVRGrabber.cs" />
@@ -205,6 +206,7 @@
     <Compile Include="Assets\Scripts\SpeedBoostZoneOnline.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\SimpleDocsURLS.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\ContactGroups\ContactGroupMaskSelector.cs" />
+    <Compile Include="Assets\Scripts\PlayerAttacks.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncMover\SyncNodeMover.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\Vital.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\PackObjectDatabase.cs" />
