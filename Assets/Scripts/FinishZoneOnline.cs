@@ -8,7 +8,7 @@ public class FinishZoneOnline : MonoBehaviour
 
     public Timer tim;
 
-    public GameController controller;
+    public OnlineGameController controller;
 
     public CanvasGroup resultGroup;
 
@@ -24,9 +24,9 @@ public class FinishZoneOnline : MonoBehaviour
 
     public InLevelUI levelUI;
 
-    public CharacterMovement1 c1;
+    public OnlineCharacterMovement c1;
 
-    public CharacterMovement2 c2;
+    //public CharacterMovement2 c2;
 
     public GameObject p2FTUI1;
     public GameObject p2FTUI2;
@@ -67,7 +67,7 @@ public class FinishZoneOnline : MonoBehaviour
                 controller.player1FinishTimeOnline = tim.displayTime;
                 controller.player1FinishTimeNumberOnline = tim.currentTime;
                 controller.player1Finish = true;
-                c1.Finish1();
+                c1.FinishOnline1();
                 controller.P1Finish();
             }
             if (controller.player2Finish == true)
@@ -123,7 +123,7 @@ public class FinishZoneOnline : MonoBehaviour
                 controller.player2FinishTimeOnline = tim.displayTime;
                 controller.player2FinishTimeNumberOnline = tim.currentTime;
                 controller.player2Finish = true;
-                c2.Finish2();
+                c1.FinishOnline2();
                 controller.P2Finish();
             }
             if (controller.player1Finish == true)

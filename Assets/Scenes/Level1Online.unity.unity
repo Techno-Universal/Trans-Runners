@@ -5254,16 +5254,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00889c7709f8c7b4fbfe2458657f750a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tim: {fileID: 238887898}
-  controller: {fileID: 238887889}
+  tim: {fileID: 0}
+  controller: {fileID: 0}
   resultGroup: {fileID: 0}
   levelCompleteScreen: {fileID: 1036372782}
-  pauseO: {fileID: 238887896}
+  pauseO: {fileID: 0}
   player1finish: {fileID: 244437676}
   player2finish: {fileID: 86811487}
-  levelUI: {fileID: 238887897}
+  levelUI: {fileID: 0}
   c1: {fileID: 0}
-  c2: {fileID: 0}
   p2FTUI1: {fileID: 931142596}
   p2FTUI2: {fileID: 1649319480}
   pScreen: {fileID: 1851816825}
@@ -5591,13 +5590,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 238887891}
-  - component: {fileID: 238887889}
   - component: {fileID: 238887892}
   - component: {fileID: 238887893}
   - component: {fileID: 238887894}
-  - component: {fileID: 238887896}
-  - component: {fileID: 238887897}
-  - component: {fileID: 238887898}
+  - component: {fileID: 238887900}
+  - component: {fileID: 238887899}
+  - component: {fileID: 238887902}
+  - component: {fileID: 238887901}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -5605,44 +5604,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &238887889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238887888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c93d2e10df809d4ba6451d305625bed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1Finish: 0
-  player2Finish: 0
-  player1FinishTime: 
-  player2FinishTime: 
-  player2: {fileID: 0}
-  player2Cam: {fileID: 1659755116}
-  player2VCam: {fileID: 2103156254}
-  cam1: {fileID: 1939821555}
-  player1FinishTimeNumber: 0
-  player2FinishTimeNumber: 0
-  player1FinishTimeNumberOnline: 0
-  player2FinishTimeNumberOnline: 0
-  player1FinishTimeOnline: 
-  player2FinishTimeOnline: 
-  pause1: {fileID: 238887896}
-  musicMan: {fileID: 1344046742}
-  gData:
-    level: 0
-    player1BestTimeL1: 0
-    player2BestTimeL1: 0
-  nR1: {fileID: 189949043}
-  nR2: {fileID: 1462359146}
-  timer: {fileID: 238887898}
-  players:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &238887891
 Transform:
   m_ObjectHideFlags: 0
@@ -5780,7 +5741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6e2299a859edc7747bacd0f51f3ac357, type: 2}
---- !u!114 &238887896
+--- !u!114 &238887899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5789,13 +5750,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 238887888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc00a33b2cb4ba4419bb87df84f87933, type: 3}
+  m_Script: {fileID: 11500000, guid: da8c388c4b54bc94eb2a6aab112d9f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escOn: 1
-  PauseScreen: {fileID: 1851816825}
-  timer: {fileID: 238887898}
---- !u!114 &238887897
+  player1Finish: 0
+  player2Finish: 0
+  player1FinishTime: 
+  player2FinishTime: 
+  player2: {fileID: 0}
+  player2Cam: {fileID: 0}
+  player2VCam: {fileID: 0}
+  cam1: {fileID: 1939821555}
+  player1FinishTimeNumber: 0
+  player2FinishTimeNumber: 0
+  player1FinishTimeNumberOnline: 0
+  player2FinishTimeNumberOnline: 0
+  player1FinishTimeOnline: 
+  player2FinishTimeOnline: 
+  pause1: {fileID: 0}
+  musicMan: {fileID: 1344046742}
+  gData:
+    level: 0
+    player1BestTimeL1: 0
+    player2BestTimeL1: 0
+  nR1: {fileID: 189949043}
+  nR2: {fileID: 1462359146}
+  timer: {fileID: 238887900}
+  players: []
+--- !u!114 &238887900
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5804,28 +5786,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 238887888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4273d9eb652cde14cb69dd3d991cbc99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainTimer: {fileID: 1279635611}
-  p1FinTime: {fileID: 247036183}
-  p2FinTime: {fileID: 1649319482}
-  resultGroup: {fileID: 0}
-  fadeRate: 0
-  timer: {fileID: 238887898}
-  levelComplete: 0
-  levelCompleteUI: {fileID: 1036372782}
-  controller: {fileID: 238887889}
---- !u!114 &238887898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238887888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08c6a5e84251bba4c85c258d2df4659c, type: 3}
+  m_Script: {fileID: 11500000, guid: 792eff5750c944d7fb46c73c80f7d50f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0
@@ -5835,7 +5796,43 @@ MonoBehaviour:
   TimesUp:
     m_PersistentCalls:
       m_Calls: []
-  timeUI: {fileID: 238887897}
+  timeUI: {fileID: 238887902}
+--- !u!114 &238887901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238887888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7cc0bb3c2d23248af81826dd1b3f02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escOn: 1
+  PauseScreen: {fileID: 1851816825}
+  timer: {fileID: 238887900}
+--- !u!114 &238887902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238887888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a065a0c16dd2b34799a1cb27cad6e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainTimer: {fileID: 1279635611}
+  p1FinTime: {fileID: 247036183}
+  p2FinTime: {fileID: 1649319482}
+  resultGroup: {fileID: 0}
+  fadeRate: 0
+  timer: {fileID: 238887900}
+  levelComplete: 0
+  levelCompleteUI: {fileID: 1036372782}
+  controller: {fileID: 238887899}
 --- !u!1 &240824228
 GameObject:
   m_ObjectHideFlags: 0
@@ -10025,7 +10022,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 238887896}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseScreenOpener, Assembly-CSharp
         m_MethodName: ContinueGame
         m_Mode: 1
@@ -13159,7 +13156,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 238887896}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseScreenOpener, Assembly-CSharp
         m_MethodName: ESCOff
         m_Mode: 1
@@ -28583,7 +28580,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 238887896}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseScreenOpener, Assembly-CSharp
         m_MethodName: ESCOn
         m_Mode: 1
@@ -60981,9 +60978,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.5
+    x: 0
     y: 0
-    width: 0.5
+    width: 1
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
@@ -63703,7 +63700,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 238887896}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseScreenOpener, Assembly-CSharp
         m_MethodName: ESCOff
         m_Mode: 1
@@ -69677,7 +69674,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.5
+    width: 1
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
@@ -71834,7 +71831,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 238887896}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseScreenOpener, Assembly-CSharp
         m_MethodName: ESCOn
         m_Mode: 1
@@ -74174,6 +74171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2103156256}
   - component: {fileID: 2103156255}
+  - component: {fileID: 2103156257}
   m_Layer: 6
   m_Name: P2 Vcam
   m_TagString: Untagged
@@ -74236,6 +74234,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103156257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103156254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fad85e9e7f28446eb6d86e131f05a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2103347455
 GameObject:
   m_ObjectHideFlags: 0

@@ -109,6 +109,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\DataTypes\VitalDefinition.cs" />
     <Compile Include="Assets\Scripts\SpeedBoostZone.cs" />
+    <Compile Include="Assets\Scripts\OnlineCharacterMovement.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\InventoryContactReactorsT.cs" />
     <Compile Include="Assets\SaveSystem\SortingExample.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\CustomMaskEditors\MaskLogic.cs" />
@@ -158,7 +159,6 @@
     <Compile Include="Assets\Photon\Simple\Utilities\Callbacks\CallbackUtilities.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\Assistants\InventorySystemAssists.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Mount\MountThrow.cs" />
-    <Compile Include="Assets\Scripts\PlayerOnlineMovement.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Collider\CollideType.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\TransformCrusherDrawer.cs" />
     <Compile Include="Assets\Photon\Simple\Core\GenericHitscan\GenericHitscan.cs" />
@@ -261,6 +261,7 @@
     <Compile Include="Assets\Photon\Simple\Core\NetMaster\NetMasterCallbacks.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\Interfaces\IProjectileCannon.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\InventoryT.cs" />
+    <Compile Include="Assets\Scripts\OnlineGameController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\SyncShootBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -279,6 +280,7 @@
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\VitalsSystem\DataTypes\VitalNameType.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncOculus\SimpleOVRGrabbable.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Assistants\LauncherAssists.cs" />
+    <Compile Include="Assets\Scripts\OnlinePauseScreenOpener.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\MountSwitcher.cs" />
     <Compile Include="Assets\Photon\Simple\Core\SyncObject.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\Structs\ContactEvent.cs" />
@@ -325,6 +327,7 @@
     <Compile Include="Assets\Photon\Simple\Components\SyncState\OnStateChangeToggle.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\Interfaces\IProjectile.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\Enums\Realm.cs" />
+    <Compile Include="Assets\Scripts\OnlineUI.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Mount\MountsManager.cs" />
     <Compile Include="Assets\SaveSystem\SaveSystem.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\NetAdapters\NetMsgCallbacks.cs" />

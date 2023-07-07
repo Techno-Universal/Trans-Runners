@@ -18,6 +18,7 @@ public class OnlineTimer : MonoBehaviour, IOnEventCallback
     private const byte TIMER_TICK = 1;
 
     public UnityEvent TimesUp;
+    public OnlineUI timeUI;
 
     #region Photon Raise Event Code
     //enable and disable the ability to listen to events
@@ -67,11 +68,17 @@ public class OnlineTimer : MonoBehaviour, IOnEventCallback
                 PhotonNetwork.RaiseEvent(TIMER_TICK, data, RaiseEventOptions.Default, SendOptions.SendUnreliable);
             }
         }
+        timeUI.UpdateUI();
     }
     public void StartTimer(float length)
     {
         startTime = length;
         currentTime = startTime;
         isTiming = true;
+    }
+    public void StopTimer()
+    {
+        isTiming = false;
+        timeUI.DisableTimer();
     }
 }

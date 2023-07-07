@@ -46,7 +46,7 @@ public class OnlinePool : MonoBehaviour
     [PunRPC]
     public void SetOwner(int playerNum, int item)
     {
-        pooledObjects[item].GetComponent<PlayerAttackCollision>().playerNumber = playerNum;
+        //pooledObjects[item].GetComponent<PlayerAttackCollision>().playerNumber = playerNum;
     }
 
     public GameObject ReturnObject()
