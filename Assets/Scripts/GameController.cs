@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading;
+using Photon.Pun;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
-public class GameController : MonoBehaviour
+public class GameController : MonoBehaviourPunCallbacks
 {
 
     #region
@@ -52,19 +53,20 @@ public class GameController : MonoBehaviour
     {
 
     }
-   /* private void FixedUpdate()
-    {
+    /* private void FixedUpdate()
+     {
 
-        if (GameController.twoPlayers == false)
-        {
-            gameManager.OnePlayer();
-            Debug.Log("YES!!");
-        }
-        if (GameController.twoPlayers == true)
-        {
-            Debug.Log("TWO!!");
-        }
-    }*/
+         if (GameController.twoPlayers == false)
+         {
+             gameManager.OnePlayer();
+             Debug.Log("YES!!");
+         }
+         if (GameController.twoPlayers == true)
+         {
+             Debug.Log("TWO!!");
+         }
+     }*/
+    [PunRPC]
     void Awake()
     {
         timer.StartTimer(0f);
@@ -133,6 +135,7 @@ public class GameController : MonoBehaviour
     {
 
     }
+    [PunRPC]
     public void StopMusic()
     {
         musicMan.Stop();

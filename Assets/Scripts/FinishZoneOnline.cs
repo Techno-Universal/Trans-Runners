@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class FinishZoneOnline : MonoBehaviour
+public class FinishZoneOnline : MonoBehaviourPunCallbacks
 {
     //GameData saveData = new GameData();
 
@@ -55,6 +56,7 @@ public class FinishZoneOnline : MonoBehaviour
             Debug.Log("P2F");
         }
     }
+    [PunRPC]
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Enter...");
