@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
+
+    public GameObject loadingText;
+
     #region Serializable fields
     #endregion
 
@@ -63,9 +66,29 @@ public class Launcher : MonoBehaviourPunCallbacks
         SceneManager.LoadScene(0);
     }
     //load the next scene if we successfully join a lobby.
-    public override void OnJoinedLobby()
+    /*public override void OnJoinedLobby()
     {
-        PhotonNetwork.LoadLevel("CreateOrJoinRoom");
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            Debug.Log("Wait for Player2...");
+        }
+        else
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+            loadingText.gameObject.SetActive(true);
+        }
+    }
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+            loadingText.gameObject.SetActive(true);
+        }
+    }*/
+    public void ExitRoom()
+    {
+        PhotonNetwork.LeaveRoom();
     }
 
     #endregion

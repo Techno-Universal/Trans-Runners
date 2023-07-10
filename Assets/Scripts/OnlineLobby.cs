@@ -21,6 +21,8 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
 
     public string levelName;
 
+    public GameObject loadingText;
+
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
@@ -76,6 +78,15 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         base.OnPlayerEnteredRoom(newPlayer);
         numberOfPlayers.text = PhotonNetwork.CurrentRoom.PlayerCount.ToString() + " / " + PhotonNetwork.CurrentRoom.MaxPlayers;
         Invoke("UpdateBoolsOnJoin", 1);
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+            loadingText.gameObject.SetActive(true);
+        }
+        else
+        {
+            OnJoinedLobby();
+        }
     }
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
@@ -94,5 +105,21 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     void Update()
     {
         
+    }
+    public void ExitRoom()
+    {
+        PhotonNetwork.LeaveRoom();
+    }
+    public override void OnJoinedLobby()
+    {
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            Debug.Log("Wait for Player2...");
+        }
+        else
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+            loadingText.gameObject.SetActive(true);
+        }
     }
 }

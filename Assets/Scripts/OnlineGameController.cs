@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading;
+using Photon.Pun;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -113,6 +114,16 @@ public class OnlineGameController : MonoBehaviour
         Debug.Log("Starting...");
         GetComponent<GameManager>();
         musicMan.Play();*/
+
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            
+        }
+        else
+        {
+
+        }
+
     }
     // Update is called once per frame
     void Update()
