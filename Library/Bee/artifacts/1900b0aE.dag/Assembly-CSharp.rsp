@@ -683,6 +683,7 @@
 "Assets/Scripts/Quit.cs"
 "Assets/Scripts/ResetSaveData.cs"
 "Assets/Scripts/ResetScene.cs"
+"Assets/Scripts/ReturnIfOffline.cs"
 "Assets/Scripts/SlowZone.cs"
 "Assets/Scripts/SlowZoneOnline.cs"
 "Assets/Scripts/SoundManager.cs"

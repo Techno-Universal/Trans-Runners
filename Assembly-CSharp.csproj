@@ -171,6 +171,7 @@
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\Structs\Matrix.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\NetAdapters\NetMsgSends.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\ShowIfInterfaceAttribute.cs" />
+    <Compile Include="Assets\Scripts\ReturnIfOffline.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Debugging\UIConsole.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\Interfaces\IIncludeInGhost.cs" />

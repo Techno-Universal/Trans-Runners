@@ -11,6 +11,8 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
     public GameObject playerExit;
 
     public GameObject hostExit;
+
+    public GameObject offlineWarning;
     
     public void LoadLevel1()
     {
@@ -24,8 +26,15 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
     }
     public void LoadOnlineLobby()
     {
-        Time.timeScale = 1.0f;
-        SceneManager.LoadScene("Lobby");
+        if (PhotonNetwork.IsConnected)
+        {
+            Time.timeScale = 1.0f;
+            SceneManager.LoadScene("Lobby");
+        }
+        else
+        {
+            offlineWarning.gameObject.SetActive(true);
+        }
     }
     public void ExitRoom()
     {

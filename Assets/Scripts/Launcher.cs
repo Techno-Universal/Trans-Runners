@@ -30,7 +30,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     //on start, try to connect to the master server.
     private void Start()
     {
-        Connect();
+        //Connect();
     }
 
 
