@@ -86,6 +86,11 @@ public class Launcher : MonoBehaviourPunCallbacks
             loadingText.gameObject.SetActive(true);
         }
     }*/
+    public void Disconnect()
+    {
+        PhotonNetwork.Disconnect();
+    }
+    
     public void ExitRoom()
     {
         PhotonNetwork.LeaveRoom();
