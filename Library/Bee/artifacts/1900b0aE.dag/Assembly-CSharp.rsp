@@ -671,6 +671,7 @@
 "Assets/Scripts/MainMenuRecordTimes.cs"
 "Assets/Scripts/OnlineCharacterMovement.cs"
 "Assets/Scripts/OnlineGameController.cs"
+"Assets/Scripts/OnlineGameManager.cs"
 "Assets/Scripts/OnlineLobby.cs"
 "Assets/Scripts/OnlinePauseScreenOpener.cs"
 "Assets/Scripts/OnlinePool.cs"

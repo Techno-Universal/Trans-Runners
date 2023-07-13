@@ -161,6 +161,7 @@
     <Compile Include="Assets\Photon\Simple\Components\Mount\MountThrow.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Collider\CollideType.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\TransformCrusherDrawer.cs" />
+    <Compile Include="Assets\Scripts\OnlineGameManager.cs" />
     <Compile Include="Assets\Photon\Simple\Core\GenericHitscan\GenericHitscan.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\WorldBounds\WorldBounds.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
