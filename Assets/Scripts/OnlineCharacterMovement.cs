@@ -45,12 +45,12 @@ public class OnlineCharacterMovement : MonoBehaviour
         groundedPlayer = cc.isGrounded;
         if(groundedPlayer && playerVelocity.y < 0)
         {
-            if (anim.GetBool("Jump")) anim.SetBool("Jump", false);
+            if (anim.GetBool("Jump1")) anim.SetBool("Jump1", false);
             playerVelocity.y = 0;
         }
 
-        float h = (Convert.ToInt64(Input.GetKey(KeyCode.A))*-1) + Convert.ToInt64(Input.GetKey(KeyCode.D));
-        float v = (Convert.ToInt64(Input.GetKey(KeyCode.S)) * -1) + Convert.ToInt64(Input.GetKey(KeyCode.W));
+        float h = Input.GetAxis("Horizontal1");
+        float v = Input.GetAxis("Vertical1");
 
         //determine camera direction on a flat plain
         Vector3 camh = cam.transform.right;
@@ -62,11 +62,11 @@ public class OnlineCharacterMovement : MonoBehaviour
             movementDirection.Normalize();
             cc.Move(movementDirection * movementSpeed * Time.deltaTime);
 
-            anim.SetBool("HasInput", true);
+            anim.SetBool("HasInput1", true);
         }
         else
         {
-            anim.SetBool("HasInput", false);
+            anim.SetBool("HasInput1", false);
         }
         
 
@@ -75,8 +75,8 @@ public class OnlineCharacterMovement : MonoBehaviour
 
         Vector3 animationVector = anim.transform.InverseTransformDirection(cc.velocity);
 
-        anim.SetFloat("HorizontalSpeed", animationVector.x);
-        anim.SetFloat("VerticalSpeed", animationVector.z);
+        anim.SetFloat("HorizontalSpeed1", animationVector.x);
+        anim.SetFloat("VerticalSpeed1", animationVector.z);
 
         ProcessGravity();
        
@@ -85,7 +85,7 @@ public class OnlineCharacterMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && groundedPlayer)
         {
-            anim.SetBool("Jump", true);
+            anim.SetBool("Jump1", true);
             playerVelocity.y += Mathf.Sqrt(jumpForce * -3.0f * gravityForce);
         }
 

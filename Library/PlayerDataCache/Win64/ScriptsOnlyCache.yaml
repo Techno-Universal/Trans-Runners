@@ -58,32 +58,9 @@ ScriptsOnlyBuild:
     - Photon.Compression.Internal.TypeCatalogue
     - Photon.Compression.PackObjectSettings
     - Photon.Compression.WorldBoundsSettings
-    - Photon.Pun.Example.TakeOwnership
-    - Photon.Pun.Simple.AutoDestroyUnspawned
-    - Photon.Pun.Simple.AutoOwnerComponentEnable
-    - Photon.Pun.Simple.AutoZoom
-    - Photon.Pun.Simple.BasicInventory
     - Photon.Pun.Simple.ContactGroups.ContactGroupSettings
-    - Photon.Pun.Simple.ContactTrigger
-    - Photon.Pun.Simple.Mount
     - Photon.Pun.Simple.MountSettings
-    - Photon.Pun.Simple.MountThrow
-    - Photon.Pun.Simple.MountsManager
-    - Photon.Pun.Simple.NetObject
-    - Photon.Pun.Simple.OnStateChangeKinematic
-    - Photon.Pun.Simple.OnStateChangeToggle
-    - Photon.Pun.Simple.SyncAnimator
-    - Photon.Pun.Simple.SyncCannon
-    - Photon.Pun.Simple.SyncContact
-    - Photon.Pun.Simple.SyncContactScan
-    - Photon.Pun.Simple.SyncNodeMover
-    - Photon.Pun.Simple.SyncSpawnTimer
-    - Photon.Pun.Simple.SyncState
-    - Photon.Pun.Simple.SyncTransform
-    - Photon.Pun.Simple.SyncVitals
     - Photon.Pun.Simple.TickEngineSettings
-    - Photon.Pun.Simple.VitalUI
-    - Photon.Pun.Simple.VitalsContactReactor
     - Quit
     - ResetSaveData
     - ResetScene
@@ -94,9 +71,7 @@ ScriptsOnlyBuild:
     - SoundManager
     - SpeedBoostZone
     - SpeedBoostZoneOnline
-    - SuperBasicController
     - Timer
-    - emotitron.TestPackObject
     Cinemachine.dll:
     - Cinemachine.Cinemachine3rdPersonFollow
     - Cinemachine.CinemachineBrain
@@ -126,8 +101,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.Utilities:
     - Photon.Pun.UtilityScripts.MoveByKeys
     PhotonUnityNetworking.dll:
@@ -168,25 +141,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Core.Runtime.dll:
-    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
-    - UnityEngine.Rendering.UI.DebugUIHandlerButton
-    - UnityEngine.Rendering.UI.DebugUIHandlerColor
-    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
-    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
-    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
-    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
-    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
-    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
-    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    - UnityEngine.Rendering.UI.DebugUIHandlerObject
-    - UnityEngine.Rendering.UI.DebugUIHandlerObjectList
-    - UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
-    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
-    - UnityEngine.Rendering.UI.DebugUIHandlerRow
-    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    - UnityEngine.Rendering.UI.DebugUIHandlerValue
-    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
-    - UnityEngine.Rendering.UI.UIFoldout
     - UnityEngine.Rendering.Volume
     - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
@@ -250,11 +204,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
@@ -265,7 +217,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
-    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Assembly-CSharp:
     - GameData
@@ -775,9 +726,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: LoadNextScene
     methodName: LoadMainMenu
@@ -1120,6 +1068,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12256}
     - Class: 114
       Script: {instanceID: 12744}
+    - Class: 114
+      Script: {instanceID: 13472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1595,7 +1545,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13868}
     - Class: 114
-      Script: {instanceID: 47920}
+      Script: {instanceID: 38008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
