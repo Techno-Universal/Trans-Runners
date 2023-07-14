@@ -13,7 +13,13 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
     public GameObject hostExit;
 
     public GameObject offlineWarning;
-    
+
+    public PhotonView view;
+
+    private void Start()
+    {
+        view = GetComponent<PhotonView>();
+    }
     public void LoadLevel1()
     {
         Time.timeScale = 1.0f;
@@ -22,6 +28,7 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
     public void LoadMainMenu()
     {
         Time.timeScale = 1.0f;
+        PhotonNetwork.Disconnect();
         SceneManager.LoadScene("MainMenu");
     }
     public void LoadOnlineLobby()
@@ -38,8 +45,8 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
     }
     public void ExitRoom()
     {
+        view.RPC("ExitRoom2", RpcTarget.All);
         PhotonNetwork.LeaveRoom();
-        ExitRoom2();
     }
     [PunRPC]
     public void ExitRoom2()

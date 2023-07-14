@@ -543,7 +543,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -8290,6 +8290,7 @@ MonoBehaviour:
   playerExit: {fileID: 0}
   hostExit: {fileID: 0}
   offlineWarning: {fileID: 1845992521}
+  view: {fileID: 0}
 --- !u!4 &1408903365
 Transform:
   m_ObjectHideFlags: 0

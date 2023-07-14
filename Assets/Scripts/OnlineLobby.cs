@@ -27,7 +27,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     {
         //PhotonNetwork.ConnectUsingSettings();
         playersReady = new bool[PhotonNetwork.CurrentRoom.MaxPlayers];
-        PhotonNetwork.LocalPlayer.NickName = "Player " + PhotonNetwork.LocalPlayer.ActorNumber;
+        PhotonNetwork.LocalPlayer.NickName = "Player1" + PhotonNetwork.LocalPlayer.ActorNumber;
         roomName.text = "Room Name: " + PhotonNetwork.CurrentRoom.Name;
 
         numberOfPlayers.text = PhotonNetwork.CurrentRoom.PlayerCount.ToString() + " / " + PhotonNetwork.CurrentRoom.MaxPlayers;
@@ -50,7 +50,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         }
         else
         {
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level1Online");
         }
         
     }
@@ -96,10 +96,10 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     }
     void UpdateBoolOnJoin()
     {
-        int playerNUmber = PhotonNetwork.LocalPlayer.ActorNumber;
-        bool isReady = playersReady[ playerNUmber - 1];
+        int playerNumber = PhotonNetwork.LocalPlayer.ActorNumber;
+        bool isReady = playersReady[ playerNumber - 1];
 
-        view.RPC("ReadyPlayer", RpcTarget.All, playerNUmber, isReady);
+        view.RPC("ReadyPlayer", RpcTarget.All, playerNumber, isReady);
     }
     // Update is called once per frame
     void Update()
@@ -112,7 +112,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     }
     public override void OnJoinedLobby()
     {
-        if (!PhotonNetwork.IsMasterClient)
+        /*if (!PhotonNetwork.IsMasterClient)
         {
             Debug.Log("Wait for Player2...");
         }
@@ -120,6 +120,6 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.LoadLevel("Level1Online");
             loadingText.gameObject.SetActive(true);
-        }
+        }*/
     }
 }

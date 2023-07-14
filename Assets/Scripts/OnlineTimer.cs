@@ -45,7 +45,7 @@ public class OnlineTimer : MonoBehaviour, IOnEventCallback
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!PhotonNetwork.IsMasterClient) return;
+        //if (!PhotonNetwork.IsMasterClient) return;
 
         if (isTiming)
         {

@@ -1,12 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Threading;
+using Cinemachine;
 using Photon.Pun;
-using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.SceneManagement;
 
 public class OnlineGameController : MonoBehaviour
 {
@@ -20,9 +15,16 @@ public class OnlineGameController : MonoBehaviour
     public string player1FinishTime;
     public string player2FinishTime;
 
+    //Player prefabs
+    public GameObject player1;
+
     public GameObject player2;
-    public GameObject player2Cam;
-    public GameObject player2VCam;
+
+    public GameObject playerCam;
+
+    public CinemachineVirtualCamera playerVCam;
+
+    public Transform spawnpoint;
 
     public Camera cam1;
 
@@ -35,7 +37,7 @@ public class OnlineGameController : MonoBehaviour
     public string player1FinishTimeOnline;
     public string player2FinishTimeOnline;
 
-    public PauseScreenOpener pause1;
+    public OnlinePauseScreenOpener pause1;
 
     public AudioSource musicMan;
 
@@ -77,7 +79,7 @@ public class OnlineGameController : MonoBehaviour
 
         //musicMan = GameObject.Find("/Controllers /Music").GetComponent<AudioSource>();
 
-        if (GameManager.twoPlayers == false)
+        /*if (GameManager.twoPlayers == false)
         {
             Debug.Log("YES!!");
             Debug.Log("One Player");
@@ -115,13 +117,17 @@ public class OnlineGameController : MonoBehaviour
         GetComponent<GameManager>();
         musicMan.Play();*/
 
-        if (!PhotonNetwork.IsMasterClient)
+        if (PhotonNetwork.IsMasterClient)
         {
-            
+            GameObject Player = PhotonNetwork.Instantiate(player1.name, spawnpoint.position, spawnpoint.rotation);
+            playerVCam.Follow = Player.transform;
+            playerVCam.LookAt = Player.transform;
         }
         else
         {
-
+            GameObject Player = PhotonNetwork.Instantiate(player2.name, spawnpoint.position, spawnpoint.rotation);
+            playerVCam.Follow = Player.transform;
+            playerVCam.LookAt = Player.transform;
         }
 
     }

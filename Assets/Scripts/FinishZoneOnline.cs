@@ -7,7 +7,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
 {
     //GameData saveData = new GameData();
 
-    public Timer tim;
+    public OnlineTimer tim;
 
     public OnlineGameController controller;
 
@@ -23,11 +23,13 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
 
     public GameObject player2finish;
 
-    public InLevelUI levelUI;
+    public OnlineUI levelUI;
 
     public OnlineCharacterMovement c1;
 
     //public CharacterMovement2 c2;
+
+    public PhotonView view;
 
     public GameObject p2FTUI1;
     public GameObject p2FTUI2;
@@ -42,6 +44,8 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
         //player1finish = GameObject.Find("Player1finish");
 
         //player2finish = GameObject.Find("Player2finish");
+
+        view = GetComponent<PhotonView>();
     }
 
     // Update is called once per frame
@@ -57,10 +61,10 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
         }
     }
     [PunRPC]
-    private void OnTriggerEnter(Collider other)
+    public void FinishLineCrossed(string playerTag)
     {
         Debug.Log("Enter...");
-        if (other.tag == "Player1")
+        if (playerTag == "Player1")
         {
             if (controller.player1Finish == false)
             {
@@ -116,7 +120,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 Destroy(pScreen.gameObject);
             }
         }
-        if (other.tag == "Player2")
+        if (playerTag == "Player2")
         {
             if (controller.player2Finish == false)
             {
@@ -154,8 +158,11 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 Destroy(pScreen.gameObject);
             }
         }
-
-
+    }
+   
+    private void OnTriggerEnter(Collider other)
+    {
+        view.RPC("FinishLineCrossed", RpcTarget.All, other.tag);
     }
 
 

@@ -37,16 +37,16 @@ public class OnlinePauseScreenOpener : MonoBehaviour
         //PauseScreen.gameObject.SetActive(!PauseScreen.gameObject.activeSelf);
         if (Time.timeScale == 1.0f)
         {
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
             PauseScreen.gameObject.SetActive(true);
             timer.isTiming = false;
         }
-        else if (Time.timeScale == 0.0f)
+        /*else if (Time.timeScale == 0.0f)
         {
             Time.timeScale = 1.0f;
             PauseScreen.gameObject.SetActive(false);
             timer.isTiming = true;
-        }
+        }*/
     }
     public void ESCOff()
     {
