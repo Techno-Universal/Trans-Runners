@@ -43,20 +43,17 @@ public class OnlineCharacterMovement : MonoBehaviour
         if (!view.IsMine) return;
 
         groundedPlayer = cc.isGrounded;
-        if(groundedPlayer && playerVelocity.y < 0)
+        if (groundedPlayer && playerVelocity.y < 0)
         {
             if (anim.GetBool("Jump1")) anim.SetBool("Jump1", false);
             playerVelocity.y = 0;
         }
-
         float h = Input.GetAxis("Horizontal1");
         float v = Input.GetAxis("Vertical1");
-
-        //determine camera direction on a flat plain
         Vector3 camh = cam.transform.right;
         Vector3 camv = Vector3.Cross(camh, Vector3.up);
 
-        if(h != 0 || v != 0)
+        if (h != 0 || v != 0)
         {
             movementDirection = camh * h + camv * v;
             movementDirection.Normalize();
@@ -68,7 +65,7 @@ public class OnlineCharacterMovement : MonoBehaviour
         {
             anim.SetBool("HasInput1", false);
         }
-        
+
 
         Quaternion desiredDirection = Quaternion.LookRotation(movementDirection);
         anim.transform.rotation = Quaternion.Lerp(anim.transform.rotation, desiredDirection, rotationSpeed);
