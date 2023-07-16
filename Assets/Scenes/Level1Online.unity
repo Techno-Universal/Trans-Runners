@@ -5112,11 +5112,12 @@ MonoBehaviour:
   controller: {fileID: 238887899}
   resultGroup: {fileID: 0}
   levelCompleteScreen: {fileID: 1036372782}
-  pauseO: {fileID: 0}
+  pauseO: {fileID: 238887901}
   player1finish: {fileID: 244437676}
   player2finish: {fileID: 86811487}
   levelUI: {fileID: 238887902}
-  c1: {fileID: 0}
+  c1: {fileID: 7645586393947175799, guid: 753d8d961885202469f1f1cfaf56629b, type: 3}
+  c2: {fileID: 8397956486844720803, guid: 8a9679e84465ea94bb4c4a65abf07fc8, type: 3}
   view: {fileID: 238887903}
   p2FTUI1: {fileID: 931142596}
   p2FTUI2: {fileID: 1649319480}
@@ -65299,7 +65300,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh71434
+  m_Name: pb_Mesh47526
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -71185,7 +71186,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32536
+  m_Name: pb_Mesh48988
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

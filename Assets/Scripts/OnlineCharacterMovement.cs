@@ -66,26 +66,28 @@ public class OnlineCharacterMovement : MonoBehaviour
             anim.SetBool("HasInput1", false);
         }
 
+        movementDirection.Normalize();
 
         Quaternion desiredDirection = Quaternion.LookRotation(movementDirection);
-        anim.transform.rotation = Quaternion.Lerp(anim.transform.rotation, desiredDirection, rotationSpeed);
+        transform.rotation = Quaternion.Lerp(transform.rotation, desiredDirection, rotationSpeed);
 
-        Vector3 animationVector = anim.transform.InverseTransformDirection(cc.velocity);
+        Vector3 animationVector = transform.InverseTransformDirection(cc.velocity);
+
+        // cc.Move(moveDirection * moveSpeed * Time.deltaTime);
 
         anim.SetFloat("HorizontalSpeed1", animationVector.x);
-        anim.SetFloat("VerticalSpeed1", animationVector.z);
+        anim.SetFloat("VirticalSpeed1", animationVector.z);
 
         ProcessGravity();
        
     }
     public void ProcessGravity()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && groundedPlayer)
+        if (Input.GetKeyDown(KeyCode.Space) && groundedPlayer)
         {
             anim.SetBool("Jump1", true);
             playerVelocity.y += Mathf.Sqrt(jumpForce * -3.0f * gravityForce);
         }
-
         playerVelocity.y += gravityForce * Time.deltaTime;
         cc.Move(playerVelocity * Time.deltaTime);
     }
@@ -93,15 +95,18 @@ public class OnlineCharacterMovement : MonoBehaviour
 
     public void SpeedBoostOnline()
     {
+        Debug.Log("Speed");
         movementSpeed = 16;
-        Invoke("ReturnSpeed1", 2f);
+        Invoke("ReturnSpeedOnline", 2f);
     }
     public void ReturnSpeedOnline()
     {
+        Debug.Log("Return");
         movementSpeed = 8;
     }
     public void SlowOnline()
     {
+        Debug.Log("Slow");
         movementSpeed = 2;
     }
     public void FinishOnline1()

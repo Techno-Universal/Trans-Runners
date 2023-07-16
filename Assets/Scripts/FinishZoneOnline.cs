@@ -17,7 +17,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
 
     public static GameManager manager;
 
-    public PauseScreenOpener pauseO;
+    public OnlinePauseScreenOpener pauseO;
 
     public GameObject player1finish;
 
@@ -26,6 +26,8 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
     public OnlineUI levelUI;
 
     public OnlineCharacterMovement c1;
+
+    public OnlineCharacterMovement c2;
 
     //public CharacterMovement2 c2;
 
@@ -100,7 +102,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 //manager.AutoSave2();
                 Destroy(pScreen.gameObject);
             }
-            if (GameManager.twoPlayers == false)
+            /*if (GameManager.twoPlayers == false)
             {
                 pauseO.escOn = false;
                 controller.player1FinishTimeOnline = tim.displayTime;
@@ -118,7 +120,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 GameManager.instance.SetTimes();
                 //manager.AutoSave1();
                 Destroy(pScreen.gameObject);
-            }
+            }*/
         }
         if (playerTag == "Player2")
         {
@@ -129,7 +131,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 controller.player2FinishTimeOnline = tim.displayTime;
                 controller.player2FinishTimeNumberOnline = tim.currentTime;
                 controller.player2Finish = true;
-                c1.FinishOnline2();
+                c2.FinishOnline2();
                 controller.P2Finish();
             }
             if (controller.player1Finish == true)

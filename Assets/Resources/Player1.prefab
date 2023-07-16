@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42167cb3394ccea43bdaa09b44a502e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 16
+  movementSpeed: 8
   rotationSpeed: 0.04
   gravityForce: -9.3
   jumpForce: 1
@@ -123,7 +123,8 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: -3451431968698718227}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0

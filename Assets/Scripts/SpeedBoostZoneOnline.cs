@@ -18,12 +18,14 @@ public class SpeedBoostZoneOnline : MonoBehaviour
     {
         if (other.tag == "Player1")
         {
-            player1.GetComponent<OnlineCharacterMovement>().SpeedBoostOnline();
+            Debug.Log("Speed1");
+            //player1.GetComponent<OnlineCharacterMovement>().SpeedBoostOnline();
             oCM1.SpeedBoostOnline();
         }
-        if (other.tag == "Player2")
+        else if (other.tag == "Player2")
         {
-            player2.GetComponent<OnlineCharacterMovement>().SpeedBoostOnline();
+            Debug.Log("Speed2");
+            //player2.GetComponent<OnlineCharacterMovement>().SpeedBoostOnline();
             oCM2.SpeedBoostOnline();
         }
     }

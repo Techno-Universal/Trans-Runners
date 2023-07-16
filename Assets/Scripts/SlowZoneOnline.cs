@@ -17,12 +17,14 @@ public class SlowZoneOnline : MonoBehaviour
     {
         if (other.tag == "Player1")
         {
-            player1.GetComponent<OnlineCharacterMovement>().SlowOnline();
+            Debug.Log("Slow1");
+            //player1.GetComponent<OnlineCharacterMovement>().SlowOnline();
             oCM1.SlowOnline();
         }
-        if (other.tag == "Player2")
+        else if (other.tag == "Player2")
         {
-            player2.GetComponent<OnlineCharacterMovement>().SlowOnline();
+            Debug.Log("Slow2");
+           // player2.GetComponent<OnlineCharacterMovement>().SlowOnline();
             oCM2.SlowOnline();
         }
     }
@@ -30,13 +32,13 @@ public class SlowZoneOnline : MonoBehaviour
     {
         if (other.tag == "Player1")
         {
-            player1.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
-            oCM1.SlowOnline();
+            //player1.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
+            oCM1.ReturnSpeedOnline();
         }
-        if (other.tag == "Player2")
+        else if (other.tag == "Player2")
         {
-            player2.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
-            oCM2.SlowOnline();
+            //player2.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
+            oCM2.ReturnSpeedOnline();
         }
     }
 }
