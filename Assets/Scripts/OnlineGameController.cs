@@ -70,7 +70,10 @@ public class OnlineGameController : MonoBehaviour
      }*/
     void Awake()
     {
-        timer.StartTimer(0f);
+        if (PhotonNetwork.IsMasterClient)
+        {
+            timer.StartTimer(0f);
+        }
 
         player1Finish = false;
         player2Finish = false;

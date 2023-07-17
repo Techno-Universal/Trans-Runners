@@ -5,10 +5,11 @@ using UnityEngine.Events;
 using Photon.Pun;
 using Photon.Realtime;
 using ExitGames.Client.Photon;
+using UnityEngine.UIElements;
 
 public class OnlineTimer : MonoBehaviour, IOnEventCallback
 {
-    public float startTime;
+    public float startTime = 0f;
     public float currentTime;
 
     public string displayTime;
@@ -19,6 +20,8 @@ public class OnlineTimer : MonoBehaviour, IOnEventCallback
 
     public UnityEvent TimesUp;
     public OnlineUI timeUI;
+
+    public PhotonView view;
 
     #region Photon Raise Event Code
     //enable and disable the ability to listen to events
@@ -49,7 +52,7 @@ public class OnlineTimer : MonoBehaviour, IOnEventCallback
 
         if (isTiming)
         {
-            currentTime -= Time.deltaTime;
+            currentTime += Time.deltaTime;
 
             //format the time
             string minutes = Mathf.Floor(currentTime / 60).ToString("00");
@@ -70,15 +73,27 @@ public class OnlineTimer : MonoBehaviour, IOnEventCallback
         }
         timeUI.UpdateUI();
     }
-    public void StartTimer(float length)
+    [PunRPC]
+    public virtual void StartTimer1(float length)
     {
         startTime = length;
         currentTime = startTime;
         isTiming = true;
     }
-    public void StopTimer()
+    [PunRPC]
+    public virtual void StopTimer1()
     {
         isTiming = false;
         timeUI.DisableTimer();
+    }
+    public void StartTimer(float length)
+    {
+        Debug.Log("Start Timer...");
+        view.RPC("StartTimer1", RpcTarget.All, length);
+    }
+    public void StopTimer()
+    {
+        Debug.Log("Stop Timer...");
+        view.RPC("StopTimer1", RpcTarget.All);
     }
 }

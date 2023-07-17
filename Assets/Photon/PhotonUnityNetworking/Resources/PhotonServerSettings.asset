@@ -46,6 +46,10 @@ MonoBehaviour:
   - StopMusic
   - ExitRoom2
   - FinishLineCrossed
+  - StartTimer
+  - StopTimer
+  - StartTimer1
+  - StopTimer1
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

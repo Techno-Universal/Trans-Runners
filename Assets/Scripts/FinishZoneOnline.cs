@@ -25,9 +25,9 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
 
     public OnlineUI levelUI;
 
-    public OnlineCharacterMovement c1;
+    public static OnlineCharacterMovement c1;
 
-    public OnlineCharacterMovement c2;
+    public static OnlineCharacterMovement c2;
 
     //public CharacterMovement2 c2;
 
@@ -63,7 +63,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
         }
     }
     [PunRPC]
-    public void FinishLineCrossed(string playerTag)
+    public virtual void FinishLineCrossed(string playerTag)
     {
         Debug.Log("Enter...");
         if (playerTag == "Player1")
@@ -162,9 +162,9 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
         }
     }
    
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider playerTag)
     {
-        view.RPC("FinishLineCrossed", RpcTarget.All, other.tag);
+        view.RPC("FinishLineCrossed", RpcTarget.All, playerTag.tag);
     }
 
 

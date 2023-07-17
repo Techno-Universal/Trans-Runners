@@ -20,6 +20,14 @@ public class CreateAndJoinRoom : MonoBehaviourPunCallbacks
     }
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.LoadLevel("Level1Online");
+        base.OnJoinedRoom();
+
+        //Uncomment line 27 to test online level.
+
+        //PhotonNetwork.LoadLevel("Level1Online");
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+        }
     }
 }

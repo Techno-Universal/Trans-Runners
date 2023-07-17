@@ -9,22 +9,22 @@ public class SlowZoneOnline : MonoBehaviour
 
     public GameObject player2;
 
-    public OnlineCharacterMovement oCM1;
+    public static OnlineCharacterMovement oCM1;
 
-    public OnlineCharacterMovement oCM2;
+    public static OnlineCharacterMovement oCM2;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player1")
         {
             Debug.Log("Slow1");
-            //player1.GetComponent<OnlineCharacterMovement>().SlowOnline();
+            player1.GetComponent<OnlineCharacterMovement>().SlowOnline();
             oCM1.SlowOnline();
         }
         else if (other.tag == "Player2")
         {
             Debug.Log("Slow2");
-           // player2.GetComponent<OnlineCharacterMovement>().SlowOnline();
+            player2.GetComponent<OnlineCharacterMovement>().SlowOnline();
             oCM2.SlowOnline();
         }
     }
@@ -32,12 +32,12 @@ public class SlowZoneOnline : MonoBehaviour
     {
         if (other.tag == "Player1")
         {
-            //player1.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
+            player1.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
             oCM1.ReturnSpeedOnline();
         }
         else if (other.tag == "Player2")
         {
-            //player2.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
+            player2.GetComponent<OnlineCharacterMovement>().ReturnSpeedOnline();
             oCM2.ReturnSpeedOnline();
         }
     }

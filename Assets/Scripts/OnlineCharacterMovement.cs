@@ -35,6 +35,19 @@ public class OnlineCharacterMovement : MonoBehaviour
         cam = Camera.main;
         view = GetComponent<PhotonView>();
 
+        if(PhotonNetwork.IsMasterClient)
+        {
+            SpeedBoostZoneOnline.oCM1 = this;
+            SlowZoneOnline.oCM1 = this;
+            FinishZoneOnline.c1 = this;
+        }
+        else
+        {
+            SpeedBoostZoneOnline.oCM2 = this;
+            SlowZoneOnline.oCM2 = this;
+            FinishZoneOnline.c2 = this;
+        }
+
     }
 
     // Update is called once per frame

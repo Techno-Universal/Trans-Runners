@@ -5660,6 +5660,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   timeUI: {fileID: 238887902}
+  view: {fileID: 238887903}
 --- !u!114 &238887901
 MonoBehaviour:
   m_ObjectHideFlags: 0
