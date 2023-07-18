@@ -16,7 +16,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     #region private fields
 
     //this is the clients version number. 
-    string gameVersion = "1";
+    string gameVersion = "Beta 1.3";
     #endregion
 
     #region Monobehaviour callbacks

@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.18</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2022.2.5f1</UnityVersion>
@@ -58,14 +58,14 @@
     <Analyzer Include="D:\App data\Unity Hub\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.1\Runtime\NavMeshModifier.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.1\Runtime\NavMeshLink.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.1\Runtime\NavMeshSurface.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.1\Runtime\HelpUrls.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.1\Runtime\NavMeshModifierVolume.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Runtime\NavMeshModifier.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Runtime\NavMeshLink.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Runtime\NavMeshSurface.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Runtime\HelpUrls.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Runtime\NavMeshModifierVolume.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.ai.navigation@1.1.1\Runtime\Unity.AI.Navigation.asmdef" />
+    <None Include="Library\PackageCache\com.unity.ai.navigation@1.1.4\Runtime\Unity.AI.Navigation.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

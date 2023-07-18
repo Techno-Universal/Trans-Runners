@@ -743,7 +743,7 @@
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonUtilities/TransformCrusher/plugins/FloatCrusher.dll",
         "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
-        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.3/Unity.Burst.Unsafe.dll",
+        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.7/Unity.Burst.Unsafe.dll",
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonUtilities/TransformCrusher/plugins/HalFloat.dll",
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonUtilities/TransformCrusher/plugins/QuatCompress.dll",
         "D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
@@ -2120,7 +2120,7 @@
       "DisplayName": "Copying Unity.Burst.Unsafe.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.3/Unity.Burst.Unsafe.dll"
+        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.7/Unity.Burst.Unsafe.dll"
       ],
       "Outputs": [
         "C:/Users/johnc/OneDrive/Desktop/Trans-Runners!! Online Test/Trans-Runners!!_Data/Managed/Unity.Burst.Unsafe.dll"
@@ -3791,7 +3791,7 @@
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonUtilities/TransformCrusher/plugins/FloatCrusher.dll",
         "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
-        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.3/Unity.Burst.Unsafe.dll",
+        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.7/Unity.Burst.Unsafe.dll",
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonUtilities/TransformCrusher/plugins/HalFloat.dll",
         "D:/App data/Trans-Runners!!/Assets/Photon/PhotonUtilities/TransformCrusher/plugins/QuatCompress.dll",
         "D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
@@ -3817,7 +3817,7 @@
         "D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
         "D:/App data/Unity Hub/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
         "ProjectSettings/BurstAotSettings_StandaloneWindows.json",
-        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.3/.Runtime/bcl.exe"
+        "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.7/.Runtime/bcl.exe"
       ],
       "Outputs": [],
       "TargetDirectories": [
@@ -4737,7 +4737,7 @@
       "File": "D:/App data/Trans-Runners!!/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
     },
     {
-      "File": "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.3/Unity.Burst.Unsafe.pdb"
+      "File": "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.burst@1.8.7/Unity.Burst.Unsafe.pdb"
     },
     {
       "File": "D:/App data/Trans-Runners!!/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"

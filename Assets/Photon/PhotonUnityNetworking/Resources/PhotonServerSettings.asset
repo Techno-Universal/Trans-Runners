@@ -50,6 +50,8 @@ MonoBehaviour:
   - StopTimer
   - StartTimer1
   - StopTimer1
+  - LoadLevel
+  - LoadLevel1
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

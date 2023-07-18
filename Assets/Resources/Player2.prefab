@@ -67,7 +67,7 @@ Transform:
   - {fileID: 2176740608296012323}
   - {fileID: 1855464842626951042}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!143 &1855464843197143435
 CharacterController:
@@ -252,7 +252,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6c9db482d01e26c42a4b7e3255e51161, type: 2}
+      objectReference: {fileID: 9100000, guid: 97b6388d7103cba4a96c751c7e0cc047, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

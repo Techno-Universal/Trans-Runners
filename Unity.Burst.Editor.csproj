@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.18</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2022.2.5f1</UnityVersion>
@@ -58,28 +58,28 @@
     <Analyzer Include="D:\App data\Unity Hub\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstInspectorGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.Wasm.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.LLVMIR.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.LLVMIR.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.ARM64.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\LongTextArea.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.ARM64.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstStringSearch.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.Wasm.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.x86.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstAotCompiler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\LabeledPopup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstDisassembler.Core.x86.info.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstMath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstAotSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\BurstMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstInspectorGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.Wasm.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.LLVMIR.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.LLVMIR.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstPlatformAotSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.ARM64.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\LongTextArea.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.ARM64.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstStringSearch.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.Wasm.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.x86.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstAotCompiler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\LabeledPopup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstDisassembler.Core.x86.info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstMath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\BurstMenu.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.burst@1.8.3\Editor\Unity.Burst.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.7\Editor\Unity.Burst.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -362,7 +362,7 @@
       <HintPath>Assets\ToolsAndTests\TrafficRecording\libs\SharpPcap.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ByteConverter">
       <HintPath>Assets\Photon\PhotonUtilities\Compression\plugins\ByteConverter.dll</HintPath>
@@ -371,10 +371,10 @@
       <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
@@ -401,7 +401,7 @@
       <HintPath>Assets\Photon\PhotonUtilities\TransformCrusher\plugins\QuatCompress.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

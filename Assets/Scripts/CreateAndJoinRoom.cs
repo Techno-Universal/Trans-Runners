@@ -10,6 +10,8 @@ public class CreateAndJoinRoom : MonoBehaviourPunCallbacks
     public TMP_InputField createInput;
     public TMP_InputField joinInput;
 
+    public OnlineLobby lobby;
+
     public void CreateRoom()
     {
         PhotonNetwork.CreateRoom(createInput.text);
@@ -28,6 +30,18 @@ public class CreateAndJoinRoom : MonoBehaviourPunCallbacks
         if (!PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.LoadLevel("Level1Online");
+        }
+    }
+    public virtual void OnPlayerEnteredRoom(PlayerNumber newPlayer)
+    {
+        Debug.Log("Entered room...");
+        PhotonNetwork.LoadLevel("Level1Online");
+        lobby.LoadLevel();
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+            lobby.LoadLevel();
         }
     }
 }

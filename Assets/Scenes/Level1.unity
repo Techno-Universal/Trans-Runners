@@ -1038,21 +1038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &33290654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1783,21 +1768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951681
-  m_Size: {x: -17.957771, y: 24.991955, z: 16.913637}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3201
-  m_ShapeBox:
-    m_Center: {x: -11.580387, y: 11.834681, z: 10.242512}
-    m_Extent: {x: 8.978886, y: 12.495977, z: 8.456818}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951681
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &101052421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2648,21 +2618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &121745068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3029,27 +2984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676315
-  m_Size: {x: -4, y: 2, z: 0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1933
-  m_ShapeBox:
-    m_Center: {x: -0.3257153, y: 1.0632803, z: 1.2604696}
-    m_Extent: {x: 2, y: 0.9510567, z: 0.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676315
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.25
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &153347806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4105,21 +4039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &175559248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4836,21 +4755,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717249
-  m_Size: {x: 12.048168, y: 30.49526, z: 8.477889}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5643
-  m_ShapeBox:
-    m_Center: {x: 3.399763, y: 15.247631, z: 2.8562088}
-    m_Extent: {x: 6.024084, y: 15.247631, z: 4.2389445}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717249
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &200935301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5649,21 +5553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717253
-  m_Size: {x: 1.4934683, y: 5.340699, z: -1.5008888}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1374
-  m_ShapeBox:
-    m_Center: {x: 0.7467346, y: 2.67035, z: -0.7504444}
-    m_Extent: {x: 0.74673414, y: 2.6703496, z: 0.7504444}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717253
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &240824235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6233,21 +6122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0.5
-  m_VerticalDamping: 0.5
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
-  m_SoftZoneWidth: 0.5
-  m_SoftZoneHeight: 0.5
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
 --- !u!114 &255924716
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -6552,21 +6426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738951
-  m_Size: {x: -23.360233, y: 22.621313, z: -0.8394432}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1395
-  m_ShapeBox:
-    m_Center: {x: -11.680117, y: 11.310656, z: -0.4197197}
-    m_Extent: {x: 11.680117, y: 11.310656, z: 0.4197216}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738951
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &275743990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7204,21 +7063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &285612525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7834,15 +7678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0.066082, y: 0, z: 0.033339977}
-  - {x: 0.06163788, y: 0, z: -3.05761}
-  - {x: -1.0309334, y: 0, z: -3.0523276}
-  - {x: -0.91645813, y: 0, z: -0.12624598}
-  m_Extrude: 0.15234375
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &308765353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8465,17 +8300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.1838355, y: -0.00000011920929, z: -1.110401}
-  - {x: -0.7055447, y: -0.00000023841858, z: -1.8555944}
-  - {x: -1.3669727, y: -0.00000023841858, z: -1.8478699}
-  - {x: -1.9114435, y: -0.00000011920929, z: -1.1337332}
-  - {x: -2.1350765, y: 0.000000007450581, z: 0.05658687}
-  m_Extrude: -0.021131516
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &333022159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9318,21 +9142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942916
-  m_Size: {x: -4096, y: 256, z: -4096}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3339
-  m_ShapeBox:
-    m_Center: {x: -99.62891, y: 49.48738, z: -99.57764}
-    m_Extent: {x: 2048, y: 128, z: 2048}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942916
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &422959596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10422,21 +10231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942924
-  m_Size: {x: -14.792082, y: 10.240861, z: 3.4711685}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3042
-  m_ShapeBox:
-    m_Center: {x: -7.396041, y: 5.120429, z: 1.73558}
-    m_Extent: {x: 7.396041, y: 5.120431, z: 1.7355843}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942924
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &482484258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11104,21 +10898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942924
-  m_Size: {x: -14.792082, y: 10.240861, z: 3.4711685}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3042
-  m_ShapeBox:
-    m_Center: {x: -7.396041, y: 5.120429, z: 1.73558}
-    m_Extent: {x: 7.396041, y: 5.120431, z: 1.7355843}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942924
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &496973829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11966,27 +11745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676303
-  m_Size: {x: 2.25, y: 2, z: -0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3232
-  m_ShapeBox:
-    m_Center: {x: -1.0453897, y: 0.7949277, z: -0.15066695}
-    m_Extent: {x: 1.125, y: 0.9510566, z: 0.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676303
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.1
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &526382124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12984,21 +12742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: -0.010802269, y: 0, z: 0.14311408}
-  - {x: -0.3238392, y: -0.00000047683716, z: -1.0549885}
-  - {x: -1.1813812, y: -0.00000023841858, z: -1.7468178}
-  - {x: -2.3039083, y: 0.00000011920929, z: -1.747641}
-  - {x: -3.295148, y: 0.00000011920929, z: -1.1009073}
-  - {x: -3.6081133, y: -0.0000008791685, z: 0.16018248}
-  - {x: -3.9203625, y: -0.00000022351742, z: 0.23838472}
-  - {x: -3.8607426, y: -0.00000047683716, z: -3.4581048}
-  - {x: 0.2238226, y: 0, z: -3.4490848}
-  - {x: 0.24973774, y: -0.00000043213367, z: 0.16752438}
-  m_Extrude: 0.1
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &540787723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13453,6 +13196,50 @@ Transform:
   m_Father: {fileID: 1532924396}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &544032835
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 544032836}
+  - component: {fileID: 544032837}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &544032836
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544032835}
+  m_LocalRotation: {x: 1e-45, y: -0.7071068, z: -1e-45, w: 0.7071068}
+  m_LocalPosition: {x: 1.47, y: -1.45, z: 1.9800003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103156256}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &544032837
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544032835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 594793240}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &546799837
 Mesh:
   m_ObjectHideFlags: 0
@@ -13888,21 +13675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308451633168384
-  m_Size: {x: -48, y: -0.1, z: -48}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 474
-  m_ShapeBox:
-    m_Center: {x: -8.925629, y: -0.32649994, z: -11.973572}
-    m_Extent: {x: 24, y: 0.050000012, z: 24}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308451633168384
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &551999291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14529,21 +14301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &567632535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14881,17 +14638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.1838355, y: -0.00000011920929, z: -1.110401}
-  - {x: -0.7055447, y: -0.00000023841858, z: -1.8555944}
-  - {x: -1.3669727, y: -0.00000023841858, z: -1.8478699}
-  - {x: -1.9114435, y: -0.00000011920929, z: -1.1337332}
-  - {x: -2.1350765, y: 0.000000007450581, z: 0.05658687}
-  m_Extrude: -0.021131516
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &577652238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15453,21 +15199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942919
-  m_Size: {x: -32.333168, y: -0.1, z: -8.063076}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1410
-  m_ShapeBox:
-    m_Center: {x: -16.166584, y: -1.0505619, z: -4.031536}
-    m_Extent: {x: 16.166584, y: 0.049999952, z: 4.031538}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942919
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &579505391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15865,6 +15596,21 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!115 &594793240
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: CinemachinePipeline
+  m_Namespace: Cinemachine
+  m_AssemblyName: Cinemachine
 --- !u!1 &599884226
 GameObject:
   m_ObjectHideFlags: 0
@@ -15970,21 +15716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942939
-  m_Size: {x: 11.481508, y: 8.690542, z: 1.5170078}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4805
-  m_ShapeBox:
-    m_Center: {x: 4.267352, y: 3.8515549, z: 0.75850487}
-    m_Extent: {x: 5.740754, y: 4.345271, z: 0.7585039}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942939
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &599884231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16502,21 +16233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &632821199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16877,21 +16593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717252
-  m_Size: {x: -1.3215494, y: -1.271351, z: -2.9939346}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1843
-  m_ShapeBox:
-    m_Center: {x: -0.6607747, y: -0.6356775, z: -1.4969673}
-    m_Extent: {x: 0.6607747, y: 0.6356755, z: 1.4969673}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717252
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &635062262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17243,19 +16944,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -3.3764381, y: 0, z: -0.013164043}
-  - {x: -3.468502, y: 0, z: 0.7381983}
-  - {x: -2.3711815, y: 0, z: 0.76203287}
-  - {x: -2.5035133, y: 0, z: 2.8569894}
-  - {x: -1.5816765, y: 0, z: 2.8816466}
-  - {x: -1.3974648, y: 0, z: 0.72547257}
-  - {x: -0.057617188, y: 0, z: 0.7476891}
-  m_Extrude: 0.3521576
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &635869003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18049,21 +17737,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951681
-  m_Size: {x: 12, y: 24.991955, z: 34}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3284
-  m_ShapeBox:
-    m_Center: {x: -11.580387, y: 11.834681, z: 10.242512}
-    m_Extent: {x: 6, y: 12.495977, z: 17}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951681
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &668439250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18386,24 +18059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.035842896, y: 0, z: -2.196083}
-  - {x: -1.8429337, y: 0, z: -2.3053145}
-  - {x: -1.8035202, y: 0, z: -1.8452389}
-  - {x: -0.69672775, y: 0, z: -1.7716548}
-  - {x: -0.68239594, y: 0, z: -1.227639}
-  - {x: -1.7207909, y: 0, z: -1.3411012}
-  - {x: -1.6734047, y: 0, z: -0.791101}
-  - {x: -0.6280937, y: 0, z: -0.6765318}
-  - {x: -0.6131058, y: 0, z: -0.117878914}
-  - {x: -1.6654472, y: 0, z: -0.23357844}
-  - {x: -1.6608315, y: 0, z: 0.29087448}
-  - {x: -0.31576538, y: 0, z: 0.44692945}
-  m_Extrude: -0.40733337
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &674425962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19092,21 +18747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738949
-  m_Size: {x: 7.5, y: 0.1, z: 5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1296
-  m_ShapeBox:
-    m_Center: {x: 3.758583, y: -0.0000009536743, z: 10.109528}
-    m_Extent: {x: 3.75, y: 0.05, z: 2.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738949
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &677594093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19429,21 +19069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &682852677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20566,21 +20191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942912
-  m_Size: {x: 12, y: -1, z: -43.9077}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3706
-  m_ShapeBox:
-    m_Center: {x: 4.633519, y: -0.4361053, z: -21.95385}
-    m_Extent: {x: 6, y: 0.5, z: 21.95385}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942912
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &751307158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20918,21 +20528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676311
-  m_Size: {x: -0.1, y: 4, z: 4.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2191
-  m_ShapeBox:
-    m_Center: {x: -0.43594694, y: 2.1448226, z: 1.9046936}
-    m_Extent: {x: 0.050000012, y: 2, z: 2.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676311
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &768039930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21343,21 +20938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308353197047809
-  m_Size: {x: 0.1, y: 4, z: 8}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2780
-  m_ShapeBox:
-    m_Center: {x: 0.062464, y: 1.8914566, z: -0.044635296}
-    m_Extent: {x: 0.049999997, y: 2, z: 4}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308353197047809
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &782850457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21733,21 +21313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717257
-  m_Size: {x: 2.5342503, y: 9.601408, z: -4.330481}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5288
-  m_ShapeBox:
-    m_Center: {x: 1.2671251, y: 4.565543, z: -1.7676013}
-    m_Extent: {x: 1.2671251, y: 4.800704, z: 2.1652405}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717257
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &786290340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22722,21 +22287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &815959216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23059,29 +22609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308353197047822
-  m_Size: {x: 4, y: 4, z: -5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3777
-  m_ShapeBox:
-    m_Center: {x: 2.1742625, y: 1.9672184, z: -2.2140427}
-    m_Extent: {x: 2, y: 2, z: -2.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308353197047822
-      type: {class: Stairs, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_StepGenerationType: 1
-        m_StepsHeight: 0.2
-        m_StepsCount: 20
-        m_HomogeneousSteps: 1
-        m_Circumference: 0
-        m_Sides: 1
-        m_InnerRadius: 0
 --- !u!114 &818540379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27104,21 +26631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &852991080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27840,21 +27352,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &893358382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28426,21 +27923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &902513960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29558,21 +29040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942939
-  m_Size: {x: 11.481508, y: 8.690542, z: 1.5170078}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4805
-  m_ShapeBox:
-    m_Center: {x: 4.267352, y: 3.8515549, z: 0.75850487}
-    m_Extent: {x: 5.740754, y: 4.345271, z: 0.7585039}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942939
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &933193386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30418,21 +29885,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &966423371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30755,21 +30207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &966974050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31297,6 +30734,21 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!115 &996637593
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: CinemachinePipeline
+  m_Namespace: Cinemachine
+  m_AssemblyName: Cinemachine
 --- !u!1 &996638891
 GameObject:
   m_ObjectHideFlags: 0
@@ -31402,21 +30854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5380581189728337920
-  m_Size: {x: -8.234442, y: 3.7771883, z: -5.147376}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5218
-  m_ShapeBox:
-    m_Center: {x: -4.117221, y: 1.8885939, z: -4.1217403}
-    m_Extent: {x: 4.117221, y: 1.8885942, z: 2.573688}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5380581189728337920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &996638896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32054,21 +31491,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676289
-  m_Size: {x: -2, y: -0.1, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4243
-  m_ShapeBox:
-    m_Center: {x: -1.0372272, y: -0.05835538, z: 1.002562}
-    m_Extent: {x: 1, y: 0.05, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676289
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1007700045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32655,21 +32077,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942915
-  m_Size: {x: 7.172558, y: 43.907467, z: -4.541127}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4027
-  m_ShapeBox:
-    m_Center: {x: 3.5862875, y: 21.953848, z: -2.2705636}
-    m_Extent: {x: 3.586279, y: 21.953733, z: 2.2705636}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942915
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1036381314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33007,21 +32414,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1045981875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33524,21 +32916,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1053081392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33936,6 +33313,21 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!115 &1069863247
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: CinemachineComposer
+  m_Namespace: Cinemachine
+  m_AssemblyName: Cinemachine
 --- !u!43 &1071109124
 Mesh:
   m_ObjectHideFlags: 0
@@ -34206,21 +33598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121550473446555648
-  m_Size: {x: -3, y: 4, z: 0.1}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6152
-  m_ShapeBox:
-    m_Center: {x: -1.5040011, y: 2.0784588, z: 0.05271578}
-    m_Extent: {x: 1.5, y: 2, z: 0.049999997}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121550473446555648
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1072408363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34499,21 +33876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0.5
-  m_VerticalDamping: 0.5
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
-  m_SoftZoneWidth: 0.5
-  m_SoftZoneHeight: 0.5
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
 --- !u!114 &1072474470
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -34603,7 +33965,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 255924713}
+  m_ComponentOwner: {fileID: 1845173859}
 --- !u!4 &1075371722
 Transform:
   m_ObjectHideFlags: 0
@@ -34612,11 +33974,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075371720}
   m_LocalRotation: {x: 0, y: 0.7071069, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: -1.9799999, y: 1.45, z: 3.6200001}
+  m_LocalPosition: {x: -2.23, y: 1.45, z: 3.6200001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 255924713}
+  - {fileID: 1845173859}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34725,21 +34088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1080751979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35077,21 +34425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738947
-  m_Size: {x: -1.4794905, y: -0.2544336, z: -0.5390663}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4928
-  m_ShapeBox:
-    m_Center: {x: -0.54781914, y: -0.12721711, z: -0.26953316}
-    m_Extent: {x: 0.73974526, y: 0.12721682, z: 0.26953316}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738947
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1082185033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35489,6 +34822,101 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1086870942
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1086870943}
+  - component: {fileID: 1086870946}
+  - component: {fileID: 1086870945}
+  - component: {fileID: 1086870944}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1086870943
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086870942}
+  m_LocalRotation: {x: 1e-45, y: -0.7071068, z: -1e-45, w: 0.7071068}
+  m_LocalPosition: {x: 1.47, y: -1.45, z: 1.9800003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103156256}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086870944
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086870942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1069863247}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0
+  m_LookaheadSmoothing: 0
+  m_LookaheadIgnoreY: 0
+  m_HorizontalDamping: 0.5
+  m_VerticalDamping: 0.5
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
+  m_SoftZoneWidth: 0.8
+  m_SoftZoneHeight: 0.8
+  m_BiasX: 0
+  m_BiasY: 0
+  m_CenterOnActivate: 1
+--- !u!114 &1086870945
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086870942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -1.5}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
+--- !u!114 &1086870946
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086870942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 996637593}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1096273687
 GameObject:
   m_ObjectHideFlags: 0
@@ -35594,21 +35022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942913
-  m_Size: {x: 80, y: 16, z: -3.9922905}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2220
-  m_ShapeBox:
-    m_Center: {x: 24.861763, y: 5.3374014, z: -1.9961472}
-    m_Extent: {x: 40, y: 8, z: 1.9961452}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942913
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1096273692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36434,21 +35847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676289
-  m_Size: {x: -2, y: -0.1, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4243
-  m_ShapeBox:
-    m_Center: {x: -1.0372272, y: -0.05835538, z: 1.002562}
-    m_Extent: {x: 1, y: 0.05, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676289
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1099921583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36809,21 +36207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717250
-  m_Size: {x: -1.365694, y: 7.820942, z: 2.0256538}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2083
-  m_ShapeBox:
-    m_Center: {x: -0.682848, y: 3.910471, z: 1.012825}
-    m_Extent: {x: 0.682847, y: 3.910471, z: 1.0128269}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717250
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1101149747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37548,21 +36931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717259
-  m_Size: {x: -4.6328063, y: 20, z: 5.1283774}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6078
-  m_ShapeBox:
-    m_Center: {x: -2.2963593, y: 5.104024, z: 3.0753775}
-    m_Extent: {x: 2.3164032, y: 10, z: 2.564189}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717259
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1112852480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38080,21 +37448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1153781177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38418,21 +37771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717256
-  m_Size: {x: 12.370628, y: -10.668181, z: 8.738304}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5976
-  m_ShapeBox:
-    m_Center: {x: 4.4715576, y: -5.3348656, z: 4.369152}
-    m_Extent: {x: 6.185314, y: 5.334091, z: 4.369152}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717256
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1153837575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38769,21 +38107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738947
-  m_Size: {x: -1.4794905, y: -0.2544336, z: -0.5390663}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4928
-  m_ShapeBox:
-    m_Center: {x: -0.54781914, y: -0.12721711, z: -0.26953316}
-    m_Extent: {x: 0.73974526, y: 0.12721682, z: 0.26953316}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738947
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1155078523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39359,29 +38682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308353197047822
-  m_Size: {x: 4, y: 4, z: -5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3777
-  m_ShapeBox:
-    m_Center: {x: 2.1742625, y: 1.9672184, z: -2.2140427}
-    m_Extent: {x: 2, y: 2, z: -2.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308353197047822
-      type: {class: Stairs, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_StepGenerationType: 1
-        m_StepsHeight: 0.2
-        m_StepsCount: 20
-        m_HomogeneousSteps: 1
-        m_Circumference: 0
-        m_Sides: 1
-        m_InnerRadius: 0
 --- !u!114 &1201450455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43258,21 +42558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1224219260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43981,21 +43266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 8, z: 32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3129
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 4, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1237657869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44498,21 +43768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1269106995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44835,21 +44090,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942921
-  m_Size: {x: -0.15689468, y: 1.207962, z: -0.7229004}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1427
-  m_ShapeBox:
-    m_Center: {x: -0.07844925, y: 0.603981, z: -0.3614502}
-    m_Extent: {x: 0.07844734, y: 0.603981, z: 0.3614502}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942921
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1269503383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45187,24 +44427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1273262012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45767,24 +44989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1278876473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46491,21 +45695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1289244912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47488,21 +46677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738945
-  m_Size: {x: 0.1, y: -4, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2861
-  m_ShapeBox:
-    m_Center: {x: 0.232642, y: -2.2240276, z: 0.9860015}
-    m_Extent: {x: 0.050000004, y: 1.9999999, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738945
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1327770909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48299,21 +47473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738952
-  m_Size: {x: 22.5243, y: 34.895164, z: 2.035666}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1488
-  m_ShapeBox:
-    m_Center: {x: 11.262156, y: 17.44759, z: 1.0178332}
-    m_Extent: {x: 11.26215, y: 17.447582, z: 1.017833}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738952
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1373343889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49275,24 +48434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1406326767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49874,21 +49015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951681
-  m_Size: {x: -17.957771, y: 24.991955, z: 16.913637}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3201
-  m_ShapeBox:
-    m_Center: {x: -11.580387, y: 11.834681, z: 10.242512}
-    m_Extent: {x: 8.978886, y: 12.495977, z: 8.456818}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951681
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1408232432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50376,21 +49502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1418323682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50856,21 +49967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1433205864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51867,21 +50963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1510716252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52332,21 +51413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676289
-  m_Size: {x: -2, y: -0.1, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4243
-  m_ShapeBox:
-    m_Center: {x: -1.0372272, y: -0.05835538, z: 1.002562}
-    m_Extent: {x: 1, y: 0.05, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676289
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1532924395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52747,27 +51813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676298
-  m_Size: {x: 4.8, y: 4, z: 0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3400
-  m_ShapeBox:
-    m_Center: {x: 0.9178977, y: 1.9616432, z: 0.7890649}
-    m_Extent: {x: 2.4, y: 1.9021132, z: 0.25000003}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676298
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.5
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &1535827618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53585,21 +52630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942923
-  m_Size: {x: 24, y: 0.1, z: -32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2786
-  m_ShapeBox:
-    m_Center: {x: -44.314342, y: -1.5073853, z: -95.74495}
-    m_Extent: {x: 12, y: 0.049999952, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942923
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1536002249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54267,21 +53297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676307
-  m_Size: {x: -48, y: 24, z: -1}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3114
-  m_ShapeBox:
-    m_Center: {x: -3.5836067, y: 2.102622, z: -0.6152096}
-    m_Extent: {x: 24, y: 12, z: 0.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676307
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1543249953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54634,24 +53649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1546110453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55193,21 +54190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942918
-  m_Size: {x: 16, y: 25.891138, z: -3.9222717}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1371
-  m_ShapeBox:
-    m_Center: {x: 2.704428, y: 12.945571, z: -1.9611359}
-    m_Extent: {x: 8, y: 12.945569, z: 1.9611359}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942918
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1563398284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55573,21 +54555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676307
-  m_Size: {x: -10, y: 4, z: -1}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3012
-  m_ShapeBox:
-    m_Center: {x: -3.5836077, y: 2.102622, z: -0.61520886}
-    m_Extent: {x: 5, y: 2, z: 0.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676307
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1577517790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55942,24 +54909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1579086661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56874,21 +55823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738949
-  m_Size: {x: 7.5, y: 0.1, z: 20}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1271
-  m_ShapeBox:
-    m_Center: {x: 3.758583, y: -0.0000009536743, z: 10.109528}
-    m_Extent: {x: 3.75, y: 0.05, z: 10}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738949
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1600755358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57632,21 +56566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: -0.09448244, y: 0.000000022351742, z: 0.08555841}
-  - {x: -0.372036, y: -0.00000071525574, z: -2.8946414}
-  - {x: -5.0244565, y: -0.00000071525574, z: -2.8809566}
-  - {x: -5.155621, y: 0.000000029802322, z: 0.12328577}
-  - {x: -4.4697576, y: 0.000000022351742, z: 0.108662605}
-  - {x: -4.3717656, y: -0.00000047683716, z: -2.1539235}
-  - {x: -3.065312, y: 0.000000044703484, z: 0.16512871}
-  - {x: -2.2814753, y: 0.000000044703484, z: 0.17284846}
-  - {x: -1.1330949, y: -0.00000047683716, z: -2.108585}
-  - {x: -0.93317425, y: 0.000000022351742, z: 0.099375606}
-  m_Extrude: -0.365448
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &1627728344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58341,21 +57260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942922
-  m_Size: {x: -1.3215168, y: -0.21669772, z: -8.202629}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2540
-  m_ShapeBox:
-    m_Center: {x: -0.6607586, y: -0.108348936, z: -4.1013145}
-    m_Extent: {x: 0.6607584, y: 0.10834886, z: 4.1013145}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942922
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1636478175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58693,24 +57597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1642391434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59582,21 +58468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 8, z: 32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3129
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 4, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1651341364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59934,21 +58805,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1653054718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60329,8 +59185,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659755116}
-  m_LocalRotation: {x: -1e-45, y: 0.7071068, z: 1e-45, w: 0.7071068}
-  m_LocalPosition: {x: -1.9799999, y: 1.45, z: 1.4700001}
+  m_LocalRotation: {x: -1e-45, y: 0.7071069, z: 1e-45, w: 0.70710677}
+  m_LocalPosition: {x: -2.23, y: 1.45, z: 1.4700003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -60772,21 +59628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1672174166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61207,24 +60048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1679363206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61924,21 +60747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738953
-  m_Size: {x: -10, y: 0.1, z: -4}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2998
-  m_ShapeBox:
-    m_Center: {x: -0.23631287, y: 2.5700407, z: -1.9445207}
-    m_Extent: {x: 5, y: 0.049999952, z: 2}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738953
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1682609562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62291,21 +61099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -0.1, y: 8, z: 32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3210
-  m_ShapeBox:
-    m_Center: {x: -1.4234546, y: 1.4568033, z: 0.8525429}
-    m_Extent: {x: 0.049999952, y: 4, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1686545340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62628,21 +61421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942925
-  m_Size: {x: -17.398153, y: 15.749822, z: -2.5215645}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3102
-  m_ShapeBox:
-    m_Center: {x: -8.699184, y: 7.0660877, z: -1.2607803}
-    m_Extent: {x: 8.699078, y: 7.8749104, z: 1.2607822}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942925
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1690015097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63175,21 +61953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1699381586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64487,21 +63250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1743652563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65077,21 +63825,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738948
-  m_Size: {x: 24, y: -0.1, z: -4}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6468
-  m_ShapeBox:
-    m_Center: {x: 12.060661, y: -0.05767556, z: -1.9477987}
-    m_Extent: {x: 12, y: 0.05, z: 2}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738948
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1794879032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65594,21 +64327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738950
-  m_Size: {x: 24, y: 20, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2056
-  m_ShapeBox:
-    m_Center: {x: 9.033579, y: 4.6435738, z: 4.4142876}
-    m_Extent: {x: 12, y: 10, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738950
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1806670449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66119,21 +64837,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717258
-  m_Size: {x: -0.8688643, y: 3.8215063, z: -2.4167101}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3511
-  m_ShapeBox:
-    m_Center: {x: -0.5454354, y: 1.8210562, z: -0.19293594}
-    m_Extent: {x: 0.43443215, y: 1.9107531, z: 1.2083551}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717258
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1809135444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66796,6 +65499,101 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1845173858
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1845173859}
+  - component: {fileID: 1845173860}
+  - component: {fileID: 1845173862}
+  - component: {fileID: 1845173861}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1845173859
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845173858}
+  m_LocalRotation: {x: -0, y: -0.7071069, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 3.62, y: -1.45, z: 1.9800013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1075371722}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1845173860
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845173858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 594793240}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1845173861
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845173858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1069863247}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0
+  m_LookaheadSmoothing: 0
+  m_LookaheadIgnoreY: 0
+  m_HorizontalDamping: 0.5
+  m_VerticalDamping: 0.5
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
+  m_SoftZoneWidth: 0.8
+  m_SoftZoneHeight: 0.8
+  m_BiasX: 0
+  m_BiasY: 0
+  m_CenterOnActivate: 1
+--- !u!114 &1845173862
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845173858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -1.5}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1 &1851816825
 GameObject:
   m_ObjectHideFlags: 0
@@ -67222,21 +66020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942917
-  m_Size: {x: 16, y: 4.077411, z: -43.032227}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5024
-  m_ShapeBox:
-    m_Center: {x: 2.8241796, y: 2.0387073, z: -21.516113}
-    m_Extent: {x: 8, y: 2.0387053, z: 21.516113}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942917
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1870066072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67739,27 +66522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676303
-  m_Size: {x: 2.25, y: 2, z: -0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3232
-  m_ShapeBox:
-    m_Center: {x: -1.0453897, y: 0.7949277, z: -0.15066695}
-    m_Extent: {x: 1.125, y: 0.9510566, z: 0.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676303
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.1
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &1895378320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68559,7 +67321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939821553}
   m_LocalRotation: {x: 0, y: 0.7071069, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: -1.9799999, y: 1.45, z: 3.6200001}
+  m_LocalPosition: {x: -2.23, y: 1.45, z: 3.6200001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69207,21 +67969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717259
-  m_Size: {x: -4.6328063, y: 10.208048, z: 5.1283774}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6042
-  m_ShapeBox:
-    m_Center: {x: -2.2963593, y: 5.104024, z: 3.0753775}
-    m_Extent: {x: 2.3164032, y: 5.104024, z: 2.564189}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717259
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1955611433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70142,21 +68889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1973376898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70957,21 +69689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2017260811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71294,21 +70011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942921
-  m_Size: {x: -0.15689468, y: 1.207962, z: -0.7229004}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1427
-  m_ShapeBox:
-    m_Center: {x: -0.07844925, y: 0.603981, z: -0.3614502}
-    m_Extent: {x: 0.07844734, y: 0.603981, z: 0.3614502}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942921
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2030875487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72199,27 +70901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.014026642, y: 0, z: -0.49991417}
-  - {x: -0.6403656, y: 0, z: -0.49681926}
-  - {x: -1.7214088, y: 0, z: 0.6480105}
-  - {x: -3.0377274, y: 0, z: -0.45575356}
-  - {x: -3.7622566, y: 0, z: -0.45213366}
-  - {x: -3.7879982, y: 0, z: 0.2333734}
-  - {x: -2.5129738, y: 0, z: 1.1862357}
-  - {x: -3.6052017, y: 0, z: 1.9402866}
-  - {x: -3.600483, y: 0, z: 2.6451654}
-  - {x: -2.8510551, y: 0, z: 2.6371522}
-  - {x: -1.7669907, y: 0, z: 1.7592187}
-  - {x: -0.48605728, y: 0, z: 2.6118631}
-  - {x: 0.20015335, y: 0, z: 2.6724458}
-  - {x: 0.14926529, y: 0, z: 1.872261}
-  - {x: -1.0573235, y: 0, z: 1.0482821}
-  m_Extrude: -0.9542694
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &2100053463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72936,7 +71617,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   m_LegacyBlendHint: 0
-  m_ComponentOwner: {fileID: 1072474467}
+  m_ComponentOwner: {fileID: 1086870943}
 --- !u!4 &2103156256
 Transform:
   m_ObjectHideFlags: 0
@@ -72944,12 +71625,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103156254}
-  m_LocalRotation: {x: -1e-45, y: 0.7071068, z: 1e-45, w: 0.7071068}
-  m_LocalPosition: {x: -1.9799999, y: 1.45, z: 1.4700001}
+  m_LocalRotation: {x: -1e-45, y: 0.7071069, z: 1e-45, w: 0.70710677}
+  m_LocalPosition: {x: -2.23, y: 1.45, z: 1.4700003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1072474467}
+  - {fileID: 544032836}
+  - {fileID: 1086870943}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -73058,21 +71741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942925
-  m_Size: {x: -17.398153, y: 15.749822, z: -2.5215645}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3102
-  m_ShapeBox:
-    m_Center: {x: -8.699184, y: 7.0660877, z: -1.2607803}
-    m_Extent: {x: 8.699078, y: 7.8749104, z: 1.2607822}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942925
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2103347460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73575,24 +72243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &2124558547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74323,21 +72973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738948
-  m_Size: {x: 24, y: -0.1, z: -4.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6479
-  m_ShapeBox:
-    m_Center: {x: 12.060661, y: -0.057675652, z: -1.9477987}
-    m_Extent: {x: 12, y: 0.050000004, z: 2.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738948
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2138544183
 MonoBehaviour:
   m_ObjectHideFlags: 0

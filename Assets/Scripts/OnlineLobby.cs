@@ -37,10 +37,10 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.LocalPlayer.NickName = playerName.text;
     }
-
+    
     public void LoadLevel()
     {
-        if(!PhotonNetwork.IsMasterClient)
+        /*if(!PhotonNetwork.IsMasterClient)
         {
             messages.text = "Illigal action: You are not the host.";
         }
@@ -51,8 +51,14 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         else
         {
             SceneManager.LoadScene("Level1Online");
-        }
-        
+        }*/
+        view.RPC("LoadLevel1", RpcTarget.All);
+    }
+    [PunRPC]
+    public void LoadLevel1()
+    {
+        PhotonNetwork.LoadLevel("Level1Online");
+        SceneManager.LoadScene("Level1Online");
     }
 
     [PunRPC]

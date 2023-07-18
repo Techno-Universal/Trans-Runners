@@ -43,7 +43,7 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-        PhotonNetwork.LoadLevel("WaitingForPlayers");
+        //PhotonNetwork.LoadLevel("WaitingForPlayers");
     }
     #endregion
 }
