@@ -57,8 +57,13 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     [PunRPC]
     public void LoadLevel1()
     {
-        PhotonNetwork.LoadLevel("Level1Online");
-        SceneManager.LoadScene("Level1Online");
+        Debug.Log("Loading Level1Online");
+        //PhotonNetwork.LoadLevel("Level1Online");
+        //SceneManager.LoadScene("Level1Online");
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.LoadLevel("Level1Online");
+        }
     }
 
     [PunRPC]
@@ -84,7 +89,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         base.OnPlayerEnteredRoom(newPlayer);
         numberOfPlayers.text = PhotonNetwork.CurrentRoom.PlayerCount.ToString() + " / " + PhotonNetwork.CurrentRoom.MaxPlayers;
         Invoke("UpdateBoolsOnJoin", 1);
-        if (!PhotonNetwork.IsMasterClient)
+        /*if (!PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.LoadLevel("Level1Online");
             loadingText.gameObject.SetActive(true);
@@ -92,7 +97,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         else
         {
             OnJoinedLobby();
-        }
+        }*/
     }
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {

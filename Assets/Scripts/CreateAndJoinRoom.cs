@@ -15,33 +15,36 @@ public class CreateAndJoinRoom : MonoBehaviourPunCallbacks
     public void CreateRoom()
     {
         PhotonNetwork.CreateRoom(createInput.text);
+        //lobby.LoadLevel();
     }
     public void JoinRoom()
     {
         PhotonNetwork.JoinRoom(joinInput.text);
+        Debug.Log("Join room...");
     }
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-
+        Debug.Log("Entering room...");
+        //lobby.LoadLevel();
         //Uncomment line 27 to test online level.
 
         //PhotonNetwork.LoadLevel("Level1Online");
         if (!PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.LoadLevel("Level1Online");
+            lobby.LoadLevel();
         }
     }
-    public virtual void OnPlayerEnteredRoom(PlayerNumber newPlayer)
+    public void OnPlayerEnteredRoom(PlayerNumber newPlayer)
     {
         Debug.Log("Entered room...");
-        PhotonNetwork.LoadLevel("Level1Online");
+        //PhotonNetwork.LoadLevel("Level1Online");
         lobby.LoadLevel();
 
-        if (PhotonNetwork.IsMasterClient)
+        /*if (PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.LoadLevel("Level1Online");
             lobby.LoadLevel();
-        }
+        }*/
     }
 }

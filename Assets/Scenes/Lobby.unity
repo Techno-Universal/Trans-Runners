@@ -3671,7 +3671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   createInput: {fileID: 39973862}
   joinInput: {fileID: 412956151}
-  lobby: {fileID: 0}
+  lobby: {fileID: 1255789646}
 --- !u!114 &848941141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4714,7 +4714,6 @@ GameObject:
   - component: {fileID: 1255789647}
   - component: {fileID: 1255789646}
   - component: {fileID: 1255789648}
-  - component: {fileID: 1255789649}
   - component: {fileID: 1255789650}
   m_Layer: 0
   m_Name: LobbyEvents
@@ -4772,20 +4771,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offlineWarning: {fileID: 3993492477841107889}
   offlineBool: 0
---- !u!114 &1255789649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255789645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f7ef5e05f0da8b46bf734852c4a090b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxPlayerCount: 2
-  isFull: 0
 --- !u!114 &1255789650
 MonoBehaviour:
   m_ObjectHideFlags: 0

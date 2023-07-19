@@ -49,7 +49,6 @@ ScriptsOnlyBuild:
     - MainMenuRecordTimes
     - OnlineCharacterMovement
     - OnlineGameController
-    - OnlineGameManager
     - OnlineLobby
     - OnlinePauseScreenOpener
     - OnlineTimer
@@ -58,35 +57,13 @@ ScriptsOnlyBuild:
     - Photon.Compression.Internal.TypeCatalogue
     - Photon.Compression.PackObjectSettings
     - Photon.Compression.WorldBoundsSettings
-    - Photon.Pun.Example.TakeOwnership
-    - Photon.Pun.Simple.AutoDestroyUnspawned
-    - Photon.Pun.Simple.AutoOwnerComponentEnable
-    - Photon.Pun.Simple.AutoZoom
-    - Photon.Pun.Simple.BasicInventory
     - Photon.Pun.Simple.ContactGroups.ContactGroupSettings
-    - Photon.Pun.Simple.ContactTrigger
-    - Photon.Pun.Simple.Mount
     - Photon.Pun.Simple.MountSettings
-    - Photon.Pun.Simple.MountThrow
-    - Photon.Pun.Simple.MountsManager
-    - Photon.Pun.Simple.NetObject
-    - Photon.Pun.Simple.OnStateChangeKinematic
-    - Photon.Pun.Simple.OnStateChangeToggle
-    - Photon.Pun.Simple.SyncAnimator
-    - Photon.Pun.Simple.SyncCannon
-    - Photon.Pun.Simple.SyncContact
-    - Photon.Pun.Simple.SyncContactScan
-    - Photon.Pun.Simple.SyncNodeMover
-    - Photon.Pun.Simple.SyncSpawnTimer
-    - Photon.Pun.Simple.SyncState
-    - Photon.Pun.Simple.SyncTransform
-    - Photon.Pun.Simple.SyncVitals
     - Photon.Pun.Simple.TickEngineSettings
-    - Photon.Pun.Simple.VitalUI
-    - Photon.Pun.Simple.VitalsContactReactor
     - Quit
     - ResetSaveData
     - ResetScene
+    - ResetSceneOnline
     - ReturnIfOffline
     - SaveSystem
     - SlowZone
@@ -94,9 +71,7 @@ ScriptsOnlyBuild:
     - SoundManager
     - SpeedBoostZone
     - SpeedBoostZoneOnline
-    - SuperBasicController
     - Timer
-    - emotitron.TestPackObject
     Cinemachine.dll:
     - Cinemachine.Cinemachine3rdPersonFollow
     - Cinemachine.CinemachineBrain
@@ -166,15 +141,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Core.Runtime.dll:
-    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
-    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
-    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
-    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
-    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
-    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
-    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
-    - UnityEngine.Rendering.UI.UIFoldout
     - UnityEngine.Rendering.Volume
     - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
@@ -241,7 +207,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
@@ -252,7 +217,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
-    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Assembly-CSharp:
     - GameData
@@ -981,11 +945,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12734}
     - Class: 114
-      Script: {instanceID: 71960}
+      Script: {instanceID: 92558}
     - Class: 114
-      Script: {instanceID: 72402}
+      Script: {instanceID: 93000}
     - Class: 114
-      Script: {instanceID: 72498}
+      Script: {instanceID: 93096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1086,8 +1050,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6086}
     - Class: 114
-      Script: {instanceID: 6222}
-    - Class: 114
       Script: {instanceID: 6326}
     - Class: 114
       Script: {instanceID: 6982}
@@ -1130,11 +1092,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13464}
     - Class: 114
-      Script: {instanceID: 74580}
+      Script: {instanceID: 85106}
     - Class: 114
-      Script: {instanceID: 74842}
+      Script: {instanceID: 95176}
     - Class: 114
-      Script: {instanceID: 75946}
+      Script: {instanceID: 95438}
+    - Class: 114
+      Script: {instanceID: 96542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1228,8 +1192,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9374}
     - Class: 114
       Script: {instanceID: 9582}
-    - Class: 114
-      Script: {instanceID: 9614}
     - Class: 114
       Script: {instanceID: 10008}
     - Class: 114
@@ -1610,7 +1572,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13860}
     - Class: 114
-      Script: {instanceID: 32426}
+      Script: {instanceID: 33788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4742,6 +4704,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResetSceneOnline
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

@@ -62,4 +62,8 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
             Time.timeScale = 0.0f;
         }
     }
+    public void OnApplicationQuit()
+    {
+        ExitRoom();
+    }
 }

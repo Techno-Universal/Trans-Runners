@@ -359,6 +359,7 @@
     <Compile Include="Assets\Scripts\CameraAssignment.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\HeaderEditor.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Extensions\NetObjColliderExt.cs" />
+    <Compile Include="Assets\Scripts\ResetSceneOnline.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\ContactReactorBase.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\Enums\ObjState.cs" />
