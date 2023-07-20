@@ -24,7 +24,9 @@ public class OnlineGameController : MonoBehaviour
 
     public CinemachineVirtualCamera playerVCam;
 
-    public Transform spawnpoint;
+    public Transform spawnpoint1;
+
+    public Transform spawnpoint2;
 
     public Camera cam1;
 
@@ -122,13 +124,13 @@ public class OnlineGameController : MonoBehaviour
 
         if (PhotonNetwork.IsMasterClient)
         {
-            GameObject Player = PhotonNetwork.Instantiate(player1.name, spawnpoint.position, spawnpoint.rotation);
+            GameObject Player = PhotonNetwork.Instantiate(player1.name, spawnpoint1.position, spawnpoint1.rotation);
             playerVCam.Follow = Player.transform;
             playerVCam.LookAt = Player.transform;
         }
         else
         {
-            GameObject Player = PhotonNetwork.Instantiate(player2.name, spawnpoint.position, spawnpoint.rotation);
+            GameObject Player = PhotonNetwork.Instantiate(player2.name, spawnpoint2.position, spawnpoint2.rotation);
             playerVCam.Follow = Player.transform;
             playerVCam.LookAt = Player.transform;
         }

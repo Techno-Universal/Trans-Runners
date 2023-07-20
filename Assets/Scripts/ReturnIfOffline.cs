@@ -18,7 +18,7 @@ public class ReturnIfOffline : MonoBehaviourPunCallbacks
         {
             if (PhotonNetwork.IsConnected)
             {
-                Debug.Log("Online...");
+                //Debug.Log("Online...");
             }
             else
             {

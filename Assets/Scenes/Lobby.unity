@@ -1679,6 +1679,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1255789646}
+        m_TargetAssemblyTypeName: OnlineLobby, Assembly-CSharp
+        m_MethodName: RunReadyPLayer
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 848941140}
         m_TargetAssemblyTypeName: CreateAndJoinRoom, Assembly-CSharp
         m_MethodName: CreateRoom
@@ -4740,7 +4752,7 @@ MonoBehaviour:
   messages: {fileID: 0}
   numberOfPlayers: {fileID: 0}
   playerName: {fileID: 0}
-  levelName: 
+  levelName: Level1Online
   loadingText: {fileID: 1339834379}
 --- !u!4 &1255789647
 Transform:
@@ -7542,6 +7554,18 @@ MonoBehaviour:
       - m_Target: {fileID: 72735410}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1255789646}
+        m_TargetAssemblyTypeName: OnlineLobby, Assembly-CSharp
+        m_MethodName: RunReadyPLayer
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

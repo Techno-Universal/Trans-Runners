@@ -80,7 +80,7 @@ MonoBehaviour:
   jumpForce: 1
   Horizontal1: 
   Vertical1: 
-  Jump1: 0
+  Jump1: 32
   cam: {fileID: 0}
   slowness1: 0
   boost1: 0
@@ -119,7 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9139952178860478184}
   m_Layer: 0
-  m_Name: FollowTarget
+  m_Name: FollowTarget1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

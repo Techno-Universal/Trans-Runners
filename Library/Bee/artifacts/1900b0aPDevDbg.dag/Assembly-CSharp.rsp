@@ -597,6 +597,8 @@
 "Assets/Scripts/Assignment scripts/Anr2.cs"
 "Assets/Scripts/Assignment scripts/AVcam2.cs"
 "Assets/Scripts/CameraAssignment.cs"
+"Assets/Scripts/CameraAssignment2.cs.cs"
+"Assets/Scripts/CameraAssignment3.cs.cs"
 "Assets/Scripts/CharacterMovement1.cs"
 "Assets/Scripts/CharacterMovement2.cs"
 "Assets/Scripts/CreateAndJoinRoom.cs"

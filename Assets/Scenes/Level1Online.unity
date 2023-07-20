@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32318
+  m_Name: pb_Mesh248374
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -429,7 +429,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33178
+  m_Name: pb_Mesh249222
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -672,7 +672,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32970
+  m_Name: pb_Mesh249012
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -837,7 +837,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32006
+  m_Name: pb_Mesh248046
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1006,7 +1006,6 @@ GameObject:
   m_Component:
   - component: {fileID: 33290649}
   - component: {fileID: 33290654}
-  - component: {fileID: 33290653}
   - component: {fileID: 33290652}
   - component: {fileID: 33290651}
   - component: {fileID: 33290650}
@@ -1104,33 +1103,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &33290653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 33290648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &33290654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,7 +1459,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31626
+  m_Name: pb_Mesh247646
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1733,7 +1705,6 @@ GameObject:
   m_Component:
   - component: {fileID: 101052416}
   - component: {fileID: 101052421}
-  - component: {fileID: 101052420}
   - component: {fileID: 101052419}
   - component: {fileID: 101052418}
   - component: {fileID: 101052417}
@@ -1831,33 +1802,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &101052420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101052415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951681
-  m_Size: {x: -17.957771, y: 24.991955, z: 16.913637}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3201
-  m_ShapeBox:
-    m_Center: {x: -11.580387, y: 11.834681, z: 10.242512}
-    m_Extent: {x: 8.978886, y: 12.495977, z: 8.456818}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951681
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &101052421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2081,7 +2025,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32936
+  m_Name: pb_Mesh248976
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2246,7 +2190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32332
+  m_Name: pb_Mesh248388
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2411,7 +2355,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32186
+  m_Name: pb_Mesh247734
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2580,7 +2524,6 @@ GameObject:
   m_Component:
   - component: {fileID: 121745063}
   - component: {fileID: 121745068}
-  - component: {fileID: 121745067}
   - component: {fileID: 121745066}
   - component: {fileID: 121745065}
   - component: {fileID: 121745064}
@@ -2678,33 +2621,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &121745067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121745062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &121745068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2931,7 +2847,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 152365410}
-  - component: {fileID: 152365411}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -2954,18 +2869,6 @@ Transform:
   m_Father: {fileID: 422959597}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &152365411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152365409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &153347801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +2879,6 @@ GameObject:
   m_Component:
   - component: {fileID: 153347807}
   - component: {fileID: 153347806}
-  - component: {fileID: 153347805}
   - component: {fileID: 153347804}
   - component: {fileID: 153347803}
   - component: {fileID: 153347802}
@@ -3059,39 +2961,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &153347805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153347801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676315
-  m_Size: {x: -4, y: 2, z: 0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1933
-  m_ShapeBox:
-    m_Center: {x: -0.3257153, y: 1.0632803, z: 1.2604696}
-    m_Extent: {x: 2, y: 0.9510567, z: 0.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676315
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.25
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &153347806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3883,7 +3752,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32628
+  m_Name: pb_Mesh248692
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4052,7 +3921,6 @@ GameObject:
   m_Component:
   - component: {fileID: 175559249}
   - component: {fileID: 175559248}
-  - component: {fileID: 175559247}
   - component: {fileID: 175559246}
   - component: {fileID: 175559245}
   - component: {fileID: 175559244}
@@ -4135,33 +4003,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &175559247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175559243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &175559248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4415,7 +4256,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32184
+  m_Name: pb_Mesh248232
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4769,7 +4610,6 @@ GameObject:
   m_Component:
   - component: {fileID: 200935302}
   - component: {fileID: 200935301}
-  - component: {fileID: 200935300}
   - component: {fileID: 200935299}
   - component: {fileID: 200935298}
   - component: {fileID: 200935296}
@@ -4853,33 +4693,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &200935300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200935294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717249
-  m_Size: {x: 12.048168, y: 30.49526, z: 8.477889}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5643
-  m_ShapeBox:
-    m_Center: {x: 3.399763, y: 15.247631, z: 2.8562088}
-    m_Extent: {x: 6.024084, y: 15.247631, z: 4.2389445}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717249
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &200935301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5314,7 +5127,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32762
+  m_Name: pb_Mesh248814
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -5658,7 +5471,8 @@ MonoBehaviour:
   player2: {fileID: 1855464843197143428, guid: 8a9679e84465ea94bb4c4a65abf07fc8, type: 3}
   playerCam: {fileID: 1939821553}
   playerVCam: {fileID: 1075371721}
-  spawnpoint: {fileID: 904951904}
+  spawnpoint1: {fileID: 904951904}
+  spawnpoint2: {fileID: 1167422988}
   cam1: {fileID: 1939821555}
   player1FinishTimeNumber: 0
   player2FinishTimeNumber: 0
@@ -5765,7 +5579,6 @@ GameObject:
   m_Component:
   - component: {fileID: 240824229}
   - component: {fileID: 240824235}
-  - component: {fileID: 240824234}
   - component: {fileID: 240824233}
   - component: {fileID: 240824232}
   - component: {fileID: 240824231}
@@ -5886,33 +5699,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &240824234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240824228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717253
-  m_Size: {x: 1.4934683, y: 5.340699, z: -1.5008888}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1374
-  m_ShapeBox:
-    m_Center: {x: 0.7467346, y: 2.67035, z: -0.7504444}
-    m_Extent: {x: 0.74673414, y: 2.6703496, z: 0.7504444}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717253
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &240824235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6537,7 +6323,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31484
+  m_Name: pb_Mesh247506
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -6706,7 +6492,6 @@ GameObject:
   m_Component:
   - component: {fileID: 275743991}
   - component: {fileID: 275743990}
-  - component: {fileID: 275743989}
   - component: {fileID: 275743988}
   - component: {fileID: 275743987}
   - component: {fileID: 275743986}
@@ -6789,33 +6574,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &275743989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275743985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738951
-  m_Size: {x: -23.360233, y: 22.621313, z: -0.8394432}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1395
-  m_ShapeBox:
-    m_Center: {x: -11.680117, y: 11.310656, z: -0.4197197}
-    m_Extent: {x: 11.680117, y: 11.310656, z: 0.4197216}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738951
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &275743990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7189,7 +6947,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31684
+  m_Name: pb_Mesh247704
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -7358,7 +7116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 285612526}
   - component: {fileID: 285612525}
-  - component: {fileID: 285612524}
   - component: {fileID: 285612523}
   - component: {fileID: 285612522}
   - component: {fileID: 285612521}
@@ -7441,33 +7198,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &285612524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285612520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &285612525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7804,7 +7534,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31912
+  m_Name: pb_Mesh247952
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -7973,7 +7703,6 @@ GameObject:
   m_Component:
   - component: {fileID: 308765348}
   - component: {fileID: 308765353}
-  - component: {fileID: 308765352}
   - component: {fileID: 308765351}
   - component: {fileID: 308765350}
   - component: {fileID: 308765349}
@@ -8071,27 +7800,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &308765352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308765347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0.066082, y: 0, z: 0.033339977}
-  - {x: 0.06163788, y: 0, z: -3.05761}
-  - {x: -1.0309334, y: 0, z: -3.0523276}
-  - {x: -0.91645813, y: 0, z: -0.12624598}
-  m_Extrude: 0.15234375
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &308765353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8450,7 +8158,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33038
+  m_Name: pb_Mesh249080
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -8619,7 +8327,6 @@ GameObject:
   m_Component:
   - component: {fileID: 333022160}
   - component: {fileID: 333022159}
-  - component: {fileID: 333022158}
   - component: {fileID: 333022157}
   - component: {fileID: 333022156}
   - component: {fileID: 333022155}
@@ -8702,29 +8409,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &333022158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333022154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.1838355, y: -0.00000011920929, z: -1.110401}
-  - {x: -0.7055447, y: -0.00000023841858, z: -1.8555944}
-  - {x: -1.3669727, y: -0.00000023841858, z: -1.8478699}
-  - {x: -1.9114435, y: -0.00000011920929, z: -1.1337332}
-  - {x: -2.1350765, y: 0.000000007450581, z: 0.05658687}
-  m_Extrude: -0.021131516
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &333022159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9146,7 +8830,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32084
+  m_Name: pb_Mesh248114
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -9311,7 +8995,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31670
+  m_Name: pb_Mesh247690
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -9480,7 +9164,6 @@ GameObject:
   m_Component:
   - component: {fileID: 422959597}
   - component: {fileID: 422959596}
-  - component: {fileID: 422959595}
   - component: {fileID: 422959594}
   - component: {fileID: 422959593}
   - component: {fileID: 422959598}
@@ -9542,33 +9225,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &422959595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422959589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942916
-  m_Size: {x: -4096, y: 256, z: -4096}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3339
-  m_ShapeBox:
-    m_Center: {x: -99.62891, y: 49.48738, z: -99.57764}
-    m_Extent: {x: 2048, y: 128, z: 2048}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942916
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &422959596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10207,7 +9863,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31612
+  m_Name: pb_Mesh247632
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -10590,7 +10246,6 @@ GameObject:
   m_Component:
   - component: {fileID: 482484259}
   - component: {fileID: 482484258}
-  - component: {fileID: 482484257}
   - component: {fileID: 482484256}
   - component: {fileID: 482484255}
   - component: {fileID: 482484254}
@@ -10673,33 +10328,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &482484257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482484253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942924
-  m_Size: {x: -14.792082, y: 10.240861, z: 3.4711685}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3042
-  m_ShapeBox:
-    m_Center: {x: -7.396041, y: 5.120429, z: 1.73558}
-    m_Extent: {x: 7.396041, y: 5.120431, z: 1.7355843}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942924
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &482484258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10938,7 +10566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32444
+  m_Name: pb_Mesh248500
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -11103,7 +10731,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31848
+  m_Name: pb_Mesh247868
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -11272,7 +10900,6 @@ GameObject:
   m_Component:
   - component: {fileID: 496973830}
   - component: {fileID: 496973829}
-  - component: {fileID: 496973828}
   - component: {fileID: 496973827}
   - component: {fileID: 496973826}
   - component: {fileID: 496973825}
@@ -11355,33 +10982,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &496973828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496973824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942924
-  m_Size: {x: -14.792082, y: 10.240861, z: 3.4711685}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3042
-  m_ShapeBox:
-    m_Center: {x: -7.396041, y: 5.120429, z: 1.73558}
-    m_Extent: {x: 7.396041, y: 5.120431, z: 1.7355843}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942924
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &496973829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11620,7 +11220,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33258
+  m_Name: pb_Mesh249296
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -11785,7 +11385,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32582
+  m_Name: pb_Mesh248646
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -11950,7 +11550,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33206
+  m_Name: pb_Mesh249250
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -12119,7 +11719,6 @@ GameObject:
   m_Component:
   - component: {fileID: 526382119}
   - component: {fileID: 526382124}
-  - component: {fileID: 526382123}
   - component: {fileID: 526382122}
   - component: {fileID: 526382121}
   - component: {fileID: 526382120}
@@ -12166,7 +11765,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2138148239}
+  m_Mesh: {fileID: 1385584444}
 --- !u!33 &526382121
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -12174,7 +11773,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526382118}
-  m_Mesh: {fileID: 2138148239}
+  m_Mesh: {fileID: 1385584444}
 --- !u!23 &526382122
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12217,39 +11816,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &526382123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526382118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676303
-  m_Size: {x: 2.25, y: 2, z: -0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3232
-  m_ShapeBox:
-    m_Center: {x: -1.0453897, y: 0.7949277, z: -0.15066695}
-    m_Extent: {x: 1.125, y: 0.9510566, z: 0.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676303
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.1
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &526382124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12941,8 +12507,8 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 2138148239}
-  m_VersionIndex: 3235
+  m_Mesh: {fileID: 1385584444}
+  m_VersionIndex: 3238
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -13152,7 +12718,6 @@ GameObject:
   m_Component:
   - component: {fileID: 540787724}
   - component: {fileID: 540787723}
-  - component: {fileID: 540787722}
   - component: {fileID: 540787721}
   - component: {fileID: 540787720}
   - component: {fileID: 540787719}
@@ -13235,33 +12800,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &540787722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540787718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: -0.010802269, y: 0, z: 0.14311408}
-  - {x: -0.3238392, y: -0.00000047683716, z: -1.0549885}
-  - {x: -1.1813812, y: -0.00000023841858, z: -1.7468178}
-  - {x: -2.3039083, y: 0.00000011920929, z: -1.747641}
-  - {x: -3.295148, y: 0.00000011920929, z: -1.1009073}
-  - {x: -3.6081133, y: -0.0000008791685, z: 0.16018248}
-  - {x: -3.9203625, y: -0.00000022351742, z: 0.23838472}
-  - {x: -3.8607426, y: -0.00000047683716, z: -3.4581048}
-  - {x: 0.2238226, y: 0, z: -3.4490848}
-  - {x: 0.24973774, y: -0.00000043213367, z: 0.16752438}
-  m_Extrude: 0.1
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &540787723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13722,7 +13260,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32646
+  m_Name: pb_Mesh248204
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -13887,7 +13425,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31428
+  m_Name: pb_Mesh247450
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -14056,7 +13594,6 @@ GameObject:
   m_Component:
   - component: {fileID: 551999292}
   - component: {fileID: 551999291}
-  - component: {fileID: 551999290}
   - component: {fileID: 551999289}
   - component: {fileID: 551999288}
   - component: {fileID: 551999287}
@@ -14139,33 +13676,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &551999290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551999286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308451633168384
-  m_Size: {x: -48, y: -0.1, z: -48}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 474
-  m_ShapeBox:
-    m_Center: {x: -8.925629, y: -0.32649994, z: -11.973572}
-    m_Extent: {x: 24, y: 0.050000012, z: 24}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308451633168384
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &551999291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14404,7 +13914,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31968
+  m_Name: pb_Mesh248008
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -15036,7 +14546,6 @@ GameObject:
   m_Component:
   - component: {fileID: 577652233}
   - component: {fileID: 577652238}
-  - component: {fileID: 577652237}
   - component: {fileID: 577652236}
   - component: {fileID: 577652235}
   - component: {fileID: 577652234}
@@ -15134,29 +14643,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &577652237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577652232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.1838355, y: -0.00000011920929, z: -1.110401}
-  - {x: -0.7055447, y: -0.00000023841858, z: -1.8555944}
-  - {x: -1.3669727, y: -0.00000023841858, z: -1.8478699}
-  - {x: -1.9114435, y: -0.00000011920929, z: -1.1337332}
-  - {x: -2.1350765, y: 0.000000007450581, z: 0.05658687}
-  m_Extrude: -0.021131516
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &577652238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15454,7 +14940,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31078
+  m_Name: pb_Mesh247082
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -15623,7 +15109,6 @@ GameObject:
   m_Component:
   - component: {fileID: 579505392}
   - component: {fileID: 579505391}
-  - component: {fileID: 579505390}
   - component: {fileID: 579505389}
   - component: {fileID: 579505388}
   - component: {fileID: 579505387}
@@ -15706,33 +15191,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &579505390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579505386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942919
-  m_Size: {x: -32.333168, y: -0.1, z: -8.063076}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1410
-  m_ShapeBox:
-    m_Center: {x: -16.166584, y: -1.0505619, z: -4.031536}
-    m_Extent: {x: 16.166584, y: 0.049999952, z: 4.031538}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942919
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &579505391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15971,7 +15429,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32738
+  m_Name: pb_Mesh248792
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -16140,7 +15598,6 @@ GameObject:
   m_Component:
   - component: {fileID: 599884232}
   - component: {fileID: 599884231}
-  - component: {fileID: 599884230}
   - component: {fileID: 599884229}
   - component: {fileID: 599884228}
   - component: {fileID: 599884227}
@@ -16223,33 +15680,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &599884230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599884226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942939
-  m_Size: {x: 11.481508, y: 8.690542, z: 1.5170078}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4805
-  m_ShapeBox:
-    m_Center: {x: 4.267352, y: 3.8515549, z: 0.75850487}
-    m_Extent: {x: 5.740754, y: 4.345271, z: 0.7585039}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942939
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &599884231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16488,7 +15918,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31468
+  m_Name: pb_Mesh247490
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -16657,7 +16087,6 @@ GameObject:
   m_Component:
   - component: {fileID: 632821194}
   - component: {fileID: 632821199}
-  - component: {fileID: 632821198}
   - component: {fileID: 632821197}
   - component: {fileID: 632821196}
   - component: {fileID: 632821195}
@@ -16755,33 +16184,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &632821198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632821193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &632821199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17009,7 +16411,6 @@ GameObject:
   m_Component:
   - component: {fileID: 635062256}
   - component: {fileID: 635062262}
-  - component: {fileID: 635062261}
   - component: {fileID: 635062260}
   - component: {fileID: 635062259}
   - component: {fileID: 635062258}
@@ -17130,33 +16531,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &635062261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635062255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717252
-  m_Size: {x: -1.3215494, y: -1.271351, z: -2.9939346}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1843
-  m_ShapeBox:
-    m_Center: {x: -0.6607747, y: -0.6356775, z: -1.4969673}
-    m_Extent: {x: 0.6607747, y: 0.6356755, z: 1.4969673}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717252
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &635062262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17398,7 +16772,6 @@ GameObject:
   m_Component:
   - component: {fileID: 635868998}
   - component: {fileID: 635869003}
-  - component: {fileID: 635869002}
   - component: {fileID: 635869001}
   - component: {fileID: 635869000}
   - component: {fileID: 635868999}
@@ -17496,31 +16869,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &635869002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635868997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -3.3764381, y: 0, z: -0.013164043}
-  - {x: -3.468502, y: 0, z: 0.7381983}
-  - {x: -2.3711815, y: 0, z: 0.76203287}
-  - {x: -2.5035133, y: 0, z: 2.8569894}
-  - {x: -1.5816765, y: 0, z: 2.8816466}
-  - {x: -1.3974648, y: 0, z: 0.72547257}
-  - {x: -0.057617188, y: 0, z: 0.7476891}
-  m_Extrude: 0.3521576
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &635869003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18198,7 +17546,6 @@ GameObject:
   m_Component:
   - component: {fileID: 668439245}
   - component: {fileID: 668439250}
-  - component: {fileID: 668439249}
   - component: {fileID: 668439248}
   - component: {fileID: 668439247}
   - component: {fileID: 668439246}
@@ -18296,33 +17643,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &668439249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668439244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951681
-  m_Size: {x: 12, y: 24.991955, z: 34}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3284
-  m_ShapeBox:
-    m_Center: {x: -11.580387, y: 11.834681, z: 10.242512}
-    m_Extent: {x: 6, y: 12.495977, z: 17}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951681
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &668439250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18550,7 +17870,6 @@ GameObject:
   m_Component:
   - component: {fileID: 674425963}
   - component: {fileID: 674425962}
-  - component: {fileID: 674425961}
   - component: {fileID: 674425960}
   - component: {fileID: 674425959}
   - component: {fileID: 674425958}
@@ -18633,36 +17952,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &674425961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674425957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.035842896, y: 0, z: -2.196083}
-  - {x: -1.8429337, y: 0, z: -2.3053145}
-  - {x: -1.8035202, y: 0, z: -1.8452389}
-  - {x: -0.69672775, y: 0, z: -1.7716548}
-  - {x: -0.68239594, y: 0, z: -1.227639}
-  - {x: -1.7207909, y: 0, z: -1.3411012}
-  - {x: -1.6734047, y: 0, z: -0.791101}
-  - {x: -0.6280937, y: 0, z: -0.6765318}
-  - {x: -0.6131058, y: 0, z: -0.117878914}
-  - {x: -1.6654472, y: 0, z: -0.23357844}
-  - {x: -1.6608315, y: 0, z: 0.29087448}
-  - {x: -0.31576538, y: 0, z: 0.44692945}
-  m_Extrude: -0.40733337
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &674425962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19241,7 +18530,6 @@ GameObject:
   m_Component:
   - component: {fileID: 677594088}
   - component: {fileID: 677594093}
-  - component: {fileID: 677594092}
   - component: {fileID: 677594091}
   - component: {fileID: 677594090}
   - component: {fileID: 677594089}
@@ -19339,33 +18627,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &677594092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677594087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738949
-  m_Size: {x: 7.5, y: 0.1, z: 5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1296
-  m_ShapeBox:
-    m_Center: {x: 3.758583, y: -0.0000009536743, z: 10.109528}
-    m_Extent: {x: 3.75, y: 0.05, z: 2.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738949
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &677594093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19593,7 +18854,6 @@ GameObject:
   m_Component:
   - component: {fileID: 682852678}
   - component: {fileID: 682852677}
-  - component: {fileID: 682852676}
   - component: {fileID: 682852675}
   - component: {fileID: 682852674}
   - component: {fileID: 682852673}
@@ -19676,33 +18936,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &682852676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682852672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &682852677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19941,7 +19174,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32828
+  m_Name: pb_Mesh248868
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -20106,7 +19339,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31992
+  m_Name: pb_Mesh248032
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -20561,7 +19794,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31768
+  m_Name: pb_Mesh247788
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -20730,7 +19963,6 @@ GameObject:
   m_Component:
   - component: {fileID: 751307159}
   - component: {fileID: 751307158}
-  - component: {fileID: 751307157}
   - component: {fileID: 751307156}
   - component: {fileID: 751307155}
   - component: {fileID: 751307154}
@@ -20813,33 +20045,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &751307157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751307153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942912
-  m_Size: {x: 12, y: -1, z: -43.9077}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3706
-  m_ShapeBox:
-    m_Center: {x: 4.633519, y: -0.4361053, z: -21.95385}
-    m_Extent: {x: 6, y: 0.5, z: 21.95385}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942912
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &751307158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21082,7 +20287,6 @@ GameObject:
   m_Component:
   - component: {fileID: 768039931}
   - component: {fileID: 768039930}
-  - component: {fileID: 768039929}
   - component: {fileID: 768039928}
   - component: {fileID: 768039927}
   - component: {fileID: 768039926}
@@ -21165,33 +20369,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &768039929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768039925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676311
-  m_Size: {x: -0.1, y: 4, z: 4.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2191
-  m_ShapeBox:
-    m_Center: {x: -0.43594694, y: 2.1448226, z: 1.9046936}
-    m_Extent: {x: 0.050000012, y: 2, z: 2.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676311
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &768039930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21507,7 +20684,6 @@ GameObject:
   m_Component:
   - component: {fileID: 782850458}
   - component: {fileID: 782850457}
-  - component: {fileID: 782850456}
   - component: {fileID: 782850455}
   - component: {fileID: 782850454}
   - component: {fileID: 782850453}
@@ -21590,33 +20766,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &782850456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782850452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308353197047809
-  m_Size: {x: 0.1, y: 4, z: 8}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2780
-  m_ShapeBox:
-    m_Center: {x: 0.062464, y: 1.8914566, z: -0.044635296}
-    m_Extent: {x: 0.049999997, y: 2, z: 4}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308353197047809
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &782850457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21859,7 +21008,6 @@ GameObject:
   m_Component:
   - component: {fileID: 786290334}
   - component: {fileID: 786290340}
-  - component: {fileID: 786290339}
   - component: {fileID: 786290338}
   - component: {fileID: 786290337}
   - component: {fileID: 786290336}
@@ -21980,33 +21128,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &786290339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786290333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717257
-  m_Size: {x: 2.5342503, y: 9.601408, z: -4.330481}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5288
-  m_ShapeBox:
-    m_Center: {x: 1.2671251, y: 4.565543, z: -1.7676013}
-    m_Extent: {x: 1.2671251, y: 4.800704, z: 2.1652405}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717257
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &786290340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22244,7 +21365,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32852
+  m_Name: pb_Mesh248892
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -22567,7 +21688,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32216
+  m_Name: pb_Mesh248264
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -22871,7 +21992,6 @@ GameObject:
   m_Component:
   - component: {fileID: 815959211}
   - component: {fileID: 815959216}
-  - component: {fileID: 815959215}
   - component: {fileID: 815959214}
   - component: {fileID: 815959213}
   - component: {fileID: 815959212}
@@ -22969,33 +22089,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &815959215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815959210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &815959216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23223,7 +22316,6 @@ GameObject:
   m_Component:
   - component: {fileID: 818540380}
   - component: {fileID: 818540379}
-  - component: {fileID: 818540378}
   - component: {fileID: 818540377}
   - component: {fileID: 818540376}
   - component: {fileID: 818540375}
@@ -23306,41 +22398,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &818540378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818540374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308353197047822
-  m_Size: {x: 4, y: 4, z: -5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3777
-  m_ShapeBox:
-    m_Center: {x: 2.1742625, y: 1.9672184, z: -2.2140427}
-    m_Extent: {x: 2, y: 2, z: -2.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308353197047822
-      type: {class: Stairs, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_StepGenerationType: 1
-        m_StepsHeight: 0.2
-        m_StepsCount: 20
-        m_HomogeneousSteps: 1
-        m_Circumference: 0
-        m_Sides: 1
-        m_InnerRadius: 0
 --- !u!114 &818540379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26876,7 +25933,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32724
+  m_Name: pb_Mesh248778
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -27253,7 +26310,6 @@ GameObject:
   m_Component:
   - component: {fileID: 852991075}
   - component: {fileID: 852991080}
-  - component: {fileID: 852991079}
   - component: {fileID: 852991078}
   - component: {fileID: 852991077}
   - component: {fileID: 852991076}
@@ -27351,33 +26407,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &852991079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852991074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &852991080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27601,7 +26630,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32128
+  m_Name: pb_Mesh248168
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -27835,7 +26864,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32776
+  m_Name: pb_Mesh248828
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -28004,7 +27033,6 @@ GameObject:
   m_Component:
   - component: {fileID: 893358383}
   - component: {fileID: 893358382}
-  - component: {fileID: 893358381}
   - component: {fileID: 893358380}
   - component: {fileID: 893358379}
   - component: {fileID: 893358378}
@@ -28087,33 +27115,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &893358381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893358377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &893358382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28575,7 +27576,6 @@ GameObject:
   m_Component:
   - component: {fileID: 902513955}
   - component: {fileID: 902513960}
-  - component: {fileID: 902513959}
   - component: {fileID: 902513958}
   - component: {fileID: 902513957}
   - component: {fileID: 902513956}
@@ -28673,33 +27673,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &902513959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902513954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &902513960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28923,7 +27896,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32022
+  m_Name: pb_Mesh248062
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -29242,7 +28215,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31348
+  m_Name: pb_Mesh247370
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -29407,7 +28380,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32668
+  m_Name: pb_Mesh248724
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -29842,7 +28815,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32694
+  m_Name: pb_Mesh248748
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -30011,7 +28984,6 @@ GameObject:
   m_Component:
   - component: {fileID: 933193387}
   - component: {fileID: 933193386}
-  - component: {fileID: 933193385}
   - component: {fileID: 933193384}
   - component: {fileID: 933193383}
   - component: {fileID: 933193382}
@@ -30094,33 +29066,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &933193385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933193381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942939
-  m_Size: {x: 11.481508, y: 8.690542, z: 1.5170078}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4805
-  m_ShapeBox:
-    m_Center: {x: 4.267352, y: 3.8515549, z: 0.75850487}
-    m_Extent: {x: 5.740754, y: 4.345271, z: 0.7585039}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942939
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &933193386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30494,7 +29439,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32304
+  m_Name: pb_Mesh248360
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -30659,7 +29604,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32262
+  m_Name: pb_Mesh248318
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -30856,7 +29801,6 @@ GameObject:
   m_Component:
   - component: {fileID: 966423366}
   - component: {fileID: 966423371}
-  - component: {fileID: 966423370}
   - component: {fileID: 966423369}
   - component: {fileID: 966423368}
   - component: {fileID: 966423367}
@@ -30954,33 +29898,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &966423370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966423365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &966423371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31208,7 +30125,6 @@ GameObject:
   m_Component:
   - component: {fileID: 966974051}
   - component: {fileID: 966974050}
-  - component: {fileID: 966974049}
   - component: {fileID: 966974048}
   - component: {fileID: 966974047}
   - component: {fileID: 966974046}
@@ -31291,33 +30207,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &966974049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966974045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &966974050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31521,7 +30410,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh30986
+  m_Name: pb_Mesh246998
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -31686,7 +30575,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32904
+  m_Name: pb_Mesh248944
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -31855,7 +30744,6 @@ GameObject:
   m_Component:
   - component: {fileID: 996638897}
   - component: {fileID: 996638896}
-  - component: {fileID: 996638895}
   - component: {fileID: 996638894}
   - component: {fileID: 996638893}
   - component: {fileID: 996638892}
@@ -31938,33 +30826,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &996638895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996638891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5380581189728337920
-  m_Size: {x: -8.234442, y: 3.7771883, z: -5.147376}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5218
-  m_ShapeBox:
-    m_Center: {x: -4.117221, y: 1.8885939, z: -4.1217403}
-    m_Extent: {x: 4.117221, y: 1.8885942, z: 2.573688}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5380581189728337920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &996638896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32203,7 +31064,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31500
+  m_Name: pb_Mesh247522
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -32507,7 +31368,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1007700046}
   - component: {fileID: 1007700045}
-  - component: {fileID: 1007700044}
   - component: {fileID: 1007700043}
   - component: {fileID: 1007700042}
   - component: {fileID: 1007700041}
@@ -32590,33 +31450,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1007700044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007700040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676289
-  m_Size: {x: -2, y: -0.1, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4243
-  m_ShapeBox:
-    m_Center: {x: -1.0372272, y: -0.05835538, z: 1.002562}
-    m_Extent: {x: 1, y: 0.05, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676289
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1007700045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32855,7 +31688,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32642
+  m_Name: pb_Mesh248706
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -33108,7 +31941,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1036381315}
   - component: {fileID: 1036381314}
-  - component: {fileID: 1036381313}
   - component: {fileID: 1036381312}
   - component: {fileID: 1036381311}
   - component: {fileID: 1036381310}
@@ -33191,33 +32023,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1036381313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036381309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942915
-  m_Size: {x: 7.172558, y: 43.907467, z: -4.541127}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4027
-  m_ShapeBox:
-    m_Center: {x: 3.5862875, y: 21.953848, z: -2.2705636}
-    m_Extent: {x: 3.586279, y: 21.953733, z: 2.2705636}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942915
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1036381314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33460,7 +32265,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1045981876}
   - component: {fileID: 1045981875}
-  - component: {fileID: 1045981874}
   - component: {fileID: 1045981873}
   - component: {fileID: 1045981872}
   - component: {fileID: 1045981871}
@@ -33543,33 +32347,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1045981874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045981870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1045981875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33808,7 +32585,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32100
+  m_Name: pb_Mesh248130
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -33977,7 +32754,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1053081393}
   - component: {fileID: 1053081392}
-  - component: {fileID: 1053081391}
   - component: {fileID: 1053081390}
   - component: {fileID: 1053081389}
   - component: {fileID: 1053081388}
@@ -34060,33 +32836,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1053081391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053081387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1053081392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34325,7 +33074,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33124
+  m_Name: pb_Mesh249176
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -34490,7 +33239,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32416
+  m_Name: pb_Mesh248472
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -34659,7 +33408,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1072408364}
   - component: {fileID: 1072408363}
-  - component: {fileID: 1072408362}
   - component: {fileID: 1072408361}
   - component: {fileID: 1072408360}
   - component: {fileID: 1072408359}
@@ -34742,33 +33490,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1072408362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072408358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121550473446555648
-  m_Size: {x: -3, y: 4, z: 0.1}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6152
-  m_ShapeBox:
-    m_Center: {x: -1.5040011, y: 2.0784588, z: 0.05271578}
-    m_Extent: {x: 1.5, y: 2, z: 0.049999997}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121550473446555648
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1072408363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35011,7 +33732,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1075371722}
   - component: {fileID: 1075371721}
-  - component: {fileID: 1075371723}
   m_Layer: 3
   m_Name: P1 Vcam
   m_TagString: Untagged
@@ -35036,7 +33756,7 @@ MonoBehaviour:
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 1
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
@@ -35075,18 +33795,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1075371723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075371720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fad85e9e7f28446eb6d86e131f05a93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1080751974
 GameObject:
   m_ObjectHideFlags: 0
@@ -35097,7 +33805,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1080751980}
   - component: {fileID: 1080751979}
-  - component: {fileID: 1080751978}
   - component: {fileID: 1080751977}
   - component: {fileID: 1080751976}
   - component: {fileID: 1080751975}
@@ -35180,33 +33887,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1080751978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080751974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1080751979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35449,7 +34129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1082185034}
   - component: {fileID: 1082185033}
-  - component: {fileID: 1082185032}
   - component: {fileID: 1082185031}
   - component: {fileID: 1082185030}
   - component: {fileID: 1082185029}
@@ -35532,33 +34211,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1082185032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082185028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738947
-  m_Size: {x: -1.4794905, y: -0.2544336, z: -0.5390663}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4928
-  m_ShapeBox:
-    m_Center: {x: -0.54781914, y: -0.12721711, z: -0.26953316}
-    m_Extent: {x: 0.73974526, y: 0.12721682, z: 0.26953316}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738947
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1082185033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35797,7 +34449,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32238
+  m_Name: pb_Mesh248294
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -35966,7 +34618,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1096273693}
   - component: {fileID: 1096273692}
-  - component: {fileID: 1096273691}
   - component: {fileID: 1096273690}
   - component: {fileID: 1096273689}
   - component: {fileID: 1096273688}
@@ -36049,33 +34700,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1096273691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1096273687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942913
-  m_Size: {x: 80, y: 16, z: -3.9922905}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2220
-  m_ShapeBox:
-    m_Center: {x: 24.861763, y: 5.3374014, z: -1.9961472}
-    m_Extent: {x: 40, y: 8, z: 1.9961452}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942913
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1096273692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36618,7 +35242,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32624
+  m_Name: pb_Mesh248182
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -36783,7 +35407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32348
+  m_Name: pb_Mesh248402
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -36952,7 +35576,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1099921584}
   - component: {fileID: 1099921583}
-  - component: {fileID: 1099921582}
   - component: {fileID: 1099921581}
   - component: {fileID: 1099921580}
   - component: {fileID: 1099921579}
@@ -37035,33 +35658,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1099921582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099921578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676289
-  m_Size: {x: -2, y: -0.1, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4243
-  m_ShapeBox:
-    m_Center: {x: -1.0372272, y: -0.05835538, z: 1.002562}
-    m_Extent: {x: 1, y: 0.05, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676289
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1099921583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37304,7 +35900,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1101149748}
   - component: {fileID: 1101149747}
-  - component: {fileID: 1101149746}
   - component: {fileID: 1101149745}
   - component: {fileID: 1101149744}
   - component: {fileID: 1101149743}
@@ -37410,33 +36005,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1101149746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101149741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717250
-  m_Size: {x: -1.365694, y: 7.820942, z: 2.0256538}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2083
-  m_ShapeBox:
-    m_Center: {x: -0.682848, y: 3.910471, z: 1.012825}
-    m_Extent: {x: 0.682847, y: 3.910471, z: 1.0128269}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717250
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1101149747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37694,7 +36262,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31040
+  m_Name: pb_Mesh247044
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -37859,7 +36427,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31926
+  m_Name: pb_Mesh247966
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -38028,7 +36596,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1112852474}
   - component: {fileID: 1112852480}
-  - component: {fileID: 1112852479}
   - component: {fileID: 1112852478}
   - component: {fileID: 1112852477}
   - component: {fileID: 1112852476}
@@ -38149,33 +36716,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1112852479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112852473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717259
-  m_Size: {x: -4.6328063, y: 20, z: 5.1283774}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6078
-  m_ShapeBox:
-    m_Center: {x: -2.2963593, y: 5.104024, z: 3.0753775}
-    m_Extent: {x: 2.3164032, y: 10, z: 2.564189}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717259
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1112852480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38413,7 +36953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31060
+  m_Name: pb_Mesh247064
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -38717,7 +37257,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1153781172}
   - component: {fileID: 1153781177}
-  - component: {fileID: 1153781176}
   - component: {fileID: 1153781175}
   - component: {fileID: 1153781174}
   - component: {fileID: 1153781173}
@@ -38816,33 +37355,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1153781176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153781171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1153781177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39033,7 +37545,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1153837569}
   - component: {fileID: 1153837575}
-  - component: {fileID: 1153837574}
   - component: {fileID: 1153837573}
   - component: {fileID: 1153837572}
   - component: {fileID: 1153837571}
@@ -39154,33 +37665,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1153837574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153837568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717256
-  m_Size: {x: 12.370628, y: -10.668181, z: 8.738304}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5976
-  m_ShapeBox:
-    m_Center: {x: 4.4715576, y: -5.3348656, z: 4.369152}
-    m_Extent: {x: 6.185314, y: 5.334091, z: 4.369152}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717256
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1153837575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39422,7 +37906,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1155078524}
   - component: {fileID: 1155078523}
-  - component: {fileID: 1155078522}
   - component: {fileID: 1155078521}
   - component: {fileID: 1155078520}
   - component: {fileID: 1155078519}
@@ -39505,33 +37988,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1155078522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155078518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738947
-  m_Size: {x: -1.4794905, y: -0.2544336, z: -0.5390663}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4928
-  m_ShapeBox:
-    m_Center: {x: -0.54781914, y: -0.12721711, z: -0.26953316}
-    m_Extent: {x: 0.73974526, y: 0.12721682, z: 0.26953316}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738947
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1155078523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39801,7 +38257,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31016
+  m_Name: pb_Mesh247024
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -40121,7 +38577,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1201450456}
   - component: {fileID: 1201450455}
-  - component: {fileID: 1201450454}
   - component: {fileID: 1201450453}
   - component: {fileID: 1201450452}
   - component: {fileID: 1201450451}
@@ -40204,41 +38659,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1201450454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201450450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308353197047822
-  m_Size: {x: 4, y: 4, z: -5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3777
-  m_ShapeBox:
-    m_Center: {x: 2.1742625, y: 1.9672184, z: -2.2140427}
-    m_Extent: {x: 2, y: 2, z: -2.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308353197047822
-      type: {class: Stairs, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_StepGenerationType: 1
-        m_StepsHeight: 0.2
-        m_StepsCount: 20
-        m_HomogeneousSteps: 1
-        m_Circumference: 0
-        m_Sides: 1
-        m_InnerRadius: 0
 --- !u!114 &1201450455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43774,7 +42194,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31410
+  m_Name: pb_Mesh247432
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -44020,7 +42440,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1224219261}
   - component: {fileID: 1224219260}
-  - component: {fileID: 1224219259}
   - component: {fileID: 1224219258}
   - component: {fileID: 1224219257}
   - component: {fileID: 1224219256}
@@ -44103,33 +42522,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1224219259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224219255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1224219260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44368,7 +42760,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32520
+  m_Name: pb_Mesh248584
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -44728,7 +43120,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1237657864}
   - component: {fileID: 1237657869}
-  - component: {fileID: 1237657868}
   - component: {fileID: 1237657867}
   - component: {fileID: 1237657866}
   - component: {fileID: 1237657865}
@@ -44826,33 +43217,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1237657868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237657863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 8, z: 32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3129
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 4, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1237657869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45076,7 +43440,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32564
+  m_Name: pb_Mesh248628
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -45245,7 +43609,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1269106990}
   - component: {fileID: 1269106995}
-  - component: {fileID: 1269106994}
   - component: {fileID: 1269106993}
   - component: {fileID: 1269106992}
   - component: {fileID: 1269106991}
@@ -45343,33 +43706,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1269106994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269106989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 4.75}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3029
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 2.375}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1269106995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45597,7 +43933,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1269503384}
   - component: {fileID: 1269503383}
-  - component: {fileID: 1269503382}
   - component: {fileID: 1269503381}
   - component: {fileID: 1269503380}
   - component: {fileID: 1269503379}
@@ -45680,33 +44015,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1269503382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269503378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942921
-  m_Size: {x: -0.15689468, y: 1.207962, z: -0.7229004}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1427
-  m_ShapeBox:
-    m_Center: {x: -0.07844925, y: 0.603981, z: -0.3614502}
-    m_Extent: {x: 0.07844734, y: 0.603981, z: 0.3614502}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942921
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1269503383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45949,7 +44257,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1273262013}
   - component: {fileID: 1273262012}
-  - component: {fileID: 1273262011}
   - component: {fileID: 1273262010}
   - component: {fileID: 1273262009}
   - component: {fileID: 1273262008}
@@ -46032,36 +44339,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1273262011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273262007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1273262012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46523,7 +44800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1278876474}
   - component: {fileID: 1278876473}
-  - component: {fileID: 1278876472}
   - component: {fileID: 1278876471}
   - component: {fileID: 1278876470}
   - component: {fileID: 1278876469}
@@ -46606,36 +44882,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1278876472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278876468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1278876473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47232,7 +45478,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1289244907}
   - component: {fileID: 1289244912}
-  - component: {fileID: 1289244911}
   - component: {fileID: 1289244910}
   - component: {fileID: 1289244909}
   - component: {fileID: 1289244908}
@@ -47330,33 +45575,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1289244911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289244906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1289244912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47580,7 +45798,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32550
+  m_Name: pb_Mesh248614
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -47745,7 +45963,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31618
+  m_Name: pb_Mesh247164
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -47910,7 +46128,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32688
+  m_Name: pb_Mesh248246
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -48075,7 +46293,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32458
+  m_Name: pb_Mesh248514
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -48244,7 +46462,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1327770910}
   - component: {fileID: 1327770909}
-  - component: {fileID: 1327770908}
   - component: {fileID: 1327770907}
   - component: {fileID: 1327770906}
   - component: {fileID: 1327770905}
@@ -48327,33 +46544,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1327770908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1327770904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738945
-  m_Size: {x: 0.1, y: -4, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2861
-  m_ShapeBox:
-    m_Center: {x: 0.232642, y: -2.2240276, z: 0.9860015}
-    m_Extent: {x: 0.050000004, y: 1.9999999, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738945
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1327770909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48736,7 +46926,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31794
+  m_Name: pb_Mesh247814
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -48901,7 +47091,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31198
+  m_Name: pb_Mesh247218
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -49070,7 +47260,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1373343890}
   - component: {fileID: 1373343889}
-  - component: {fileID: 1373343888}
   - component: {fileID: 1373343887}
   - component: {fileID: 1373343886}
   - component: {fileID: 1373343885}
@@ -49153,33 +47342,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1373343888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373343884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738952
-  m_Size: {x: 22.5243, y: 34.895164, z: 2.035666}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1488
-  m_ShapeBox:
-    m_Center: {x: 11.262156, y: 17.44759, z: 1.0178332}
-    m_Extent: {x: 11.26215, y: 17.447582, z: 1.017833}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738952
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1373343889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49418,7 +47580,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33226
+  m_Name: pb_Mesh249264
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -49577,6 +47739,171 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!43 &1385584444
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh247408
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 132
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 72
+    localAABB:
+      m_Center: {x: -1.0453897, y: 0.79492766, z: -0.15066695}
+      m_Extent: {x: 1.125, y: 1, z: 0.25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200000002000300040005000600040006000700080009000a0008000a000b000c000d000e000c000e000f00100011001200100012001300140015001600140016001700180019001a0018001a001b001c001d001e001c001e001f00200021002200200022002300240025002600240026002700280029002a0028002a002b002c002d002e002c002e002f003000310032003000320033003400350036003400360037003100380039003100390032003a00340037003a0037003b0038003c003d0038003d0039003e003a003b003e003b003f003c00400041003c0041003d0042003e003f0042003f004300400044004500400045004100460042004300460043004700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 72
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 4032
+    _typelessdata: c00aa33d74fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bfc00aa3bd206fcb3d0bd7a33c15097a3f4008a7bc74fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bf4008a73c206fcb3d37d7a33cb2af743f4008a7bc74fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bf4008a73c3824cdbe26edfe3db2af743fc00aa33d74fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bfc00aa3bd3824cdbe1bedfe3d15097a3fc00aa33d74fe51be3824cdbed4377c3f3e5d2f3e0000000000000000000000000000803f000080bf3824cdbe3dda5cbe0bd7a33c4072ea3ecc7d0abeabf7833f3824cdbea3736b3f8bfbc83e0000000000000000000000000000803f000080bf3824cdbe87fb843f1b76903e4072ea3ecc7d0abeabf7833f206fcb3da3736b3f8bfbc83e0000000000000000000000000000803f000080bf206fcb3d87fb843f1c76903e0bf80f3fc00aa33d74fe51be206fcb3dd4377c3f3e5d2f3e0000000000000000000000000000803f000080bf206fcb3d3dda5cbe1dd7a33c0bf80f3fb4555dbefd1c783f3824cdbe3ac66cbf0aabc2be000000000000000000000000000080bf000080bf3824cd3eb1d57d3faa99893efa906f3f4008a7bc74fe51be3824cdbee5837cbf3d6228be000000000000000000000000000080bf000080bf3824cd3ebfb34bbe1bd7a33cf9906f3f4008a7bc74fe51be206fcb3de5837cbf3d6228be000000000000000000000000000080bf000080bf206fcbbdbfb34bbe0bd7a33c0ed2543fb4555dbefd1c783f206fcb3d3ac66cbf0aabc2be000000000000000000000000000080bf000080bf206fcbbdb1d57d3fa999893e0fd2543fcc7d0abeabf7833f3824cdbea3736b3f8bfbc83e0000000000000000000000000000803f000080bf3824cdbe5e10693f1b76903e4072ea3e749f32bf31c0e53f3824cdbe1dfde63e7d77643f0000000000000000000000000000803f000080bf3824cdbe9cf6ed3f55f4f53e4072ea3e749f32bf31c0e53f206fcb3d1dfde63e7d77643f0000000000000000000000000000803f000080bf206fcb3d9cf6ed3f56f4f53e0bf80f3fcc7d0abeabf7833f206fcb3da3736b3f8bfbc83e0000000000000000000000000000803f000080bf206fcb3d5e10693f1c76903e0bf80f3fa0883abf64f3d83f3824cdbedf81ebbe7f4f63bf000000000000000000000000000080bf000080bf3824cd3e7904e73f57a6e83ef9906f3fb4555dbefd1c783f3824cdbe3ac66cbf0aabc2be000000000000000000000000000080bf000080bf3824cd3e51976a3faa99893efa906f3fb4555dbefd1c783f206fcb3d3ac66cbf0aabc2be000000000000000000000000000080bf000080bf206fcbbd51976a3fa999893e0fd2543fa0883abf64f3d83f206fcb3ddf81ebbe7f4f63bf000000000000000000000000000080bf000080bf206fcbbd7904e73f56a6e83e0ed2543f749f32bf31c0e53f3824cdbe1dfde63e7d77643f000000007d77643f1dfde6be00000000000080bf749f32bf3824cdbee418003f4072ea3eee4eb2bf31c0e53f3824cdbe1dfde6be7d77643f000000007d77643f1dfde63e00000000000080bfee4eb2bf3824cdbe0e4a253f4072ea3eee4eb2bf31c0e53f206fcb3d1dfde6be7d77643f000000007d77643f1dfde63e00000000000080bfee4eb2bf206fcb3d0e4a253f0cf80f3f749f32bf31c0e53f206fcb3d1dfde63e7d77643f000000007d77643f1dfde6be00000000000080bf749f32bf206fcb3de418003f0cf80f3f585aaebf64f3d83f3824cdbee081eb3e7f4f63bf000000007f4f63bfe281ebbe00000000000080bf585aae3f3824cdbec7682a3f4072ea3ea0883abf64f3d83f3824cdbedf81ebbe7f4f63bf000000007f4f63bfdf81eb3e00000000000080bfa0883a3f3824cdbe9e4b4c3f4072ea3ea0883abf64f3d83f206fcb3ddf81ebbe7f4f63bf000000007f4f63bfdf81eb3e00000000000080bfa0883a3f206fcb3d9e4b4c3f0cf80f3f585aaebf64f3d83f206fcb3de081eb3e7f4f63bf000000007f4f63bfe281ebbe00000000000080bf585aae3f206fcb3dc7682a3f0cf80f3fee4eb2bf31c0e53f3824cdbe1dfde6be7d77643f000000000000000000000000000080bf000080bf3824cd3e7f911e3f56f4f53eb1d52f3fef4efabfaaf7833f3824cdbea3736bbf8afbc83e000000000000000000000000000080bf000080bf3824cd3eba96a8be1b76903eb0d52f3fef4efabfaaf7833f206fcb3da3736bbf8afbc83e000000000000000000000000000080bf000080bf206fcbbdba96a8be1b76903ec516153fee4eb2bf31c0e53f206fcb3d1dfde6be7d77643f000000000000000000000000000080bf000080bf206fcbbd7f911e3f56f4f53ec616153ff2f3efbffa1c783f3824cdbe4b1d513f26ac13bf0000000000000000000000000000803f000080bf3824cdbea65194bea999893e6bf4343f585aaebf64f3d83f3824cdbee081eb3e7f4f63bf0000000000000000000000000000803f000080bf3824cdbed148193f57a6e83e6bf4343f585aaebf64f3d83f206fcb3de081eb3e7f4f63bf0000000000000000000000000000803f000080bf206fcb3dd148193f57a6e83e56b34f3ff2f3efbffa1c783f206fcb3d4b1d513f26ac13bf0000000000000000000000000000803f000080bf206fcb3da65194bea999893e55b34f3fef4efabfaaf7833f3824cdbea3736bbf8afbc83e000000000000000000000000000080bf000080bf3824cd3e974d2e3f1b76903eb0d52f3faae70ac080fe51be3824cdbed4377cbf3b5d2f3e000000000000000000000000000080bf000080bf3824cd3e08e012bf0bd7a33caed52f3faae70ac080fe51be206fcb3dd4377cbf3b5d2f3e000000000000000000000000000080bf000080bf206fcbbd08e012bf0bd7a33cc316153fef4efabfaaf7833f206fcb3da3736bbf8afbc83e000000000000000000000000000080bf000080bf206fcbbd974d2e3f1b76903ec516153f448104c080fe51be3824cdbee5837c3f406228be0000000000000000000000000000803f000080bf3824cdbe5df00abf0bd7a33c69f4343ff2f3efbffa1c783f3824cdbee5837c3f406228be0000000000000000000000000000803f000080bf3824cdbe44d2253fa999893e6bf4343ff2f3efbffa1c783f206fcb3de5837c3f406228be0000000000000000000000000000803f000080bf206fcb3d44d2253fa999893e55b34f3f448104c080fe51be206fcb3de5837c3f406228be0000000000000000000000000000803f000080bf206fcb3d5df00abf0bd7a33c54b34f3f448104c080fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bf44810440206fcb3d74f1133e14097a3faae70ac080fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bfaae70a40206fcb3d7af1133eb2af743faae70ac080fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bfaae70a403824cdbe26ed7e3eb2af743f448104c080fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bf448104403824cdbe21ed7e3e14097a3f4008a7bc74fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf4008a7bc74fe51bef8f1073f14d7a33cb4555dbefd1c783f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfb4555dbefd1c783fa56a123fd4dd873ecc7d0abeabf7833f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfcc7d0abeabf7833fc9160e3f7b7a8e3ec00aa33d74fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfc00aa33d74fe51be9698023f1ad7a33cb4555dbefd1c783f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfb4555d3efd1c783f9c4fdb3ed5dd873e4008a7bc74fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bf4008a73c74fe51bef540f03e20d7a33cc00aa33d74fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bfc00aa3bd74fe51bebaf3fa3e20d7a33ccc7d0abeabf7833f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfcc7d0a3eabf7833f53f7e33e7c7a8e3ea0883abf64f3d83f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfa0883abf64f3d83fbcd42d3f0a82d53e749f32bf31c0e53f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf749f32bf31c0e53f932d2c3fcf34e03ea0883abf64f3d83f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfa0883a3f64f3d83f6d7ba43e0b82d53e749f32bf31c0e53f206fcb3d00000000000000000000803f000080bf0000000000000000000080bf749f323f31c0e53fc0c9a73ecf34e03e585aaebf64f3d83f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf585aaebf64f3d83f94b74f3f0a82d53eee4eb2bf31c0e53f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfee4eb2bf31c0e53fbd5e513fcf34e03e585aaebf64f3d83f206fcb3d00000000000000000000803f000080bf0000000000000000000080bf585aae3f64f3d83f7c6b413e0b82d53eee4eb2bf31c0e53f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfee4eb23f31c0e53fd6ce3a3ecf34e03ef2f3efbffa1c783f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bff2f3efbffa1c783fac216b3fd3dd873eef4efabfaaf7833f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfef4efabfaaf7833f87756f3f7a7a8e3ef2f3efbffa1c783f206fcb3d00000000000000000000803f000080bf0000000000000000000080bff2f3ef3ffa1c783f3786a73dd3dd873eef4efabfaaf7833f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfef4efa3faaf7833f5fe7843d7b7a8e3e448104c080fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf448104c080fe51be589a753f0bd7a33caae70ac080fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfaae70ac080fe51bebaf37a3f0bd7a33c448104c080fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bf4481044080fe51bea781273d0bd7a33caae70ac080fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bfaae70a4080fe51be0bd7a33c11d7a33c
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -1.0453897, y: 0.79492766, z: -0.15066695}
+    m_Extent: {x: 1.125, y: 1, z: 0.25}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1.0000001
+  m_MeshMetrics[1]: 22.903894
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1388787466
 GameObject:
   m_ObjectHideFlags: 0
@@ -49712,7 +48039,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31270
+  m_Name: pb_Mesh247290
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -49877,7 +48204,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32474
+  m_Name: pb_Mesh248530
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -50046,7 +48373,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1406326768}
   - component: {fileID: 1406326767}
-  - component: {fileID: 1406326766}
   - component: {fileID: 1406326765}
   - component: {fileID: 1406326764}
   - component: {fileID: 1406326763}
@@ -50129,36 +48455,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1406326766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406326762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1406326767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50630,7 +48926,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1408232427}
   - component: {fileID: 1408232432}
-  - component: {fileID: 1408232431}
   - component: {fileID: 1408232430}
   - component: {fileID: 1408232429}
   - component: {fileID: 1408232428}
@@ -50728,33 +49023,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1408232431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408232426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951681
-  m_Size: {x: -17.957771, y: 24.991955, z: 16.913637}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3201
-  m_ShapeBox:
-    m_Center: {x: -11.580387, y: 11.834681, z: 10.242512}
-    m_Extent: {x: 8.978886, y: 12.495977, z: 8.456818}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951681
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1408232432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50978,7 +49246,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32610
+  m_Name: pb_Mesh248674
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -51147,7 +49415,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1418323683}
   - component: {fileID: 1418323682}
-  - component: {fileID: 1418323681}
   - component: {fileID: 1418323680}
   - component: {fileID: 1418323679}
   - component: {fileID: 1418323678}
@@ -51230,33 +49497,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1418323681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418323677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1418323682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51458,7 +49698,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33242
+  m_Name: pb_Mesh249280
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -51627,7 +49867,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1433205865}
   - component: {fileID: 1433205864}
-  - component: {fileID: 1433205863}
   - component: {fileID: 1433205862}
   - component: {fileID: 1433205861}
   - component: {fileID: 1433205860}
@@ -51710,33 +49949,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1433205863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433205859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1433205864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52258,7 +50470,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33054
+  m_Name: pb_Mesh249106
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -52423,7 +50635,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31516
+  m_Name: pb_Mesh247538
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -52588,7 +50800,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32040
+  m_Name: pb_Mesh248080
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -52757,7 +50969,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1510716247}
   - component: {fileID: 1510716252}
-  - component: {fileID: 1510716251}
   - component: {fileID: 1510716250}
   - component: {fileID: 1510716249}
   - component: {fileID: 1510716248}
@@ -52856,33 +51067,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1510716251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510716246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951683
-  m_Size: {x: 0.77215636, y: 0.5245811, z: -0.22340572}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5883
-  m_ShapeBox:
-    m_Center: {x: 0.38611954, y: -1.0289651, z: -0.111701995}
-    m_Extent: {x: 0.38607818, y: 0.26229057, z: 0.11170286}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951683
-      type: {class: Prism, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1510716252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53069,7 +51253,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33164
+  m_Name: pb_Mesh249208
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -53238,7 +51422,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1532924396}
   - component: {fileID: 1532924395}
-  - component: {fileID: 1532924394}
   - component: {fileID: 1532924393}
   - component: {fileID: 1532924392}
   - component: {fileID: 1532924391}
@@ -53321,33 +51504,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1532924394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532924390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676289
-  m_Size: {x: -2, y: -0.1, z: 2}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 4243
-  m_ShapeBox:
-    m_Center: {x: -1.0372272, y: -0.05835538, z: 1.002562}
-    m_Extent: {x: 1, y: 0.05, z: 1}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676289
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1532924395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53653,7 +51809,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1535827619}
   - component: {fileID: 1535827618}
-  - component: {fileID: 1535827617}
   - component: {fileID: 1535827616}
   - component: {fileID: 1535827615}
   - component: {fileID: 1535827614}
@@ -53736,39 +51891,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1535827617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535827613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676298
-  m_Size: {x: 4.8, y: 4, z: 0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3400
-  m_ShapeBox:
-    m_Center: {x: 0.9178977, y: 1.9616432, z: 0.7890649}
-    m_Extent: {x: 2.4, y: 1.9021132, z: 0.25000003}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676298
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.5
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &1535827618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54491,7 +52613,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1536002250}
   - component: {fileID: 1536002249}
-  - component: {fileID: 1536002248}
   - component: {fileID: 1536002247}
   - component: {fileID: 1536002246}
   - component: {fileID: 1536002245}
@@ -54574,33 +52695,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1536002248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536002244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942923
-  m_Size: {x: 24, y: 0.1, z: -32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2786
-  m_ShapeBox:
-    m_Center: {x: -44.314342, y: -1.5073853, z: -95.74495}
-    m_Extent: {x: 12, y: 0.049999952, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942923
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1536002249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54839,7 +52933,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31598
+  m_Name: pb_Mesh247618
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -55004,7 +53098,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32866
+  m_Name: pb_Mesh248906
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -55173,7 +53267,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1543249954}
   - component: {fileID: 1543249953}
-  - component: {fileID: 1543249952}
   - component: {fileID: 1543249951}
   - component: {fileID: 1543249950}
   - component: {fileID: 1543249949}
@@ -55256,33 +53349,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1543249952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543249948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676307
-  m_Size: {x: -48, y: 24, z: -1}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3114
-  m_ShapeBox:
-    m_Center: {x: -3.5836067, y: 2.102622, z: -0.6152096}
-    m_Extent: {x: 24, y: 12, z: 0.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676307
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1543249953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55525,7 +53591,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1546110448}
   - component: {fileID: 1546110453}
-  - component: {fileID: 1546110452}
   - component: {fileID: 1546110451}
   - component: {fileID: 1546110450}
   - component: {fileID: 1546110449}
@@ -55623,36 +53688,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1546110452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546110447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1546110453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56099,7 +54134,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1563398285}
   - component: {fileID: 1563398284}
-  - component: {fileID: 1563398283}
   - component: {fileID: 1563398282}
   - component: {fileID: 1563398281}
   - component: {fileID: 1563398280}
@@ -56182,33 +54216,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1563398283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563398279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942918
-  m_Size: {x: 16, y: 25.891138, z: -3.9222717}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1371
-  m_ShapeBox:
-    m_Center: {x: 2.704428, y: 12.945571, z: -1.9611359}
-    m_Extent: {x: 8, y: 12.945569, z: 1.9611359}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942918
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1563398284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56479,7 +54486,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1577517791}
   - component: {fileID: 1577517790}
-  - component: {fileID: 1577517789}
   - component: {fileID: 1577517788}
   - component: {fileID: 1577517787}
   - component: {fileID: 1577517786}
@@ -56562,33 +54568,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1577517789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577517785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676307
-  m_Size: {x: -10, y: 4, z: -1}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3012
-  m_ShapeBox:
-    m_Center: {x: -3.5836077, y: 2.102622, z: -0.61520886}
-    m_Extent: {x: 5, y: 2, z: 0.5}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676307
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1577517790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56833,7 +54812,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1579086656}
   - component: {fileID: 1579086661}
-  - component: {fileID: 1579086660}
   - component: {fileID: 1579086659}
   - component: {fileID: 1579086658}
   - component: {fileID: 1579086657}
@@ -56931,36 +54909,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1579086660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579086655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1579086661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57476,7 +55424,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32806
+  m_Name: pb_Mesh248846
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -57645,7 +55593,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1600755359}
   - component: {fileID: 1600755358}
-  - component: {fileID: 1600755357}
   - component: {fileID: 1600755356}
   - component: {fileID: 1600755355}
   - component: {fileID: 1600755354}
@@ -57728,33 +55675,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1600755357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1600755353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738949
-  m_Size: {x: 7.5, y: 0.1, z: 20}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1271
-  m_ShapeBox:
-    m_Center: {x: 3.758583, y: -0.0000009536743, z: 10.109528}
-    m_Extent: {x: 3.75, y: 0.05, z: 10}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738949
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1600755358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58069,7 +55989,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31548
+  m_Name: pb_Mesh247570
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -58238,7 +56158,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1627728345}
   - component: {fileID: 1627728344}
-  - component: {fileID: 1627728343}
   - component: {fileID: 1627728342}
   - component: {fileID: 1627728341}
   - component: {fileID: 1627728340}
@@ -58321,33 +56240,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1627728343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627728339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: -0.09448244, y: 0.000000022351742, z: 0.08555841}
-  - {x: -0.372036, y: -0.00000071525574, z: -2.8946414}
-  - {x: -5.0244565, y: -0.00000071525574, z: -2.8809566}
-  - {x: -5.155621, y: 0.000000029802322, z: 0.12328577}
-  - {x: -4.4697576, y: 0.000000022351742, z: 0.108662605}
-  - {x: -4.3717656, y: -0.00000047683716, z: -2.1539235}
-  - {x: -3.065312, y: 0.000000044703484, z: 0.16512871}
-  - {x: -2.2814753, y: 0.000000044703484, z: 0.17284846}
-  - {x: -1.1330949, y: -0.00000047683716, z: -2.108585}
-  - {x: -0.93317425, y: 0.000000022351742, z: 0.099375606}
-  m_Extrude: -0.365448
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &1627728344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59082,7 +56974,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1636478176}
   - component: {fileID: 1636478175}
-  - component: {fileID: 1636478174}
   - component: {fileID: 1636478173}
   - component: {fileID: 1636478172}
   - component: {fileID: 1636478171}
@@ -59165,33 +57056,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1636478174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636478170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942922
-  m_Size: {x: -1.3215168, y: -0.21669772, z: -8.202629}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2540
-  m_ShapeBox:
-    m_Center: {x: -0.6607586, y: -0.108348936, z: -4.1013145}
-    m_Extent: {x: 0.6607584, y: 0.10834886, z: 4.1013145}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942922
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1636478175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59434,7 +57298,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1642391435}
   - component: {fileID: 1642391434}
-  - component: {fileID: 1642391433}
   - component: {fileID: 1642391432}
   - component: {fileID: 1642391431}
   - component: {fileID: 1642391430}
@@ -59517,36 +57380,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1642391433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642391429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1642391434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60143,7 +57976,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1651341359}
   - component: {fileID: 1651341364}
-  - component: {fileID: 1651341363}
   - component: {fileID: 1651341362}
   - component: {fileID: 1651341361}
   - component: {fileID: 1651341360}
@@ -60241,33 +58073,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1651341363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651341358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 8, z: 32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3129
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 4, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1651341364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60495,7 +58300,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1653054713}
   - component: {fileID: 1653054718}
-  - component: {fileID: 1653054717}
   - component: {fileID: 1653054716}
   - component: {fileID: 1653054715}
   - component: {fileID: 1653054714}
@@ -60593,33 +58397,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1653054717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1653054712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1653054718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60843,7 +58620,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32490
+  m_Name: pb_Mesh248546
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -61008,7 +58785,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32288
+  m_Name: pb_Mesh248344
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -61177,7 +58954,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1672174167}
   - component: {fileID: 1672174166}
-  - component: {fileID: 1672174165}
   - component: {fileID: 1672174164}
   - component: {fileID: 1672174163}
   - component: {fileID: 1672174162}
@@ -61260,33 +59036,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1672174165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672174161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -2.8469162, y: 2.9136086, z: 1.7050922}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2968
-  m_ShapeBox:
-    m_Center: {x: -1.4234543, y: 1.4568038, z: 0.8525429}
-    m_Extent: {x: 1.4234581, y: 1.4568043, z: 0.8525461}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1672174166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61597,7 +59346,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1679363201}
   - component: {fileID: 1679363206}
-  - component: {fileID: 1679363205}
   - component: {fileID: 1679363204}
   - component: {fileID: 1679363203}
   - component: {fileID: 1679363202}
@@ -61695,36 +59443,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1679363205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679363200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &1679363206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62329,7 +60047,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1682609563}
   - component: {fileID: 1682609562}
-  - component: {fileID: 1682609561}
   - component: {fileID: 1682609560}
   - component: {fileID: 1682609559}
   - component: {fileID: 1682609558}
@@ -62412,33 +60129,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1682609561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682609557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738953
-  m_Size: {x: -10, y: 0.1, z: -4}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2998
-  m_ShapeBox:
-    m_Center: {x: -0.23631287, y: 2.5700407, z: -1.9445207}
-    m_Extent: {x: 5, y: 0.049999952, z: 2}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738953
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1682609562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62681,7 +60371,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1686545335}
   - component: {fileID: 1686545340}
-  - component: {fileID: 1686545339}
   - component: {fileID: 1686545338}
   - component: {fileID: 1686545337}
   - component: {fileID: 1686545336}
@@ -62779,33 +60468,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1686545339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686545334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942936
-  m_Size: {x: -0.1, y: 8, z: 32}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3210
-  m_ShapeBox:
-    m_Center: {x: -1.4234546, y: 1.4568033, z: 0.8525429}
-    m_Extent: {x: 0.049999952, y: 4, z: 16}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942936
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1686545340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63033,7 +60695,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1690015098}
   - component: {fileID: 1690015097}
-  - component: {fileID: 1690015096}
   - component: {fileID: 1690015095}
   - component: {fileID: 1690015094}
   - component: {fileID: 1690015093}
@@ -63116,33 +60777,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1690015096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690015092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942925
-  m_Size: {x: -17.398153, y: 15.749822, z: -2.5215645}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3102
-  m_ShapeBox:
-    m_Center: {x: -8.699184, y: 7.0660877, z: -1.2607803}
-    m_Extent: {x: 8.699078, y: 7.8749104, z: 1.2607822}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942925
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1690015097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63580,7 +61214,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1699381587}
   - component: {fileID: 1699381586}
-  - component: {fileID: 1699381585}
   - component: {fileID: 1699381584}
   - component: {fileID: 1699381583}
   - component: {fileID: 1699381582}
@@ -63663,33 +61296,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1699381585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699381581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1699381586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64063,7 +61669,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32070
+  m_Name: pb_Mesh248100
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -64228,7 +61834,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31944
+  m_Name: pb_Mesh247984
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -64393,7 +61999,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31700
+  m_Name: pb_Mesh247720
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -64558,7 +62164,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31754
+  m_Name: pb_Mesh247774
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -64723,7 +62329,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31222
+  m_Name: pb_Mesh247242
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -64892,7 +62498,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1743652564}
   - component: {fileID: 1743652563}
-  - component: {fileID: 1743652562}
   - component: {fileID: 1743652561}
   - component: {fileID: 1743652560}
   - component: {fileID: 1743652559}
@@ -64975,33 +62580,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1743652562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743652558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942920
-  m_Size: {x: -1.6868248, y: 1.5226517, z: 0.2947476}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1808
-  m_ShapeBox:
-    m_Center: {x: -0.8434143, y: 0.4193468, z: 0.1473732}
-    m_Extent: {x: 0.8434124, y: 0.76132584, z: 0.1473738}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942920
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1743652563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65313,7 +62891,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31366
+  m_Name: pb_Mesh247388
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -65478,7 +63056,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31548
+  m_Name: pb_Mesh247114
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -65647,7 +63225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1794879033}
   - component: {fileID: 1794879032}
-  - component: {fileID: 1794879031}
   - component: {fileID: 1794879030}
   - component: {fileID: 1794879029}
   - component: {fileID: 1794879028}
@@ -65730,33 +63307,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1794879031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794879027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738948
-  m_Size: {x: 24, y: -0.1, z: -4}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6468
-  m_ShapeBox:
-    m_Center: {x: 12.060661, y: -0.05767556, z: -1.9477987}
-    m_Extent: {x: 12, y: 0.05, z: 2}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738948
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1794879032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65995,7 +63545,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31454
+  m_Name: pb_Mesh247476
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -66164,7 +63714,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1806670450}
   - component: {fileID: 1806670449}
-  - component: {fileID: 1806670448}
   - component: {fileID: 1806670447}
   - component: {fileID: 1806670446}
   - component: {fileID: 1806670445}
@@ -66247,33 +63796,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1806670448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806670444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738950
-  m_Size: {x: 24, y: 20, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2056
-  m_ShapeBox:
-    m_Center: {x: 9.033579, y: 4.6435738, z: 4.4142876}
-    m_Extent: {x: 12, y: 10, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738950
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1806670449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66651,7 +64173,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1809135438}
   - component: {fileID: 1809135444}
-  - component: {fileID: 1809135443}
   - component: {fileID: 1809135442}
   - component: {fileID: 1809135441}
   - component: {fileID: 1809135440}
@@ -66772,33 +64293,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1809135443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809135437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717258
-  m_Size: {x: -0.8688643, y: 3.8215063, z: -2.4167101}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3511
-  m_ShapeBox:
-    m_Center: {x: -0.5454354, y: 1.8210562, z: -0.19293594}
-    m_Extent: {x: 0.43443215, y: 1.9107531, z: 1.2083551}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717258
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1809135444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67137,7 +64631,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32954
+  m_Name: pb_Mesh248996
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -67302,7 +64796,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31246
+  m_Name: pb_Mesh247266
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -67547,7 +65041,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32596
+  m_Name: pb_Mesh248660
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -67792,7 +65286,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1870066073}
   - component: {fileID: 1870066072}
-  - component: {fileID: 1870066071}
   - component: {fileID: 1870066070}
   - component: {fileID: 1870066069}
   - component: {fileID: 1870066068}
@@ -67875,33 +65368,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1870066071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870066067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942917
-  m_Size: {x: 16, y: 4.077411, z: -43.032227}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 5024
-  m_ShapeBox:
-    m_Center: {x: 2.8241796, y: 2.0387073, z: -21.516113}
-    m_Extent: {x: 8, y: 2.0387053, z: 21.516113}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942917
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1870066072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68140,7 +65606,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82976
+  m_Name: pb_Mesh247320
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -68440,7 +65906,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33590
+  m_Name: pb_Mesh249150
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -68609,7 +66075,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1895378321}
   - component: {fileID: 1895378320}
-  - component: {fileID: 1895378319}
   - component: {fileID: 1895378318}
   - component: {fileID: 1895378317}
   - component: {fileID: 1895378316}
@@ -68692,39 +66157,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1895378319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895378315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676303
-  m_Size: {x: 2.25, y: 2, z: -0.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3232
-  m_ShapeBox:
-    m_Center: {x: -1.0453897, y: 0.7949277, z: -0.15066695}
-    m_Extent: {x: 1.125, y: 0.9510566, z: 0.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676303
-      type: {class: Arch, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_Thickness: 0.1
-        m_NumberOfSides: 5
-        m_ArchDegrees: 180
-        m_EndCaps: 1
-        m_Smooth: 1
 --- !u!114 &1895378320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69885,7 +67317,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32880
+  m_Name: pb_Mesh248920
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -70054,7 +67486,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1955611434}
   - component: {fileID: 1955611433}
-  - component: {fileID: 1955611432}
   - component: {fileID: 1955611431}
   - component: {fileID: 1955611430}
   - component: {fileID: 1955611429}
@@ -70160,33 +67591,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1955611432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955611427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549838769717259
-  m_Size: {x: -4.6328063, y: 10.208048, z: 5.1283774}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6042
-  m_ShapeBox:
-    m_Center: {x: -2.2963593, y: 5.104024, z: 3.0753775}
-    m_Extent: {x: 2.3164032, y: 5.104024, z: 2.564189}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549838769717259
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1955611433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70440,7 +67844,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31820
+  m_Name: pb_Mesh247840
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -70678,7 +68082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32004
+  m_Name: pb_Mesh247552
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -70843,7 +68247,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32370
+  m_Name: pb_Mesh248424
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -71012,7 +68416,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1973376899}
   - component: {fileID: 1973376898}
-  - component: {fileID: 1973376897}
   - component: {fileID: 1973376896}
   - component: {fileID: 1973376895}
   - component: {fileID: 1973376894}
@@ -71095,33 +68498,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1973376897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973376893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308306481676295
-  m_Size: {x: -2, y: 8, z: 12}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 7002
-  m_ShapeBox:
-    m_Center: {x: -0.98478436, y: 3.7305365, z: 5.981209}
-    m_Extent: {x: 1, y: 4, z: 6}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308306481676295
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &1973376898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71360,7 +68736,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh48988
+  m_Name: pb_Mesh248600
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -71812,7 +69188,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2017260806}
   - component: {fileID: 2017260811}
-  - component: {fileID: 2017260810}
   - component: {fileID: 2017260809}
   - component: {fileID: 2017260808}
   - component: {fileID: 2017260807}
@@ -71910,33 +69285,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2017260810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017260805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 3121549822746951685
-  m_Size: {x: 0.29158163, y: 1.5746207, z: -0.31557226}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2518
-  m_ShapeBox:
-    m_Center: {x: 0.14579117, y: 0.7147455, z: -0.10822773}
-    m_Extent: {x: 0.14579082, y: 0.78731036, z: 0.15778613}
-  references:
-    version: 2
-    RefIds:
-    - rid: 3121549822746951685
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2017260811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72164,7 +69512,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2030875488}
   - component: {fileID: 2030875487}
-  - component: {fileID: 2030875486}
   - component: {fileID: 2030875485}
   - component: {fileID: 2030875484}
   - component: {fileID: 2030875483}
@@ -72247,33 +69594,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2030875486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030875482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942921
-  m_Size: {x: -0.15689468, y: 1.207962, z: -0.7229004}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1427
-  m_ShapeBox:
-    m_Center: {x: -0.07844925, y: 0.603981, z: -0.3614502}
-    m_Extent: {x: 0.07844734, y: 0.603981, z: 0.3614502}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942921
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2030875487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72512,7 +69832,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32392
+  m_Name: pb_Mesh248446
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -72885,7 +70205,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31882
+  m_Name: pb_Mesh247922
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -73054,7 +70374,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2100053458}
   - component: {fileID: 2100053463}
-  - component: {fileID: 2100053462}
   - component: {fileID: 2100053461}
   - component: {fileID: 2100053460}
   - component: {fileID: 2100053459}
@@ -73152,39 +70471,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2100053462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100053457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Points:
-  - {x: 0, y: 0, z: 0}
-  - {x: -0.014026642, y: 0, z: -0.49991417}
-  - {x: -0.6403656, y: 0, z: -0.49681926}
-  - {x: -1.7214088, y: 0, z: 0.6480105}
-  - {x: -3.0377274, y: 0, z: -0.45575356}
-  - {x: -3.7622566, y: 0, z: -0.45213366}
-  - {x: -3.7879982, y: 0, z: 0.2333734}
-  - {x: -2.5129738, y: 0, z: 1.1862357}
-  - {x: -3.6052017, y: 0, z: 1.9402866}
-  - {x: -3.600483, y: 0, z: 2.6451654}
-  - {x: -2.8510551, y: 0, z: 2.6371522}
-  - {x: -1.7669907, y: 0, z: 1.7592187}
-  - {x: -0.48605728, y: 0, z: 2.6118631}
-  - {x: 0.20015335, y: 0, z: 2.6724458}
-  - {x: 0.14926529, y: 0, z: 1.872261}
-  - {x: -1.0573235, y: 0, z: 1.0482821}
-  m_Extrude: -0.9542694
-  m_EditMode: 0
-  m_FlipNormals: 0
-  isOnGrid: 1
 --- !u!114 &2100053463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73856,7 +71142,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2103347461}
   - component: {fileID: 2103347460}
-  - component: {fileID: 2103347459}
   - component: {fileID: 2103347458}
   - component: {fileID: 2103347457}
   - component: {fileID: 2103347456}
@@ -73939,33 +71224,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2103347459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2103347455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942925
-  m_Size: {x: -17.398153, y: 15.749822, z: -2.5215645}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3102
-  m_ShapeBox:
-    m_Center: {x: -8.699184, y: 7.0660877, z: -1.2607803}
-    m_Extent: {x: 8.699078, y: 7.8749104, z: 1.2607822}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942925
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2103347460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74204,7 +71462,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33474
+  m_Name: pb_Mesh249034
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -74373,7 +71631,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2124558548}
   - component: {fileID: 2124558547}
-  - component: {fileID: 2124558546}
   - component: {fileID: 2124558545}
   - component: {fileID: 2124558544}
   - component: {fileID: 2124558543}
@@ -74456,36 +71713,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2124558546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124558542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308464795942932
-  m_Size: {x: -4, y: 3, z: 0.8442955}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3358
-  m_ShapeBox:
-    m_Center: {x: -2.3664703, y: 2.7964015, z: 0.42214584}
-    m_Extent: {x: 2, y: 3, z: 0.42214775}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308464795942932
-      type: {class: Door, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_DoorHeight: 0.5
-        m_LegWidth: 0.75
 --- !u!114 &2124558547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74946,171 +72173,6 @@ Transform:
   m_Father: {fileID: 1532924396}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!43 &2138148239
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31386
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 132
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 72
-    localAABB:
-      m_Center: {x: -1.0453897, y: 0.79492766, z: -0.15066695}
-      m_Extent: {x: 1.125, y: 1, z: 0.25}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200000002000300040005000600040006000700080009000a0008000a000b000c000d000e000c000e000f00100011001200100012001300140015001600140016001700180019001a0018001a001b001c001d001e001c001e001f00200021002200200022002300240025002600240026002700280029002a0028002a002b002c002d002e002c002e002f003000310032003000320033003400350036003400360037003100380039003100390032003a00340037003a0037003b0038003c003d0038003d0039003e003a003b003e003b003f003c00400041003c0041003d0042003e003f0042003f004300400044004500400045004100460042004300460043004700
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 72
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 48
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 4032
-    _typelessdata: c00aa33d74fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bfc00aa3bd206fcb3d0bd7a33c15097a3f4008a7bc74fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bf4008a73c206fcb3d37d7a33cb2af743f4008a7bc74fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bf4008a73c3824cdbe26edfe3db2af743fc00aa33d74fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bfc00aa3bd3824cdbe1bedfe3d15097a3fc00aa33d74fe51be3824cdbed4377c3f3e5d2f3e0000000000000000000000000000803f000080bf3824cdbe3dda5cbe0bd7a33c4072ea3ecc7d0abeabf7833f3824cdbea3736b3f8bfbc83e0000000000000000000000000000803f000080bf3824cdbe87fb843f1b76903e4072ea3ecc7d0abeabf7833f206fcb3da3736b3f8bfbc83e0000000000000000000000000000803f000080bf206fcb3d87fb843f1c76903e0bf80f3fc00aa33d74fe51be206fcb3dd4377c3f3e5d2f3e0000000000000000000000000000803f000080bf206fcb3d3dda5cbe1dd7a33c0bf80f3fb4555dbefd1c783f3824cdbe3ac66cbf0aabc2be000000000000000000000000000080bf000080bf3824cd3eb1d57d3faa99893efa906f3f4008a7bc74fe51be3824cdbee5837cbf3d6228be000000000000000000000000000080bf000080bf3824cd3ebfb34bbe1bd7a33cf9906f3f4008a7bc74fe51be206fcb3de5837cbf3d6228be000000000000000000000000000080bf000080bf206fcbbdbfb34bbe0bd7a33c0ed2543fb4555dbefd1c783f206fcb3d3ac66cbf0aabc2be000000000000000000000000000080bf000080bf206fcbbdb1d57d3fa999893e0fd2543fcc7d0abeabf7833f3824cdbea3736b3f8bfbc83e0000000000000000000000000000803f000080bf3824cdbe5e10693f1b76903e4072ea3e749f32bf31c0e53f3824cdbe1dfde63e7d77643f0000000000000000000000000000803f000080bf3824cdbe9cf6ed3f55f4f53e4072ea3e749f32bf31c0e53f206fcb3d1dfde63e7d77643f0000000000000000000000000000803f000080bf206fcb3d9cf6ed3f56f4f53e0bf80f3fcc7d0abeabf7833f206fcb3da3736b3f8bfbc83e0000000000000000000000000000803f000080bf206fcb3d5e10693f1c76903e0bf80f3fa0883abf64f3d83f3824cdbedf81ebbe7f4f63bf000000000000000000000000000080bf000080bf3824cd3e7904e73f57a6e83ef9906f3fb4555dbefd1c783f3824cdbe3ac66cbf0aabc2be000000000000000000000000000080bf000080bf3824cd3e51976a3faa99893efa906f3fb4555dbefd1c783f206fcb3d3ac66cbf0aabc2be000000000000000000000000000080bf000080bf206fcbbd51976a3fa999893e0fd2543fa0883abf64f3d83f206fcb3ddf81ebbe7f4f63bf000000000000000000000000000080bf000080bf206fcbbd7904e73f56a6e83e0ed2543f749f32bf31c0e53f3824cdbe1dfde63e7d77643f000000007d77643f1dfde6be00000000000080bf749f32bf3824cdbee418003f4072ea3eee4eb2bf31c0e53f3824cdbe1dfde6be7d77643f000000007d77643f1dfde63e00000000000080bfee4eb2bf3824cdbe0e4a253f4072ea3eee4eb2bf31c0e53f206fcb3d1dfde6be7d77643f000000007d77643f1dfde63e00000000000080bfee4eb2bf206fcb3d0e4a253f0cf80f3f749f32bf31c0e53f206fcb3d1dfde63e7d77643f000000007d77643f1dfde6be00000000000080bf749f32bf206fcb3de418003f0cf80f3f585aaebf64f3d83f3824cdbee081eb3e7f4f63bf000000007f4f63bfe281ebbe00000000000080bf585aae3f3824cdbec7682a3f4072ea3ea0883abf64f3d83f3824cdbedf81ebbe7f4f63bf000000007f4f63bfdf81eb3e00000000000080bfa0883a3f3824cdbe9e4b4c3f4072ea3ea0883abf64f3d83f206fcb3ddf81ebbe7f4f63bf000000007f4f63bfdf81eb3e00000000000080bfa0883a3f206fcb3d9e4b4c3f0cf80f3f585aaebf64f3d83f206fcb3de081eb3e7f4f63bf000000007f4f63bfe281ebbe00000000000080bf585aae3f206fcb3dc7682a3f0cf80f3fee4eb2bf31c0e53f3824cdbe1dfde6be7d77643f000000000000000000000000000080bf000080bf3824cd3e7f911e3f56f4f53eb1d52f3fef4efabfaaf7833f3824cdbea3736bbf8afbc83e000000000000000000000000000080bf000080bf3824cd3eba96a8be1b76903eb0d52f3fef4efabfaaf7833f206fcb3da3736bbf8afbc83e000000000000000000000000000080bf000080bf206fcbbdba96a8be1b76903ec516153fee4eb2bf31c0e53f206fcb3d1dfde6be7d77643f000000000000000000000000000080bf000080bf206fcbbd7f911e3f56f4f53ec616153ff2f3efbffa1c783f3824cdbe4b1d513f26ac13bf0000000000000000000000000000803f000080bf3824cdbea65194bea999893e6bf4343f585aaebf64f3d83f3824cdbee081eb3e7f4f63bf0000000000000000000000000000803f000080bf3824cdbed148193f57a6e83e6bf4343f585aaebf64f3d83f206fcb3de081eb3e7f4f63bf0000000000000000000000000000803f000080bf206fcb3dd148193f57a6e83e56b34f3ff2f3efbffa1c783f206fcb3d4b1d513f26ac13bf0000000000000000000000000000803f000080bf206fcb3da65194bea999893e55b34f3fef4efabfaaf7833f3824cdbea3736bbf8afbc83e000000000000000000000000000080bf000080bf3824cd3e974d2e3f1b76903eb0d52f3faae70ac080fe51be3824cdbed4377cbf3b5d2f3e000000000000000000000000000080bf000080bf3824cd3e08e012bf0bd7a33caed52f3faae70ac080fe51be206fcb3dd4377cbf3b5d2f3e000000000000000000000000000080bf000080bf206fcbbd08e012bf0bd7a33cc316153fef4efabfaaf7833f206fcb3da3736bbf8afbc83e000000000000000000000000000080bf000080bf206fcbbd974d2e3f1b76903ec516153f448104c080fe51be3824cdbee5837c3f406228be0000000000000000000000000000803f000080bf3824cdbe5df00abf0bd7a33c69f4343ff2f3efbffa1c783f3824cdbee5837c3f406228be0000000000000000000000000000803f000080bf3824cdbe44d2253fa999893e6bf4343ff2f3efbffa1c783f206fcb3de5837c3f406228be0000000000000000000000000000803f000080bf206fcb3d44d2253fa999893e55b34f3f448104c080fe51be206fcb3de5837c3f406228be0000000000000000000000000000803f000080bf206fcb3d5df00abf0bd7a33c54b34f3f448104c080fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bf44810440206fcb3d74f1133e14097a3faae70ac080fe51be206fcb3d00000000000080bf00000000000080bf0000000000000000000080bfaae70a40206fcb3d7af1133eb2af743faae70ac080fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bfaae70a403824cdbe26ed7e3eb2af743f448104c080fe51be3824cdbe00000000000080bf00000000000080bf0000000000000000000080bf448104403824cdbe21ed7e3e14097a3f4008a7bc74fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf4008a7bc74fe51bef8f1073f14d7a33cb4555dbefd1c783f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfb4555dbefd1c783fa56a123fd4dd873ecc7d0abeabf7833f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfcc7d0abeabf7833fc9160e3f7b7a8e3ec00aa33d74fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfc00aa33d74fe51be9698023f1ad7a33cb4555dbefd1c783f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfb4555d3efd1c783f9c4fdb3ed5dd873e4008a7bc74fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bf4008a73c74fe51bef540f03e20d7a33cc00aa33d74fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bfc00aa3bd74fe51bebaf3fa3e20d7a33ccc7d0abeabf7833f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfcc7d0a3eabf7833f53f7e33e7c7a8e3ea0883abf64f3d83f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfa0883abf64f3d83fbcd42d3f0a82d53e749f32bf31c0e53f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf749f32bf31c0e53f932d2c3fcf34e03ea0883abf64f3d83f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfa0883a3f64f3d83f6d7ba43e0b82d53e749f32bf31c0e53f206fcb3d00000000000000000000803f000080bf0000000000000000000080bf749f323f31c0e53fc0c9a73ecf34e03e585aaebf64f3d83f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf585aaebf64f3d83f94b74f3f0a82d53eee4eb2bf31c0e53f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfee4eb2bf31c0e53fbd5e513fcf34e03e585aaebf64f3d83f206fcb3d00000000000000000000803f000080bf0000000000000000000080bf585aae3f64f3d83f7c6b413e0b82d53eee4eb2bf31c0e53f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfee4eb23f31c0e53fd6ce3a3ecf34e03ef2f3efbffa1c783f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bff2f3efbffa1c783fac216b3fd3dd873eef4efabfaaf7833f3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfef4efabfaaf7833f87756f3f7a7a8e3ef2f3efbffa1c783f206fcb3d00000000000000000000803f000080bf0000000000000000000080bff2f3ef3ffa1c783f3786a73dd3dd873eef4efabfaaf7833f206fcb3d00000000000000000000803f000080bf0000000000000000000080bfef4efa3faaf7833f5fe7843d7b7a8e3e448104c080fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bf448104c080fe51be589a753f0bd7a33caae70ac080fe51be3824cdbe0000000000000000000080bf0000803f0000000000000000000080bfaae70ac080fe51bebaf37a3f0bd7a33c448104c080fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bf4481044080fe51bea781273d0bd7a33caae70ac080fe51be206fcb3d00000000000000000000803f000080bf0000000000000000000080bfaae70a4080fe51be0bd7a33c11d7a33c
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -1.0453897, y: 0.79492766, z: -0.15066695}
-    m_Extent: {x: 1.125, y: 1, z: 0.25}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &2138544178
 GameObject:
   m_ObjectHideFlags: 0
@@ -75121,7 +72183,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2138544184}
   - component: {fileID: 2138544183}
-  - component: {fileID: 2138544182}
   - component: {fileID: 2138544181}
   - component: {fileID: 2138544180}
   - component: {fileID: 2138544179}
@@ -75204,33 +72265,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2138544182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138544178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 1599308380982738948
-  m_Size: {x: 24, y: -0.1, z: -4.5}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 6479
-  m_ShapeBox:
-    m_Center: {x: 12.060661, y: -0.057675652, z: -1.9477987}
-    m_Extent: {x: 12, y: 0.050000004, z: 2.25}
-  references:
-    version: 2
-    RefIds:
-    - rid: 1599308380982738948
-      type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
 --- !u!114 &2138544183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75469,7 +72503,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31584
+  m_Name: pb_Mesh247604
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

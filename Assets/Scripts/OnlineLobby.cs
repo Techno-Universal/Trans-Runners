@@ -52,6 +52,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         {
             SceneManager.LoadScene("Level1Online");
         }*/
+
         view.RPC("LoadLevel1", RpcTarget.All);
     }
     [PunRPC]
@@ -62,7 +63,8 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
         //SceneManager.LoadScene("Level1Online");
         if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.LoadLevel("Level1Online");
+            //PhotonNetwork.LoadLevel("Level1Online");
+            SceneManager.LoadScene(levelName);
         }
     }
 

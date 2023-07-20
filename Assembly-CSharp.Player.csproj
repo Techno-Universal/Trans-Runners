@@ -330,6 +330,7 @@
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncShoot\Interfaces\IProjectile.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\Enums\Realm.cs" />
     <Compile Include="Assets\Scripts\OnlineUI.cs" />
+    <Compile Include="Assets\Scripts\CameraAssignment2.cs.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Mount\MountsManager.cs" />
     <Compile Include="Assets\SaveSystem\SaveSystem.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\Networking\NetAdapters\NetMsgCallbacks.cs" />
@@ -341,6 +342,7 @@
     <Compile Include="Assets\Photon\Simple\Components\SyncState\SyncState.cs" />
     <Compile Include="Assets\Photon\Simple\Core\NetObject.cs" />
     <Compile Include="Assets\Photon\Simple\Components\Enums\FrameArrival.cs" />
+    <Compile Include="Assets\Scripts\CameraAssignment3.cs.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncTransform\SyncTransform.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\Extensions\FloatCrusherExtensions.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
