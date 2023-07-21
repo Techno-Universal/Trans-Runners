@@ -28,8 +28,9 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
     public void LoadMainMenu()
     {
         Time.timeScale = 1.0f;
-        PhotonNetwork.Disconnect();
-        SceneManager.LoadScene("MainMenu");
+        //PhotonNetwork.Disconnect();
+        PhotonNetwork.LoadLevel("MainMenu");
+        //SceneManager.LoadScene("MainMenu");
     }
     public void LoadOnlineLobby()
     {

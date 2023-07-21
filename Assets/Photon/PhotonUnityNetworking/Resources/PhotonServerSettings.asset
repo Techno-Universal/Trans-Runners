@@ -52,6 +52,7 @@ MonoBehaviour:
   - StopTimer1
   - LoadLevel
   - LoadLevel1
+  - CheckToShowEndCanvas
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

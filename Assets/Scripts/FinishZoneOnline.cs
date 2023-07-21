@@ -160,6 +160,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 Destroy(pScreen.gameObject);
             }
         }
+        view.RPC("CheckToShowEndCanvas", RpcTarget.All);
     }
    
     private void OnTriggerEnter(Collider playerTag)
@@ -167,5 +168,27 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
         view.RPC("FinishLineCrossed", RpcTarget.All, playerTag.tag);
     }
 
-
+    [PunRPC]
+    void CheckToShowEndCanvas()
+    {
+        if (controller.player1Finish == true && controller.player2Finish == true)
+        {
+            Debug.Log("FINISH2");
+            pauseO.escOn = false;
+            controller.player2FinishTimeOnline = tim.displayTime;
+            controller.player2FinishTimeNumberOnline = tim.currentTime;
+            //GameManager.p1RecordTime = controller.player1FinishTimeNumberOnline;
+            //GameManager.p2RecordTime = controller.player2FinishTimeNumberOnline;
+            controller.StopMusic();
+            levelUI.AllPlayersFInished();
+            Destroy(player1finish);
+            Destroy(player2finish);
+            tim.StopTimer();
+            levelCompleteScreen.gameObject.SetActive(true);
+            GameManager.instance.SetTimes();
+            //manager.AutoSave1();
+            //manager.AutoSave2();
+            Destroy(pScreen.gameObject);
+        }
+    }
 }
