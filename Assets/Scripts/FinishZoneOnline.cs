@@ -71,7 +71,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
             if (controller.player1Finish == false)
             {
                 Debug.Log("Player1 Finish");
-                player1finish.gameObject.SetActive(true);
+                Player1FinishUI();
                 controller.player1FinishTimeOnline = tim.displayTime;
                 controller.player1FinishTimeNumberOnline = tim.currentTime;
                 controller.player1Finish = true;
@@ -127,7 +127,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
             if (controller.player2Finish == false)
             {
                 Debug.Log("Player2 Finish");
-                player2finish.gameObject.SetActive(true);
+                Player2FinishUI();
                 controller.player2FinishTimeOnline = tim.displayTime;
                 controller.player2FinishTimeNumberOnline = tim.currentTime;
                 controller.player2Finish = true;
@@ -191,4 +191,19 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
             Destroy(pScreen.gameObject);
         }
     }
+    public void Player1FinishUI()
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            player1finish.gameObject.SetActive(true);
+        }
+    }
+    public void Player2FinishUI()
+    {
+        if (!PhotonNetwork.IsMasterClient)
+        {
+            player2finish.gameObject.SetActive(true);
+        }
+    }
 }
+
