@@ -23,6 +23,8 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
 
     public GameObject loadingText;
 
+    public GameObject okButton;
+
     void Start()
     {
         //PhotonNetwork.ConnectUsingSettings();
@@ -58,6 +60,7 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
     [PunRPC]
     public void LoadLevel1()
     {
+        loadingText.gameObject.SetActive(true);
         Debug.Log("Loading Level1Online");
         //PhotonNetwork.LoadLevel("Level1Online");
         //SceneManager.LoadScene("Level1Online");
@@ -134,5 +137,13 @@ public class OnlineLobby : MonoBehaviourPunCallbacks
             PhotonNetwork.LoadLevel("Level1Online");
             loadingText.gameObject.SetActive(true);
         }*/
+    }
+    public void ActiveOkButton()
+    {
+        Invoke("ActiveOkButton1", 2f);
+    }
+    public void ActiveOkButton1()
+    {
+        okButton.gameObject.SetActive(true);
     }
 }

@@ -128,7 +128,7 @@ public class OnlineGameController : MonoBehaviour
             playerVCam.Follow = Player.transform;
             playerVCam.LookAt = Player.transform;
         }
-        else
+        if (!PhotonNetwork.IsMasterClient)
         {
             GameObject Player = PhotonNetwork.Instantiate(player2.name, spawnpoint2.position, spawnpoint2.rotation);
             playerVCam.Follow = Player.transform;

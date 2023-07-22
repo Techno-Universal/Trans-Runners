@@ -40,11 +40,15 @@ public class OnlineUI : MonoBehaviour
     {
         Debug.Log("AllPLayersFinish");
         //StartCoroutine(DisplayCanvas(fadeRate));
-        p1FinTime.text = controller.player1FinishTime;
-        p2FinTime.text = controller.player2FinishTime;
         levelCompleteUI.SetActive(true);
         timer.StopTimer();
-
+        Invoke("SetUI", 2f);
+    }
+    public void SetUI()
+    {
+        Debug.Log("Finish UI Set...");
+        p1FinTime.text = controller.player1FinishTimeOnline;
+        p2FinTime.text = controller.player2FinishTimeOnline;
     }
     /*IEnumerator DisplayCanvas(float rate)
     {

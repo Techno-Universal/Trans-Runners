@@ -87,12 +87,11 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
             {
                 Debug.Log("FINISH1");
                 pauseO.escOn = false;
-                controller.player1FinishTimeOnline = tim.displayTime;
-                controller.player1FinishTimeNumberOnline = tim.currentTime;
+                //controller.player1FinishTimeOnline = tim.displayTime;
+                //controller.player1FinishTimeNumberOnline = tim.currentTime;
                 //GameManager.p1RecordTime = controller.player1FinishTimeNumber;
                 //GameManager.p2RecordTime = controller.player2FinishTimeNumber;
                 controller.StopMusic();
-                levelUI.AllPlayersFInished();
                 Destroy(player1finish);
                 Destroy(player2finish);
                 tim.StopTimer();
@@ -101,6 +100,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 //manager.AutoSave1();
                 //manager.AutoSave2();
                 Destroy(pScreen.gameObject);
+                levelUI.AllPlayersFInished();
             }
             /*if (GameManager.twoPlayers == false)
             {
@@ -144,12 +144,11 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
             {
                 Debug.Log("FINISH2");
                 pauseO.escOn = false;
-                controller.player2FinishTimeOnline = tim.displayTime;
-                controller.player2FinishTimeNumberOnline = tim.currentTime;
+                //controller.player2FinishTimeOnline = tim.displayTime;
+                //controller.player2FinishTimeNumberOnline = tim.currentTime;
                 //GameManager.p1RecordTime = controller.player1FinishTimeNumberOnline;
                 //GameManager.p2RecordTime = controller.player2FinishTimeNumberOnline;
                 controller.StopMusic();
-                levelUI.AllPlayersFInished();
                 Destroy(player1finish);
                 Destroy(player2finish);
                 tim.StopTimer();
@@ -158,6 +157,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
                 //manager.AutoSave1();
                 //manager.AutoSave2();
                 Destroy(pScreen.gameObject);
+                levelUI.AllPlayersFInished();
             }
         }
         view.RPC("CheckToShowEndCanvas", RpcTarget.All);
@@ -175,12 +175,11 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
         {
             Debug.Log("FINISH2");
             pauseO.escOn = false;
-            controller.player2FinishTimeOnline = tim.displayTime;
-            controller.player2FinishTimeNumberOnline = tim.currentTime;
+            //controller.player2FinishTimeOnline = tim.displayTime;
+            //controller.player2FinishTimeNumberOnline = tim.currentTime;
             //GameManager.p1RecordTime = controller.player1FinishTimeNumberOnline;
             //GameManager.p2RecordTime = controller.player2FinishTimeNumberOnline;
             controller.StopMusic();
-            levelUI.AllPlayersFInished();
             Destroy(player1finish);
             Destroy(player2finish);
             tim.StopTimer();
@@ -189,6 +188,7 @@ public class FinishZoneOnline : MonoBehaviourPunCallbacks
             //manager.AutoSave1();
             //manager.AutoSave2();
             Destroy(pScreen.gameObject);
+            levelUI.AllPlayersFInished();
         }
     }
     public void Player1FinishUI()

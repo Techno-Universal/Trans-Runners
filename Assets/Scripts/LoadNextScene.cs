@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
+using Photon.Realtime;
 
 public class LoadNextScene : MonoBehaviourPunCallbacks
 {
@@ -44,6 +45,12 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
             offlineWarning.gameObject.SetActive(true);
         }
     }
+
+    public override void OnPlayerLeftRoom(Player newPlayer)
+    {
+        base.OnPlayerEnteredRoom(newPlayer);
+        ExitRoom();
+    }
     public void ExitRoom()
     {
         view.RPC("ExitRoom2", RpcTarget.All);
@@ -57,7 +64,7 @@ public class LoadNextScene : MonoBehaviourPunCallbacks
             playerExit.gameObject.SetActive(true);
             Time.timeScale = 0.0f;
         }
-        else
+        if (PhotonNetwork.IsMasterClient)
         {
             hostExit.gameObject.SetActive(true);
             Time.timeScale = 0.0f;
