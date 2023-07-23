@@ -38,15 +38,16 @@ public class OnlineCharacterMovement : MonoBehaviour
     }
     private void Awake()
     {
-        if (!PhotonNetwork.IsMasterClient)
+        if (!PhotonNetwork.IsMasterClient && tag == "Player2")
         {
             Debug.Log("P2Assigned");
             SpeedBoostZoneOnline.oCM2 = this;
             SlowZoneOnline.oCM2 = this;
             FinishZoneOnline.c2 = this;
         }
-        if (PhotonNetwork.IsMasterClient)
+        if (PhotonNetwork.IsMasterClient && tag == "Player1")
         {
+
             Debug.Log("P1Assigned");
             SpeedBoostZoneOnline.oCM1 = this;
             SlowZoneOnline.oCM1 = this;

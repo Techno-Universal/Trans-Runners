@@ -1,0 +1,123 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ByteConverter_get_Item_m01439D7003C4BF5E7EE5AFAC738B0C05FB9EDBB0 (void);
+extern void ByteConverter_op_Implicit_m5FDE156BD86B9448D16BF99FD4B0B5BB2D4381DB (void);
+extern void ByteConverter_op_Implicit_m4F2B1D02B48B6A06CC3918A24A40A32BA5737DA8 (void);
+extern void ByteConverter_op_Implicit_m1520875730CC7F6E618AEF86FA11EB0CF511B70A (void);
+extern void ByteConverter_op_Implicit_mB1C966A433F147BAEAC4652EACAB9DB8A4320C85 (void);
+extern void ByteConverter_op_Implicit_m13C7416352083C33B9E788309F8C7860E8386066 (void);
+extern void ByteConverter_op_Implicit_m69FE5E846633767A326516E392157CA504F376CB (void);
+extern void ByteConverter_op_Implicit_m5212C6D47664DC0BD848D80EFC772AE70C430AD7 (void);
+extern void ByteConverter_op_Implicit_m19318B34D70E942044CD4B687924F40963A4106C (void);
+extern void ByteConverter_op_Implicit_m38DE78B58128B680373D2C5FF9B8A273B3DF19F8 (void);
+extern void ByteConverter_op_Implicit_m3541DA66BCD1FA36428D0B3411D2B5BF31616EDA (void);
+extern void ByteConverter_op_Implicit_mDC1A273E406F322260387EBA64A56F826726744E (void);
+extern void ByteConverter_ExtractByteArray_m9F5CDD1B6D12D476596DBC92BA0628981F64F5A2 (void);
+extern void ByteConverter_op_Implicit_mC7927EF63937C31B6631CFC9550BE4D47EB98CC9 (void);
+extern void ByteConverter_op_Implicit_m55E26875C6882F193AD546640AC97D76CE01A881 (void);
+extern void ByteConverter_op_Implicit_m2B31F43E2F5F989851169345A91C7F37FC3EEEA6 (void);
+extern void ByteConverter_op_Implicit_mABF693F9237F46C451E5D11AB1D60978C2136968 (void);
+extern void ByteConverter_op_Implicit_mD0DD8A341B9DCBFF9BBC1DD53B880FD21011E2AD (void);
+extern void ByteConverter_op_Implicit_mD95D8608CB49CC76C3B9DAEBF5812F6936CF89DA (void);
+extern void ByteConverter_op_Implicit_m208147DC08EB621838F9FC17E7AB21AE40A3309D (void);
+extern void ByteConverter_op_Implicit_m250F5C42A6B6673432BB281F263675FD2663142D (void);
+extern void ByteConverter_op_Implicit_m71AC1E92682AB2D11AB265235F37F999BFA9D491 (void);
+extern void ByteConverter_op_Implicit_m46EC0F30ECD37CA153178A6E7BCCD4A9120B7B13 (void);
+extern void ByteConverter_op_Implicit_m08062AE4CE62BF7719709FDF7D5062158CB1FF19 (void);
+extern void ByteConverter_op_Implicit_mAE6EF3B27B4EE9B8AB275A7A5B23A564C6886956 (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	ByteConverter_get_Item_m01439D7003C4BF5E7EE5AFAC738B0C05FB9EDBB0,
+	ByteConverter_op_Implicit_m5FDE156BD86B9448D16BF99FD4B0B5BB2D4381DB,
+	ByteConverter_op_Implicit_m4F2B1D02B48B6A06CC3918A24A40A32BA5737DA8,
+	ByteConverter_op_Implicit_m1520875730CC7F6E618AEF86FA11EB0CF511B70A,
+	ByteConverter_op_Implicit_mB1C966A433F147BAEAC4652EACAB9DB8A4320C85,
+	ByteConverter_op_Implicit_m13C7416352083C33B9E788309F8C7860E8386066,
+	ByteConverter_op_Implicit_m69FE5E846633767A326516E392157CA504F376CB,
+	ByteConverter_op_Implicit_m5212C6D47664DC0BD848D80EFC772AE70C430AD7,
+	ByteConverter_op_Implicit_m19318B34D70E942044CD4B687924F40963A4106C,
+	ByteConverter_op_Implicit_m38DE78B58128B680373D2C5FF9B8A273B3DF19F8,
+	ByteConverter_op_Implicit_m3541DA66BCD1FA36428D0B3411D2B5BF31616EDA,
+	ByteConverter_op_Implicit_mDC1A273E406F322260387EBA64A56F826726744E,
+	ByteConverter_ExtractByteArray_m9F5CDD1B6D12D476596DBC92BA0628981F64F5A2,
+	ByteConverter_op_Implicit_mC7927EF63937C31B6631CFC9550BE4D47EB98CC9,
+	ByteConverter_op_Implicit_m55E26875C6882F193AD546640AC97D76CE01A881,
+	ByteConverter_op_Implicit_m2B31F43E2F5F989851169345A91C7F37FC3EEEA6,
+	ByteConverter_op_Implicit_mABF693F9237F46C451E5D11AB1D60978C2136968,
+	ByteConverter_op_Implicit_mD0DD8A341B9DCBFF9BBC1DD53B880FD21011E2AD,
+	ByteConverter_op_Implicit_mD95D8608CB49CC76C3B9DAEBF5812F6936CF89DA,
+	ByteConverter_op_Implicit_m208147DC08EB621838F9FC17E7AB21AE40A3309D,
+	ByteConverter_op_Implicit_m250F5C42A6B6673432BB281F263675FD2663142D,
+	ByteConverter_op_Implicit_m71AC1E92682AB2D11AB265235F37F999BFA9D491,
+	ByteConverter_op_Implicit_m46EC0F30ECD37CA153178A6E7BCCD4A9120B7B13,
+	ByteConverter_op_Implicit_m08062AE4CE62BF7719709FDF7D5062158CB1FF19,
+	ByteConverter_op_Implicit_mAE6EF3B27B4EE9B8AB275A7A5B23A564C6886956,
+};
+extern void ByteConverter_get_Item_m01439D7003C4BF5E7EE5AFAC738B0C05FB9EDBB0_AdjustorThunk (void);
+extern void ByteConverter_ExtractByteArray_m9F5CDD1B6D12D476596DBC92BA0628981F64F5A2_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x06000001, ByteConverter_get_Item_m01439D7003C4BF5E7EE5AFAC738B0C05FB9EDBB0_AdjustorThunk },
+	{ 0x0600000D, ByteConverter_ExtractByteArray_m9F5CDD1B6D12D476596DBC92BA0628981F64F5A2_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	4523,
+	12433,
+	12429,
+	12434,
+	12436,
+	12437,
+	12431,
+	12438,
+	12432,
+	12435,
+	12430,
+	12429,
+	6298,
+	12370,
+	12749,
+	12837,
+	12837,
+	12522,
+	12859,
+	12547,
+	12947,
+	12585,
+	12768,
+	12475,
+	12370,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_ByteConverter_CodeGenModule;
+const Il2CppCodeGenModule g_ByteConverter_CodeGenModule = 
+{
+	"ByteConverter.dll",
+	25,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
