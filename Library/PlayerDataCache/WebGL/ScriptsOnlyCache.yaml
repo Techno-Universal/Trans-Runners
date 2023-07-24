@@ -32,6 +32,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.Simple.VitalsContactReactor
     - SuperBasicController
     - emotitron.TestPackObject
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - Anr1
     - Anr2
@@ -63,6 +65,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.Simple.MountSettings
     - Photon.Pun.Simple.TickEngineSettings
     - Quit
+    - Readme
     - ResetSaveData
     - ResetScene
     - ResetSceneOnline
@@ -962,11 +965,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12746}
     - Class: 114
-      Script: {instanceID: 73496}
+      Script: {instanceID: 43642}
     - Class: 114
-      Script: {instanceID: 73898}
+      Script: {instanceID: 44044}
     - Class: 114
-      Script: {instanceID: 73984}
+      Script: {instanceID: 44130}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1105,9 +1108,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13784}
     - Class: 114
-      Script: {instanceID: 75936}
+      Script: {instanceID: 49866}
     - Class: 114
-      Script: {instanceID: 76184}
+      Script: {instanceID: 50114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1583,7 +1586,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13874}
     - Class: 114
-      Script: {instanceID: 31486}
+      Script: {instanceID: 36484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -5141,4 +5144,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/Lobby.unity
   - Assets/Scenes/Level1Online.unity
-  playerPath: C:/Users/johnc/OneDrive/Desktop/Trans-Runners!! Online Web-GL
+  playerPath: D:/Trans-Runners!! Online Web-GL
